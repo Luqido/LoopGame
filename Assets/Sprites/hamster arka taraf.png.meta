@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hamster arka taraf_0: -731287325222446077
+      hamster arka taraf_1: -326377835124453393
+      hamster arka taraf_2: -5646614230276114117
+      hamster arka taraf_3: 1092341941446066144
+      hamster arka taraf_4: 7016305134595361685
+      hamster arka taraf_5: -2351438178119655317
+      hamster arka taraf_6: 4256475127926323172
+      hamster arka taraf_7: -2602411646795657204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
