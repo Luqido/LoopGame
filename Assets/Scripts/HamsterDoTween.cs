@@ -25,7 +25,7 @@ public class HamsterDoTween : MonoBehaviour
         Vector3 tersScale2 = new Vector3(1, 1, 1);
         Vector3 hedef2 = new Vector3(0.5f, -3.5f, 0);
         Vector3 hedef3 = new Vector3(7f, -0.2f, 0);
-        Vector3 hedef4 = new Vector3(0, 3.33f, 0);
+        Vector3 hedef4 = new Vector3(0.22f, 3.33f, 0);
         yol.AppendCallback(() => transform.localScale = tersScale2);
         yol.Append(transform.DOMove(hedef1, sure).SetEase(Ease.Linear));
         yol.Append(transform.DOScale(tersScale, 0).SetEase(Ease.Linear));

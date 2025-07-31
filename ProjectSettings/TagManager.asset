@@ -50,5 +50,8 @@ TagManager:
   - name: Hamster
     uniqueID: 2972915545
     locked: 0
+  - name: Tren
+    uniqueID: 1305438257
+    locked: 0
   m_RenderingLayers:
   - Default
