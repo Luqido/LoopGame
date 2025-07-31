@@ -6,6 +6,7 @@ public class PlayerHareket : MonoBehaviour
     Vector2 moveInput;
     [SerializeField] float runSpeed = 5f;
     Rigidbody2D hamRigidBody;
+    [SerializeField] float bolme = 5f;
     void Start()
     {
         hamRigidBody = GetComponent<Rigidbody2D>();
@@ -24,7 +25,7 @@ public class PlayerHareket : MonoBehaviour
     }
     void Run()
     {
-        Vector2 isoDirection = new Vector2(moveInput.x - moveInput.y, moveInput.x + moveInput.y/2f );
+        Vector2 isoDirection = new Vector2(moveInput.x  - moveInput.y , moveInput.x + moveInput.y/2f );
         hamRigidBody.linearVelocity = isoDirection.normalized * runSpeed;
     }
      
