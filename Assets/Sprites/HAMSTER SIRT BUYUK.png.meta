@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 05262036d92e2dd40baf95c083e3e0dd
+guid: 2409ac666e26b594886441fd43a21556
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6982564008495590550
-    second: Sprite-0001 (1)_0
+      213: -6060435035266427971
+    second: HAMSTER SIRT BUYUK_0
   - first:
-      213: -8653952017448059008
-    second: Sprite-0001 (1)_1
+      213: -2981748855990120924
+    second: HAMSTER SIRT BUYUK_1
   - first:
-      213: 1734752728519487080
-    second: Sprite-0001 (1)_2
+      213: -6299536007828666408
+    second: HAMSTER SIRT BUYUK_2
   - first:
-      213: -74500618845124387
-    second: Sprite-0001 (1)_3
-  - first:
-      213: 8212242176210045656
-    second: Sprite-0001 (1)_4
-  - first:
-      213: -4955968506786091292
-    second: Sprite-0001 (1)_5
+      213: 5013885461565455774
+    second: HAMSTER SIRT BUYUK_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,133 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0001 (1)_0
+      name: HAMSTER SIRT BUYUK_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 240
-        width: 150
-        height: 75
+        x: 3
+        y: 6
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1046397a36839b41a94c1b740bfba18
-      internalID: 887993425
+      spriteID: db3dc9ae17205eba0800000000000000
+      internalID: -6060435035266427971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001 (1)_1
+      name: HAMSTER SIRT BUYUK_1
       rect:
         serializedVersion: 2
-        x: 165
-        y: 240
-        width: 150
-        height: 75
+        x: 77
+        y: 6
+        width: 72
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ece107067615e2e4e9ce5807944de266
-      internalID: -536728530
+      spriteID: 42e0845a633be96d0800000000000000
+      internalID: -2981748855990120924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001 (1)_2
+      name: HAMSTER SIRT BUYUK_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 160
-        width: 150
-        height: 75
+        x: 150
+        y: 8
+        width: 73
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0235d04d9a070b34fbf5ed2ae90c9808
-      internalID: -15956900
+      spriteID: 8d70793906d8398a0800000000000000
+      internalID: -6299536007828666408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001 (1)_3
+      name: HAMSTER SIRT BUYUK_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 160
-        width: 150
-        height: 75
+        x: 222
+        y: 11
+        width: 62
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f5118800ff0e264428471320ddf8aadc
-      internalID: -1650673157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0001 (1)_4
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 80
-        width: 150
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d595828e45cdcd4ba4724480d574b7d
-      internalID: -1810816922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0001 (1)_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 80
-        width: 150
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9242b0369131edd4bb07519976f0fd26
-      internalID: 449321116
+      spriteID: e9dba193346e49540800000000000000
+      internalID: 5013885461565455774
       vertices: []
       indices: 
       edges: []
@@ -250,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ba86442038378c42aa9065e9f4cb4e3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -259,13 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sprite-0001 (1)_0: 887993425
-      Sprite-0001 (1)_1: -536728530
-      Sprite-0001 (1)_2: -15956900
-      Sprite-0001 (1)_3: -1650673157
-      Sprite-0001 (1)_4: -1810816922
-      Sprite-0001 (1)_5: 449321116
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
