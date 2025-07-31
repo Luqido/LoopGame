@@ -15,6 +15,7 @@ public class PlayerHareket : MonoBehaviour
     void Update()
     {
         Run();
+        flipSprite();
     }
      void OnMove(InputValue Value)
     {
@@ -25,6 +26,16 @@ public class PlayerHareket : MonoBehaviour
     {
         Vector2 isoDirection = new Vector2(moveInput.x - moveInput.y, moveInput.x + moveInput.y / 2f);
         hamRigidBody.linearVelocity = isoDirection.normalized * runSpeed;
+    }
+     
+    void flipSprite()
+    {
+        bool donme = Mathf.Abs(moveInput.x - moveInput.y) > Mathf.Epsilon;
+        if (donme)
+        {
+            transform.localScale = new Vector2(-Mathf.Sign(moveInput.x - moveInput.y), 1f);
+        }
+        
     }
 
 }
