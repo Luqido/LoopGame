@@ -24,7 +24,7 @@ public class PlayerHareket : MonoBehaviour
     }
     void Run()
     {
-        Vector2 isoDirection = new Vector2(moveInput.x - moveInput.y, moveInput.x + moveInput.y / 2f);
+        Vector2 isoDirection = new Vector2(moveInput.x - moveInput.y, moveInput.x + moveInput.y/2f );
         hamRigidBody.linearVelocity = isoDirection.normalized * runSpeed;
     }
      
