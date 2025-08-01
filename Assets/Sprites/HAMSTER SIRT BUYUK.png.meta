@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HAMSTER SIRT BUYUK_0: -6060435035266427971
+      HAMSTER SIRT BUYUK_1: -2981748855990120924
+      HAMSTER SIRT BUYUK_2: -6299536007828666408
+      HAMSTER SIRT BUYUK_3: 5013885461565455774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
