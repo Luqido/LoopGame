@@ -135,6 +135,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -459,7 +498,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "du\u0308s\u0327man_sald\u0131r\u0131_0": -1380140247275569261
+      "du\u0308s\u0327man_sald\u0131r\u0131_1": 9038778660413031570
+      "du\u0308s\u0327man_sald\u0131r\u0131_10": -8733132352497988431
+      "du\u0308s\u0327man_sald\u0131r\u0131_11": 6094555501357251449
+      "du\u0308s\u0327man_sald\u0131r\u0131_12": -3490270761679323602
+      "du\u0308s\u0327man_sald\u0131r\u0131_13": -8957575226339647628
+      "du\u0308s\u0327man_sald\u0131r\u0131_2": -941553884858673613
+      "du\u0308s\u0327man_sald\u0131r\u0131_3": -8726344162895004270
+      "du\u0308s\u0327man_sald\u0131r\u0131_4": -3818141502462602827
+      "du\u0308s\u0327man_sald\u0131r\u0131_5": 1918111286360395639
+      "du\u0308s\u0327man_sald\u0131r\u0131_6": 7572356035456724327
+      "du\u0308s\u0327man_sald\u0131r\u0131_7": -7591708395064844275
+      "du\u0308s\u0327man_sald\u0131r\u0131_8": -1940858493888251998
+      "du\u0308s\u0327man_sald\u0131r\u0131_9": -4896695881640391609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

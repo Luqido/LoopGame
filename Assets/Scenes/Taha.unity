@@ -788,7 +788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5512ee5189d634cb6db3aa0227b1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
   trackMoveHandler: {fileID: 1788434109}
 --- !u!1 &458708605
 GameObject:
@@ -5861,14 +5860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448466cb912dc74418aaecc0db680b4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  ad:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  sp: {fileID: 0}
   trackMoveHandler: {fileID: 1788434109}
 --- !u!95 &1124806567
 Animator:

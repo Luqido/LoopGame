@@ -174,6 +174,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -784,7 +823,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "du\u0308s\u0327mantaz\u0131_0": -347483585287370821
+      "du\u0308s\u0327mantaz\u0131_1": -202947710357166057
+      "du\u0308s\u0327mantaz\u0131_10": 2590501385339307831
+      "du\u0308s\u0327mantaz\u0131_11": 8206292816610050730
+      "du\u0308s\u0327mantaz\u0131_12": -5149217183478456243
+      "du\u0308s\u0327mantaz\u0131_13": 21042098144927064
+      "du\u0308s\u0327mantaz\u0131_14": -5182256913586799624
+      "du\u0308s\u0327mantaz\u0131_15": -5573218239943009538
+      "du\u0308s\u0327mantaz\u0131_16": -8436141048508840982
+      "du\u0308s\u0327mantaz\u0131_17": -775458734914194361
+      "du\u0308s\u0327mantaz\u0131_18": -7551217069851159950
+      "du\u0308s\u0327mantaz\u0131_19": 1978534143368485586
+      "du\u0308s\u0327mantaz\u0131_2": 3543274826591523863
+      "du\u0308s\u0327mantaz\u0131_20": 7996086977320092536
+      "du\u0308s\u0327mantaz\u0131_21": 5261778426639418762
+      "du\u0308s\u0327mantaz\u0131_22": 1889254057792552787
+      "du\u0308s\u0327mantaz\u0131_23": -3750660128174325733
+      "du\u0308s\u0327mantaz\u0131_24": -1537805418490794549
+      "du\u0308s\u0327mantaz\u0131_25": -3438300997908203279
+      "du\u0308s\u0327mantaz\u0131_26": -904441192132418799
+      "du\u0308s\u0327mantaz\u0131_3": -4282899628180142383
+      "du\u0308s\u0327mantaz\u0131_4": 5392151931134743890
+      "du\u0308s\u0327mantaz\u0131_5": -9195511518752066654
+      "du\u0308s\u0327mantaz\u0131_6": 4945987560476530702
+      "du\u0308s\u0327mantaz\u0131_7": 7742263201337087455
+      "du\u0308s\u0327mantaz\u0131_8": -7646119464107923116
+      "du\u0308s\u0327mantaz\u0131_9": -7101160501455251333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
