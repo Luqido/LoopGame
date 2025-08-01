@@ -1,34 +1,41 @@
+using System.Collections;
 using UnityEngine;
 using DG.Tweening;
 
 public class TrenDoTween : MonoBehaviour
 {
     Animator TrenAnim;
-    SpriteRenderer trenSprite;
-    [SerializeField] Sprite sp;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private TrackMoveHandler trackMoveHandler;
+    
+    void Awake()
     {
         TrenAnim = GetComponent<Animator>();
-        trenSprite = GetComponent<SpriteRenderer>();
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+
+        trackMoveHandler.MoveAlongTrack(transform, OnWaypointReached);
     }
-    void changeSprite()
+
+    private void OnWaypointReached(int index)
     {
-        TrenAnim.SetBool("Soldan", true);
-        if(TrenAnim.GetBool("Soldan"))
+        switch (index)
         {
-            trenSprite.sprite = sp;
+            case 0:
+                TrenAnim.SetTrigger("Trigger1");
+                break;
+            case 1:
+                TrenAnim.SetTrigger("Trigger2");
+                break;
+            case 2:
+                TrenAnim.SetTrigger("Trigger3");
+                break;
+            case 3:
+                TrenAnim.SetTrigger("Trigger4");
+                TrenAnim.SetTrigger("Trigger5");
+                transform.localScale = Vector3.one;
+                break;
         }
-
-        
     }
-   
-   
 }
