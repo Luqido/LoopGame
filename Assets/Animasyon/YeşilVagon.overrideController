@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Ye\u015FilVagon"
+  m_Controller: {fileID: 9100000, guid: 4840090db1267814895d0518af093b96, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 25018a7b0bac5994a80bc7b1a96a32c8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 674dcb5b2a98b72459d73ae60e7880d3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b1fdd73f7c2484044aa46cce5b949a15, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fedbd86bb1559f14f9bf00c756f8a296, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8d44149c186a74d4c8408329e2020b06, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5a0add99e23cdf342893abe08064f435, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 92e4227e8aeca514d886a238e36387d8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d44c3b3fd65d5534f8ccd92ac98b9f91, type: 2}
