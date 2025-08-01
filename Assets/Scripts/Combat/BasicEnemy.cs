@@ -1,15 +1,13 @@
+using System;
 using System.Collections;
-using DG.Tweening;
 using UnityEngine;
 
-public class BasicEnemy : MonoBehaviour, ICombatPlayer
+public class BasicEnemy : Unit
 {
     [SerializeField] private Player player;
     
-    public IEnumerator ExecuteTurn()
+    public override IEnumerator ExecuteTurn()
     {
-        player.TakeDamage(100);
-        Debug.Log("GWAAAK GWAAAK");
-        yield break;
+        yield return AttackCoroutine(player);
     }
 }
