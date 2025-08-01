@@ -12,6 +12,13 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float shakeMagnitude = 0.2f;
     [SerializeField] private AnimationCurve movementCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
+    [Header("Zoom Settings")]
+    [SerializeField] private float zoomSpeed = 10f;
+    [SerializeField] private float minZoomDistance = 5f;
+    [SerializeField] private float maxZoomDistance = 20f;
+
+
+
     public Vector3 _originalCamPos;
 
     private void Awake()
@@ -26,7 +33,21 @@ public class CameraController : MonoBehaviour
         _originalCamPos = _mainCamera.transform.localPosition;
         transform.position = _camMenuPosition; // Set initial position
     }
+    private void Update()
+{
+    HandleZoom();
+}
+    private void HandleZoom()
+    {
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
 
+        if (Mathf.Abs(scroll) > 0.01f)
+        {
+            float newSize = _mainCamera.orthographicSize - scroll * zoomSpeed;
+            newSize = Mathf.Clamp(newSize, minZoomDistance, maxZoomDistance);
+            _mainCamera.orthographicSize = newSize;
+        }
+    }
     public void ShakeCamera()
     {
         StartCoroutine(ShakeCameraCoroutine());
@@ -58,7 +79,7 @@ public class CameraController : MonoBehaviour
     private IEnumerator MoveCameraCoroutine(bool isGameStarted)
     {
         if (isGameStarted) {
-            LevelManager.Instance.RespawnCubes();
+           // LevelManager.Instance.RespawnCubes();
         }
         
         Vector3 targetPosition = isGameStarted ? _camPlayPosition : _camMenuPosition;
@@ -79,7 +100,7 @@ public class CameraController : MonoBehaviour
 
         if (isGameStarted)
         {
-            LevelManager.Instance.ResetLevel();
+           // LevelManager.Instance.ResetLevel();
         }
     }
 }

@@ -5,7 +5,7 @@ public class GamePlayManager : MonoBehaviour
 {
     public static GamePlayManager Instance { get; private set; }
     
-    [SerializeField] LevelManager _levelManager;
+   // [SerializeField] LevelManager _levelManager;
     
 
     

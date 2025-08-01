@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class BaseMenu : MonoBehaviour
 {
-    [SerializeField] LevelManager levelManager;
+    //[SerializeField] LevelManager levelManager;
 
 
 
@@ -32,6 +32,7 @@ public class BaseMenu : MonoBehaviour
         BaseMenuAnimator.SetTrigger(active ? "Open" : "Close");
         PlayButton.enabled = active ? true : false;
     }
-    public void PlayAction() {  BaseMenuAction(false); levelManager.ResetLevel(); }
+    public void PlayAction() {  BaseMenuAction(false);// levelManager.ResetLevel();
+                                                      }
 
 }

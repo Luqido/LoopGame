@@ -10,6 +10,8 @@ public class StartButton : MonoBehaviour
     public bool isClickable = true;
    
     public bool isClicked = false;
+    public FadeOutController FadeOutController;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -50,7 +52,9 @@ public class StartButton : MonoBehaviour
         //  CameraController.Instance.ShakeCamera();
 
         CameraController.Instance.MoveCamera(true);
-       
+        FadeOutController.PlayFadeOut();
+
+
     }
 
 
