@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 88643bfb055e2a14185f1e53699a23da
+guid: e8c38e31a339abf4d9c3c261e4666406
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6454008695506340353
-    second: "HAMSTER \u0130PL\u0130_0"
+      213: -6141858995303608096
+    second: "hamster ag\u0131zl\u0131k_0"
   - first:
-      213: -5235558319158590436
-    second: "HAMSTER \u0130PL\u0130_1"
+      213: -6490794975905025306
+    second: "hamster ag\u0131zl\u0131k_1"
   - first:
-      213: 4553231447648729265
-    second: "HAMSTER \u0130PL\u0130_2"
+      213: -1714670533257217783
+    second: "hamster ag\u0131zl\u0131k_2"
   - first:
-      213: -1346401978444539253
-    second: "HAMSTER \u0130PL\u0130_3"
+      213: -9169392238628092670
+    second: "hamster ag\u0131zl\u0131k_3"
   - first:
-      213: 3286625308453001075
-    second: "HAMSTER \u0130PL\u0130_4"
+      213: 4940309045748347211
+    second: "hamster ag\u0131zl\u0131k_4"
   - first:
-      213: 218197458443285071
-    second: "HAMSTER \u0130PL\u0130_5"
+      213: 1736519970912816178
+    second: "hamster ag\u0131zl\u0131k_5"
   - first:
-      213: -3011672039055204576
-    second: "HAMSTER \u0130PL\u0130_6"
+      213: 6599946261887228259
+    second: "hamster ag\u0131zl\u0131k_6"
   - first:
-      213: 5002294898675460813
-    second: "HAMSTER \u0130PL\u0130_7"
+      213: 2505586057458400542
+    second: "hamster ag\u0131zl\u0131k_7"
   - first:
-      213: -9044415823643793497
-    second: "HAMSTER \u0130PL\u0130_8"
+      213: -281142085323953070
+    second: "hamster ag\u0131zl\u0131k_8"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,35 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_0"
+      name: "hamster ag\u0131zl\u0131k_0"
       rect:
         serializedVersion: 2
-        x: 14
-        y: 16
-        width: 93
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff5ff074941ce66a0800000000000000
-      internalID: -6454008695506340353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_1"
-      rect:
-        serializedVersion: 2
-        x: 127
+        x: 13
         y: 17
-        width: 90
-        height: 86
+        width: 140
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,152 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1406b9a27f8757b0800000000000000
-      internalID: -5235558319158590436
+      spriteID: 0e01464e8cbb3caa0800000000000000
+      internalID: -6141858995303608096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_2"
+      name: "hamster ag\u0131zl\u0131k_1"
       rect:
         serializedVersion: 2
-        x: 238
-        y: 21
-        width: 91
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b87d39a0e3503f30800000000000000
-      internalID: 4553231447648729265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_3"
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 24
-        width: 88
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8a1eedb88e905de0800000000000000
-      internalID: -1346401978444539253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_4"
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 26
-        width: 92
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37756240e407c9d20800000000000000
-      internalID: 3286625308453001075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_5"
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 26
-        width: 96
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f42b761be61370300800000000000000
-      internalID: 218197458443285071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_6"
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 26
-        width: 102
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02f532cac346436d0800000000000000
-      internalID: -3011672039055204576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_7"
-      rect:
-        serializedVersion: 2
-        x: 782
-        y: 19
-        width: 102
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcaac4105b8bb6540800000000000000
-      internalID: 5002294898675460813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "HAMSTER \u0130PL\u0130_8"
-      rect:
-        serializedVersion: 2
-        x: 895
+        x: 170
         y: 18
-        width: 100
-        height: 85
+        width: 136
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,8 +161,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a72ace4ab7cb7280800000000000000
-      internalID: -9044415823643793497
+      spriteID: 6e27a4feb501ce5a0800000000000000
+      internalID: -6490794975905025306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_2"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 22
+        width: 136
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909bf561c344438e0800000000000000
+      internalID: -1714670533257217783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_3"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 25
+        width: 135
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205495a2756cfb080800000000000000
+      internalID: -9169392238628092670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_4"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 27
+        width: 137
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41ba78f6e08f8440800000000000000
+      internalID: 4940309045748347211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_5"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 27
+        width: 141
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c41ab86bb591810800000000000000
+      internalID: 1736519970912816178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_6"
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 27
+        width: 148
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369947c3828b79b50800000000000000
+      internalID: 6599946261887228259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_7"
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 20
+        width: 149
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dbafc7e31a5c220800000000000000
+      internalID: 2505586057458400542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131k_8"
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 19
+        width: 145
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c6ad053ce291cf0800000000000000
+      internalID: -281142085323953070
       vertices: []
       indices: 
       edges: []
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3098083be58e46e4a8e855727de50034
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "HAMSTER \u0130PL\u0130_0": -6454008695506340353
-      "HAMSTER \u0130PL\u0130_1": -5235558319158590436
-      "HAMSTER \u0130PL\u0130_2": 4553231447648729265
-      "HAMSTER \u0130PL\u0130_3": -1346401978444539253
-      "HAMSTER \u0130PL\u0130_4": 3286625308453001075
-      "HAMSTER \u0130PL\u0130_5": 218197458443285071
-      "HAMSTER \u0130PL\u0130_6": -3011672039055204576
-      "HAMSTER \u0130PL\u0130_7": 5002294898675460813
-      "HAMSTER \u0130PL\u0130_8": -9044415823643793497
+      "hamster ag\u0131zl\u0131k_0": -6141858995303608096
+      "hamster ag\u0131zl\u0131k_1": -6490794975905025306
+      "hamster ag\u0131zl\u0131k_2": -1714670533257217783
+      "hamster ag\u0131zl\u0131k_3": -9169392238628092670
+      "hamster ag\u0131zl\u0131k_4": 4940309045748347211
+      "hamster ag\u0131zl\u0131k_5": 1736519970912816178
+      "hamster ag\u0131zl\u0131k_6": 6599946261887228259
+      "hamster ag\u0131zl\u0131k_7": 2505586057458400542
+      "hamster ag\u0131zl\u0131k_8": -281142085323953070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
