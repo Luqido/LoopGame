@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 3e840f5aa1a9940f28f153f1d397f43b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8328545225384076242
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_0"
+  - first:
+      213: -786689144276853975
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_1"
+  - first:
+      213: 9066449329649772071
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_2"
+  - first:
+      213: -6828447887014001250
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_3"
+  - first:
+      213: 5517235316197785550
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_4"
+  - first:
+      213: 5038514323005153268
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_5"
+  - first:
+      213: 7694341700408372285
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_6"
+  - first:
+      213: 2226936350899995730
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_7"
+  - first:
+      213: -5288765008009502768
+    second: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 74
+        width: 102
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d32bc681cfe49370800000000000000
+      internalID: 8328545225384076242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 74
+        width: 102
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bd8be246e1515f0800000000000000
+      internalID: -786689144276853975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7266ad311af72dd70800000000000000
+      internalID: 9066449329649772071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 74
+        width: 102
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95834f43da7c31a0800000000000000
+      internalID: -6828447887014001250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf753cd948219c40800000000000000
+      internalID: 5517235316197785550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff9072e4166ce540800000000000000
+      internalID: 5038514323005153268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ce059920bc7ca60800000000000000
+      internalID: 7694341700408372285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2548cc4ffcaa7ee10800000000000000
+      internalID: 2226936350899995730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327man_hasaral\u0131yor-Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 74
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfd31d0f388a96b0800000000000000
+      internalID: -5288765008009502768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_0": 8328545225384076242
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_1": -786689144276853975
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_2": 9066449329649772071
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_3": -6828447887014001250
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_4": 5517235316197785550
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_5": 5038514323005153268
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_6": 7694341700408372285
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_7": 2226936350899995730
+      "du\u0308s\u0327man_hasaral\u0131yor-Sheet_8": -5288765008009502768
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
