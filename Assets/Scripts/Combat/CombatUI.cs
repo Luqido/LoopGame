@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class CombatUI : MonoBehaviour
     [SerializeField] private Button dodgeButton;
 
     [SerializeField] private Player player;
+    [SerializeField] private CanvasGroup canvasGroup;
     
     private void Awake()
     {
@@ -18,12 +20,14 @@ public class CombatUI : MonoBehaviour
 
     public void InitializeTurnUI(/*stats??*/)
     {
+        canvasGroup.DOFade(1f, 0.5f);
         //todo init current turn ui according to current stats
     }
 
     private void Select(Player.CombatOption option)
     {
         player.CurrentCombatOption = option;
+        canvasGroup.DOFade(0f, 0.5f);
     }
     
 }
