@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 2c72a5eed567d4447ba8e313483b0d6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8859714652219299690
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_0"
+  - first:
+      213: -5249692924312582464
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_1"
+  - first:
+      213: 3491810485832146581
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_2"
+  - first:
+      213: 8244976771110911405
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_3"
+  - first:
+      213: -2493401954597390185
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_4"
+  - first:
+      213: 4658378148897405796
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_5"
+  - first:
+      213: 567526938825692262
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_6"
+  - first:
+      213: -7935346815874164099
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_7"
+  - first:
+      213: 2110734097400343685
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_8"
+  - first:
+      213: -2500458951876502331
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_9"
+  - first:
+      213: -8036711863838273960
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_10"
+  - first:
+      213: 5927890097047724539
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_11"
+  - first:
+      213: -2759166991233334080
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_12"
+  - first:
+      213: 8830321882932860450
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_13"
+  - first:
+      213: 4501445223689876301
+    second: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67dad0198704fa70800000000000000
+      internalID: 8859714652219299690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6877279185527b0800000000000000
+      internalID: -5249692924312582464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e520fe227657030800000000000000
+      internalID: 3491810485832146581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadb96780ba0c6270800000000000000
+      internalID: 8244976771110911405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79835f50228a56dd0800000000000000
+      internalID: -2493401954597390185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_5"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bb87ace32e5a040800000000000000
+      internalID: 4658378148897405796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_6"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6649b257eb240e700800000000000000
+      internalID: 567526938825692262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a1b4e3d1cffd190800000000000000
+      internalID: -7935346815874164099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "yas\u0327l\u0131 kad\u0131n sald\u0131rma_8"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c2ada7a75da4d10800000000000000
+      internalID: 2110734097400343685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 474b270adbb604371ab319ae1040141e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_0": 8859714652219299690
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_1": -5249692924312582464
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_2": 3491810485832146581
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_3": 8244976771110911405
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_4": -2493401954597390185
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_5": 4658378148897405796
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_6": 567526938825692262
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_7": -7935346815874164099
+      "yas\u0327l\u0131 kad\u0131n sald\u0131rma_8": 2110734097400343685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

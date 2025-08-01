@@ -15,13 +15,13 @@ public class CombatManager : MonoBehaviour
 {
     public UnityEvent onTurnEnd;
     public UnityEvent onTurnStart;
-    
-    private ICombatPlayer _player;
-    private ICombatPlayer _enemy;
+    [SerializeField] private Player player;
+    [SerializeField] private BasicEnemy enemy;
     private bool _isPlayerTurn;
 
     private void Start()
     {
+        player.currentEnemy = enemy;
         StartCoroutine(StartCombat());
     }
 
@@ -37,13 +37,14 @@ public class CombatManager : MonoBehaviour
     {
         if (_isPlayerTurn)
         {
-            yield return _player.ExecuteTurn();
+            yield return player.ExecuteTurn();
         }
         else
         {
-            yield return _enemy.ExecuteTurn();
+            yield return enemy.ExecuteTurn();
         }
 
+        yield return new WaitForSeconds(1f);
         _isPlayerTurn = !_isPlayerTurn;
     } 
 }
