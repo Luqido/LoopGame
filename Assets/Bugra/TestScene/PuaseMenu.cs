@@ -65,13 +65,27 @@ public class PauseMenuController : MonoBehaviour
     void SelectButton(int index)
     {
         if (menuButtons.Length == 0) return;
+
+        // UI navigasyonu
         EventSystem.current.SetSelectedGameObject(menuButtons[index].gameObject);
+
+        // Tüm buton renklerini sýfýrla (normal color yap)
+        foreach (Button btn in menuButtons)
+        {
+            var colors = btn.colors;
+            btn.targetGraphic.color = colors.normalColor;
+        }
+
+        // Seçilen butonun rengini highlighted yap
+        var selectedButton = menuButtons[index];
+        var selectedColors = selectedButton.colors;
+        selectedButton.targetGraphic.color = selectedColors.highlightedColor;
     }
 
     // --- BUTTON FONKSÝYONLARI ---
     public void ResumeGame()
     {
-        TogglePause(); // Direkt toggle ile kapat
+        TogglePause();
     }
 
     public void RestartGame()

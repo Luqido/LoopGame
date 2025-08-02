@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
+        width: 160
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,10 +152,164 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 67f23567cd45ef660800000000000000
-      internalID: 7421462541807857526
+      spriteID: bacf7d128b566de4db1f01eb6f6d4e22
+      internalID: -976207512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_1"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bf3dbef10ae0c48a271ff01eb63e8e
+      internalID: -566729989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_2"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecda26bec764a7449b8cf9d4fc7fc23
+      internalID: -1775664935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_3"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f97452a9269bdb44a3a0fca93841642
+      internalID: 1441678974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_4"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1515012f99f66ca48b8bc4d3591c13b0
+      internalID: 493821321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_5"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72766fbedf8eafb428c69ada0b2e87b1
+      internalID: -909227668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_6"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b879b41878dddb4c9cf47e4993c7b86
+      internalID: 1556057799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "oyun i\xE7i men\xFC background_7"
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308cfa303408574408d8ed503877888d
+      internalID: -348841849
       vertices: []
       indices: 
       edges: []
@@ -164,7 +318,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0631e3a452df81b41a825583abc48788
     internalID: 0
     vertices: []
     indices: 
@@ -173,7 +327,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "oyun i\xE7i men\xFC background_0": -976207512
+      "oyun i\xE7i men\xFC background_1": -566729989
+      "oyun i\xE7i men\xFC background_2": -1775664935
+      "oyun i\xE7i men\xFC background_3": 1441678974
+      "oyun i\xE7i men\xFC background_4": 493821321
+      "oyun i\xE7i men\xFC background_5": -909227668
+      "oyun i\xE7i men\xFC background_6": 1556057799
+      "oyun i\xE7i men\xFC background_7": -348841849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

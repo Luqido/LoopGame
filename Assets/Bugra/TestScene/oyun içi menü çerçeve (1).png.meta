@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: bfce045e9e8c6bd469c5b29c8476502a
+guid: 0c98507a9a962074da08672d4df2f47a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8231331576406689926
-    second: butonlar 1_0
-  - first:
-      213: -621363041996961392
-    second: butonlar 1_1
-  - first:
-      213: -2412028204811951801
-    second: butonlar 1_2
-  - first:
-      213: 4827749895613039468
-    second: butonlar 1_3
-  - first:
-      213: 4602163977155439479
-    second: butonlar 1_4
-  - first:
-      213: 2243351861377979965
-    second: butonlar 1_5
+      213: 8031241774152683244
+    second: "oyun i\xE7i men\xFC \xE7er\xE7eve (1)_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: butonlar 1_0
+      name: "oyun i\xE7i men\xFC \xE7er\xE7eve (1)_0"
       rect:
         serializedVersion: 2
-        x: 15
-        y: 156
-        width: 36
-        height: 37
+        x: 0
+        y: 0
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,118 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a77b2dfea8f64cd80800000000000000
-      internalID: -8231331576406689926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: butonlar 1_1
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 156
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 099073dfa997067f0800000000000000
-      internalID: -621363041996961392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: butonlar 1_2
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 92
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 741e5ff8021c68ed0800000000000000
-      internalID: -2412028204811951801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: butonlar 1_3
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 92
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c63c17893fc9ff240800000000000000
-      internalID: 4827749895613039468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: butonlar 1_4
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 36
-        width: 51
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77be27001cb2edf30800000000000000
-      internalID: 4602163977155439479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: butonlar 1_5
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 36
-        width: 51
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3655a3d1acf12f10800000000000000
-      internalID: 2243351861377979965
+      spriteID: cee06ad97d3b47f60800000000000000
+      internalID: 8031241774152683244
       vertices: []
       indices: 
       edges: []
@@ -299,12 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      butonlar 1_0: -8231331576406689926
-      butonlar 1_1: -621363041996961392
-      butonlar 1_2: -2412028204811951801
-      butonlar 1_3: 4827749895613039468
-      butonlar 1_4: 4602163977155439479
-      butonlar 1_5: 2243351861377979965
+      "oyun i\xE7i men\xFC \xE7er\xE7eve (1)_0": 8031241774152683244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
