@@ -8,14 +8,12 @@ public class Player : Unit
     {
         Attack,
         Dodge,
-        Parry
+        Block
     }
     
     [SerializeField] private CombatUI combatUI;
     [SerializeField] private Animator slashAnimator;
     
-    public Unit currentEnemy;
-
     public CombatOption? CurrentCombatOption { get; set; } = null;
 
     protected override void Awake()
@@ -39,11 +37,26 @@ public class Player : Unit
         switch (CurrentCombatOption)
         {
             case CombatOption.Attack:
-                yield return AttackCoroutine(currentEnemy);
+                if(CombatManager.Instance.enemies.Count == 1)
+                {
+                    yield return AttackCoroutine(CombatManager.Instance.enemies[0]);
+                }
+                else
+                {
+                    Unit enemyToAttack = null;
+                    combatUI.SelectEnemyToAttack((unit) =>
+                    {
+                        enemyToAttack = unit;
+                    });
+                    yield return new WaitUntil(() => enemyToAttack != null);
+                    yield return AttackCoroutine(enemyToAttack);
+                }
                 break;
             case CombatOption.Dodge:
+                yield return DodgeCoroutine();
                 break;
-            case CombatOption.Parry:
+            case CombatOption.Block:
+                yield return BlockCoroutine();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -16,8 +16,12 @@ public class CombatManager : MonoBehaviour
     public UnityEvent onTurnEnd;
     public UnityEvent onTurnStart;
     public Player player;
-    [SerializeField] private BasicEnemy enemy;
-    private bool _isPlayerTurn;
+    public List<Unit> enemies = new();
+    
+    [Header("Debug")]
+    [SerializeField] private Unit debugEnemy;
+    [SerializeField] private Unit[] debugEnemies;
+    public bool IsPlayerTurn { get; private set; } = true;
     public static CombatManager Instance { get; set; }
 
     private void Awake()
@@ -27,30 +31,43 @@ public class CombatManager : MonoBehaviour
 
     private void Start()
     {
-        player.currentEnemy = enemy;
-        StartCoroutine(StartCombat());
+        if(debugEnemy)
+        {
+            StartCoroutine(StartCombat(debugEnemy));
+        }
+        else if (debugEnemies.Length > 0)
+        {
+            StartCoroutine(StartCombat(debugEnemies));
+        }
     }
 
-    private IEnumerator StartCombat()
+    public IEnumerator StartCombat(params Unit[] against)
     {
-        while (true)
+        enemies.AddRange(against);
+        while (enemies.Count > 0)
         {
             yield return ExecuteNextTurn();
         }
+
+        Debug.Log("Won");
     }
 
     private IEnumerator ExecuteNextTurn()
     {
-        if (_isPlayerTurn)
+        onTurnStart.Invoke();
+        if (IsPlayerTurn)
         {
             yield return player.ExecuteTurn();
         }
         else
         {
-            yield return enemy.ExecuteTurn();
+            foreach (var enemy in enemies)
+            {
+                yield return enemy.ExecuteTurn();
+            }
         }
-
-        yield return new WaitForSeconds(1f);
-        _isPlayerTurn = !_isPlayerTurn;
+        onTurnEnd.Invoke();
+        
+        IsPlayerTurn = !IsPlayerTurn;
     } 
 }
