@@ -40,10 +40,16 @@ public class InteractionManager : MonoBehaviour
     }
     private void StartChat(Transform npc)
     {
+        NPC npcComponent = npc.GetComponent<NPC>();
+
         NPCChatData npcChatData = npc.GetComponent<NPC>().npcChatData; // NPC'nin konuþma verisini al
         if (npcChatData != null)
         {
             chatManager.StartChat(npcChatData); // ChatManager üzerinden sohbeti baþlat
+            chatManager.SetPortrait(npcComponent.npcPortrait); // Portre setleniyor
+            chatManager.SetName(npcComponent.name);
+
+
         }
         else
         {

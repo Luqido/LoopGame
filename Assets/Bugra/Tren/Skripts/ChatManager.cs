@@ -1,54 +1,103 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ChatManager : MonoBehaviour
 {
-    public TextMeshProUGUI npcNameText; // NPC adý
-    public TextMeshProUGUI npcMessageText; // NPC mesajý
-    public Button answerButton1; // 1. cevap butonu
-    public Button answerButton2; // 2. cevap butonu
-    public Button answerButton3; // 3. cevap butonu
-    public GameObject chatPanel; // Chat paneli
+    public TextMeshProUGUI npcNameText;
+    public TextMeshProUGUI npcMessageText;
+    public Button answerButton1;
+    public Button answerButton2;
+    public Button answerButton3;
+    public GameObject chatPanel;
 
-    private NPCChatData currentChatData; // Þu anki NPC'nin sohbet verisi
+    private NPCChatData currentChatData;
+    private Coroutine typeCoroutine;
+    public float typingSpeed = 0.03f;
+
+    private bool isTyping = false;
+    private string fullMessage = "";
+    public GameObject player;
+    public Image npcPortraitImage;
+
 
     void Start()
     {
-        chatPanel.SetActive(false); // Baþlangýçta chat panelini gizle
+        chatPanel.SetActive(false);
         answerButton1.onClick.AddListener(() => OnAnswerButtonClicked(0));
         answerButton2.onClick.AddListener(() => OnAnswerButtonClicked(1));
         answerButton3.onClick.AddListener(() => OnAnswerButtonClicked(2));
     }
 
-    // NPC ile sohbet baþlat
     public void StartChat(NPCChatData chatData)
     {
         currentChatData = chatData;
-        chatPanel.SetActive(true); // Chat panelini aç
-        ShowNPCMessage(); // Ýlk mesajý göster
+        chatPanel.SetActive(true);
+
+        if (player != null)
+        {
+            player.GetComponent<PlayerMovement>().enabled = false; 
+        }
+        ShowNPCMessage();
     }
 
-    // NPC'nin mesajýný göster
+    private void Update()
+    {
+        // Eðer yazý yazýlýyorsa ve oyuncu space'e basarsa yazýyý bitir
+        if (isTyping && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (typeCoroutine != null)
+                StopCoroutine(typeCoroutine);
+
+            npcMessageText.text = fullMessage;
+            isTyping = false;
+            ShowAnswerButtons();
+        }
+    }
+
     private void ShowNPCMessage()
     {
-        npcNameText.text = currentChatData.npcName;
-        npcMessageText.text = currentChatData.npcMessage;
+       // npcNameText.text = currentChatData.npcName;
 
-        // Eðer cevap yoksa konuþmayý kýsa bir gecikmeyle bitir
-        if (currentChatData.answers == null || currentChatData.answers.Length == 0)
-        {
-            Invoke(nameof(EndChat), 1.5f); // 1.5 saniye sonra otomatik kapat
-            return;
-        }
+        if (typeCoroutine != null)
+            StopCoroutine(typeCoroutine);
 
-        ShowAnswerButtons(); // Butonlarý göster
+        fullMessage = currentChatData.npcMessage;
+        typeCoroutine = StartCoroutine(TypeMessage(fullMessage));
+
+        // Butonlarý gizle
+        answerButton1.gameObject.SetActive(false);
+        answerButton2.gameObject.SetActive(false);
+        answerButton3.gameObject.SetActive(false);
     }
 
-    // Cevap butonlarýný göster
+    private IEnumerator TypeMessage(string message)
+    {
+        isTyping = true;
+        npcMessageText.text = "";
+
+        foreach (char letter in message)
+        {
+            npcMessageText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
+
+        // Eðer cevap yoksa otomatik kapat
+        if (currentChatData.answers == null || currentChatData.answers.Length == 0)
+        {
+            Invoke(nameof(EndChat), 1.5f);
+        }
+        else
+        {
+            ShowAnswerButtons();
+        }
+    }
+
     private void ShowAnswerButtons()
     {
-        // Hepsini önce kapatalým
         answerButton1.gameObject.SetActive(false);
         answerButton2.gameObject.SetActive(false);
         answerButton3.gameObject.SetActive(false);
@@ -68,7 +117,7 @@ public class ChatManager : MonoBehaviour
                 button.gameObject.SetActive(true);
                 button.GetComponentInChildren<TextMeshProUGUI>().text = currentChatData.answers[i].answerText;
 
-                int capturedIndex = i; // for closure
+                int capturedIndex = i;
                 button.onClick.RemoveAllListeners();
                 button.onClick.AddListener(() =>
                 {
@@ -94,28 +143,39 @@ public class ChatManager : MonoBehaviour
         }
     }
 
-    // Cevap butonuna týklanýnca
-    private void OnAnswerButtonClicked(int answerIndex)
+    private void OnAnswerButtonClicked(int index)
     {
-        if (currentChatData.answers.Length > answerIndex)
+        if (currentChatData.answers.Length > index)
         {
-            NPCChatData nextChat = currentChatData.answers[answerIndex].nextChat; // Seçilen cevaba göre yeni sohbeti al
-            if (nextChat != null)
+            NPCChatData next = currentChatData.answers[index].nextChat;
+            if (next != null)
             {
-                currentChatData = nextChat; // Yeni sohbeti al
-                ShowNPCMessage(); // Yeni mesajý göster
+                currentChatData = next;
+                ShowNPCMessage();
             }
             else
             {
-                EndChat(); // Konuþma bitti
+                EndChat();
             }
         }
     }
 
-    // Konuþmayý bitir
     private void EndChat()
     {
-        chatPanel.SetActive(false); // Chat panelini kapat
+        chatPanel.SetActive(false);
+        if (player != null)
+        {
+            player.GetComponent<PlayerMovement>().enabled = true; 
+        }
         Debug.Log("Sohbet bitti!");
+    }
+    public void SetPortrait(Sprite portrait)
+    {
+        if (npcPortraitImage != null)
+            npcPortraitImage.sprite = portrait;
+    }
+    public void SetName(string name)
+    {
+        npcNameText.text = name;
     }
 }

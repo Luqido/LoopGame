@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: DefaulChat (1)
   m_EditorClassIdentifier: 
   npcName: "Taha Deh\u015Fet Zorno OOHHHHHH"
-  npcMessage: Merhaba :))
+  npcMessage: "Selamlar, bu trene binmemdeki sebep hayat\u0131m\u0131n anlam\u0131n\u0131n
+    kalmamas\u0131 art\u0131k zenci zorno yasakland\u0131 hayat\u0131m zorluklar
+    i\xE7inde... Sonsuz bir d\xF6ng\xFCdeyim Zorno Zorno Zorno"
   answers:
   - answerText: 'Pornocu musun '
     nextChat: {fileID: 11400000, guid: 687e20f43f8087f41895994b4728383f, type: 2}
