@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioSource footstepAudio;
     [SerializeField] private float footstepCooldown = 0.4f; // adýmlar arasý süre
     private float footstepTimer;
+    [SerializeField] private List<Transform> nonFlippableObjects;
+    private bool isFacingRight = true;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.velocity.y);
         playerRb.velocity = playerVelocity;
+        FlipCharacter();
 
         if (Mathf.Abs(playerVelocity.x) > 0.1f)
         {
@@ -50,5 +55,32 @@ public class PlayerMovement : MonoBehaviour
             footstepTimer = 0f;
         }
     }
+    void FlipCharacter()
+    {
+        if (moveImput.x > 0.01f && !isFacingRight)
+        {
+            Flip(true);
+        }
+        else if (moveImput.x < -0.01f && isFacingRight)
+        {
+            Flip(false);
+        }
+    }
 
+    void Flip(bool faceRight)
+    {
+        isFacingRight = faceRight;
+        float newScaleX = faceRight ? 1f : -1f;
+
+        // Karakterin yönünü çevir
+        transform.localScale = new Vector3(newScaleX, 1f, 1f);
+
+        // Dönmemesi gereken objeleri ters çevirerek sabit tut
+        foreach (Transform t in nonFlippableObjects)
+        {
+            Vector3 scale = t.localScale;
+            scale.x = faceRight ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+            t.localScale = scale;
+        }
+    }
 }

@@ -4,10 +4,12 @@ public class InteractionManager : MonoBehaviour
 {
     public ChatManager chatManager; // ChatManager referansý, sohbeti yönlendirecek
     public NPCChatData defaultChatData; // NPC'nin sohbet verisi (ilk mesaj için)
+    public CameraZoom cameraZoom;
     public void InteractWithObject(Transform target)
     {
         if (target.CompareTag("NPC"))
         {
+            cameraZoom.ZoomTo(9.15f);
             StartChat(target); // NPC ile sohbet baþlat
             Debug.Log("NPC ile sohbet baþlatýldý!");
         }
@@ -48,6 +50,7 @@ public class InteractionManager : MonoBehaviour
             chatManager.StartChat(npcChatData); // ChatManager üzerinden sohbeti baþlat
             chatManager.SetPortrait(npcComponent.npcPortrait); // Portre setleniyor
             chatManager.SetName(npcComponent.name);
+            chatManager.SetLandScape(npcComponent.npcImage);
 
 
         }

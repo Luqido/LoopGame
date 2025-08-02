@@ -20,6 +20,7 @@ public class ChatManager : MonoBehaviour
     private string fullMessage = "";
     public GameObject player;
     public Image npcPortraitImage;
+    public Image npcLandscapeImage;
 
 
     void Start()
@@ -169,7 +170,7 @@ public class ChatManager : MonoBehaviour
         }
         Debug.Log("Sohbet bitti!");
     }
-    public void SetPortrait(Sprite portrait)
+    public void SetPortrait(Sprite portrait )
     {
         if (npcPortraitImage != null)
             npcPortraitImage.sprite = portrait;
@@ -178,4 +179,10 @@ public class ChatManager : MonoBehaviour
     {
         npcNameText.text = name;
     }
+    public void SetLandScape(Sprite npcLandScape)
+    {
+        npcLandscapeImage.sprite = npcLandScape;
+        
+    }
+
 }
