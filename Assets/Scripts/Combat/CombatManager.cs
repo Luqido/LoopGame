@@ -34,14 +34,14 @@ public class CombatManager : MonoBehaviour
     
     public bool IsPlayerTurn { get; private set; } = true;
     public static CombatManager Instance { get; private set; }
-    public static EnemyType EnemyToFightAgainst;
+    private static EnemyType _enemyToFightAgainst;
 
     public static void SetEnemiesToFightAgainst(params EnemyType[] enemyTypes)
     {
-        EnemyToFightAgainst = 0;
+        _enemyToFightAgainst = 0;
         foreach (var enemyType in enemyTypes)
         {
-            EnemyToFightAgainst |= enemyType;
+            _enemyToFightAgainst |= enemyType;
         }
     }
     
@@ -52,12 +52,12 @@ public class CombatManager : MonoBehaviour
 
     private void Start()
     {
-        if (EnemyToFightAgainst != 0)
+        if (_enemyToFightAgainst != 0)
         {
             List<Unit> enemiesToSummon = new();
             for (int i = 0; i < 7; i++)
             {
-                if ((EnemyToFightAgainst & (EnemyType)(1 << i)) != 0)
+                if ((_enemyToFightAgainst & (EnemyType)(1 << i)) != 0)
                 {
                     var enemy = Instantiate(enemyPrefabs[i]);
                     enemiesToSummon.Add(enemy);
@@ -65,6 +65,7 @@ public class CombatManager : MonoBehaviour
             }
 
             StartCoroutine(StartCombat(enemiesToSummon.ToArray()));
+            _enemyToFightAgainst = 0;
         }
         else if (debugEnemies.Length > 0)
         {
