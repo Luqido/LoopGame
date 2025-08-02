@@ -22,6 +22,19 @@ public class UnitHealthDisplay : MonoBehaviour
                 (f) => slicedFilledHealthBar.fillAmount = f,
                 (float)currentHp / startingHp, 
                 0.3f);
+
+        if (currentHp <= 0)
+        {
+            Destroy(gameObject, 0.31f);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (unit)
+        {
+            unit.HealthChanged -= UpdateHealthBar;
+        }
     }
 
     public void Initialize(Unit unit, Vector2 referenceResolution)

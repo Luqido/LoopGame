@@ -30,12 +30,14 @@ public abstract class Unit : MonoBehaviour
     public float AttackMultiplier { get; set; } = 1f;
     
     private Vector3 _startPosition;
-    private int _currentHp;
+    private int _currentHp = 1;
     public int CurrentHp
     {
         get => _currentHp;
         set
         {
+            if (_currentHp <= 0) return;
+            
             if (value < _currentHp)
             {
                 if (_activeSkills.HasFlag(UnitSkill.Block))
@@ -67,6 +69,21 @@ public abstract class Unit : MonoBehaviour
             if (value < 0)
             {
                 value = 0;
+                if (CombatManager.Instance.enemies.Contains(this))
+                {
+                    CombatManager.Instance.enemies.Remove(this);
+                }
+
+                if (CombatManager.Instance.player == this as Player)
+                {
+                    Debug.Log("LOST");
+                }
+                
+                transform.DOMoveY(0.4f, 1f).SetDelay(0.6f).SetRelative(true);
+                GetComponent<SpriteRenderer>().DOFade(0.1f, 1f).SetDelay(0.6f);
+                blockSprite.DOFade(0f, 1f).SetDelay(0.6f);
+                dodgeSprite.DOFade(0f, 1f).SetDelay(0.6f);
+                Destroy(gameObject, 1.61f);
             }
             
             HealthChanged?.Invoke(_currentHp, value, stats.health);
