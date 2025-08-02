@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7211415131032949241, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.596
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
@@ -94,6 +98,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 121e0a9749a4642b69dc1e815cd57c42, type: 2}
   blockSprite: {fileID: 214647271143081041}
   dodgeSprite: {fileID: 943252670396620089}
+  blockSpriteTargetOpaqueness: 0.7
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: 0.3, y: 0, z: 0}
   aiProbabilities: {fileID: 11400000, guid: 36ccbe358de154abca4e192b57843e45, type: 2}
   playerWontGetHarmedTurnCount: 3
 --- !u!95 &4068690559462493434 stripped

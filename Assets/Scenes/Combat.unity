@@ -1420,7 +1420,9 @@ MonoBehaviour:
   ui: {fileID: 855513737}
   enemyInitialPosition: {fileID: 380952997}
   distanceBetweenEnemies: 0.6
-  debugEnemies: []
+  debugEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &1407828467
 Transform:
   m_ObjectHideFlags: 0
@@ -1703,6 +1705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629045112}
   - component: {fileID: 1629045113}
+  - component: {fileID: 1629045114}
   m_Layer: 0
   m_Name: DodgeSprite
   m_TagString: Untagged
@@ -1719,9 +1722,9 @@ Transform:
   m_GameObject: {fileID: 1629045111}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.14, y: -0.35, z: 0}
+  m_LocalScale: {x: 0.22555399, y: 0.22555399, z: 0.22555399}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2123469964}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1768,9 +1771,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 2950725292129176575, guid: c40d29230682e474da31f304761cc260, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1780,6 +1783,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1629045114
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629045111}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51a1c119fd6f242fd9fcc6deff65c536, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1767467846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,8 +2075,8 @@ Transform:
   m_GameObject: {fileID: 2095714473}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.08, y: -0.193, z: 0}
+  m_LocalScale: {x: 0.47187787, y: 0.47187787, z: 0.47187787}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2123469964}
@@ -2100,8 +2125,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_Sprite: {fileID: -9047860393857522803, guid: c40d29230682e474da31f304761cc260, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2245,6 +2270,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 591bdb069093b41a1977b915b52f21b6, type: 2}
   blockSprite: {fileID: 2095714475}
   dodgeSprite: {fileID: 1629045113}
+  blockSpriteTargetOpaqueness: 0.35
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: -0.3, y: 0, z: 0}
   combatUI: {fileID: 855513737}
   slashAnimator: {fileID: 1392185928}
 --- !u!1001 &458793107589246037

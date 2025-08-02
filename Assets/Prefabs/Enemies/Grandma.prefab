@@ -12,6 +12,26 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: 7752aba9351844ffe96cdb72a3cb9970, type: 2}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4991865
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4991865
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4991865
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.227
+      objectReference: {fileID: 0}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 
@@ -59,6 +79,14 @@ PrefabInstance:
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.381
       objectReference: {fileID: 0}
     - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Sprite
@@ -112,6 +140,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 7752aba9351844ffe96cdb72a3cb9970, type: 2}
   blockSprite: {fileID: 8081247738142240951}
   dodgeSprite: {fileID: 9208686685917145567}
+  blockSpriteTargetOpaqueness: 0.75
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: 0.3, y: 0, z: 0}
   aiProbabilities: {fileID: 11400000, guid: ea7ec0f6f3ab54489be9426bf56d008f, type: 2}
   debuffTurnCount: 2
   debuffMultiplier: 0.5

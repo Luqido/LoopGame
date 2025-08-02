@@ -16,5 +16,5 @@ MonoBehaviour:
   baseDamage: 40
   blockPercentage: 0.51
   blockChance: 0.913
-  dodgePercentage: 0.927
-  dodgeChance: 0.51
+  dodgePercentage: 0.529
+  dodgeChance: 1

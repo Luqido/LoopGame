@@ -60,6 +60,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7211415131032949241, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.662
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.29061034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.29061034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.29061034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.421
+      objectReference: {fileID: 0}
     - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -111,6 +135,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 4920ec7dfa1df49389b38b04eaf61f57, type: 2}
   blockSprite: {fileID: 8081247738142240951}
   dodgeSprite: {fileID: 9208686685917145567}
+  blockSpriteTargetOpaqueness: 0.7
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: 0.3, y: 0, z: 0}
   aiProbabilities: {fileID: 11400000, guid: ed9c1e6c915604a18b912b0bb86c790a, type: 2}
 --- !u!212 &8081247738142240951 stripped
 SpriteRenderer:

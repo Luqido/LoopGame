@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.393
+      objectReference: {fileID: 0}
     - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Size.x
       value: 0.56666666
@@ -114,6 +118,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: c1168c4f1410d48558ef24021da8f49c, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}
+  blockSpriteTargetOpaqueness: 0.17
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: 0.3, y: 0, z: 0}
 --- !u!212 &3698640441156475320 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}

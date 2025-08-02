@@ -19,6 +19,10 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] private UnitStats stats;
     [SerializeField] private SpriteRenderer blockSprite;
     [SerializeField] private SpriteRenderer dodgeSprite;
+    [SerializeField] private float blockSpriteTargetOpaqueness = 1f;
+    [SerializeField] private float dodgeSpriteTargetOpaqueness = 1f;
+    [SerializeField] private Vector3 dodgeMovement;
+    
     protected UnitSkill _activeSkills;
     
     public event UnityAction<int, int, int> HealthChanged;
@@ -54,6 +58,7 @@ public abstract class Unit : MonoBehaviour
                         diff = (int)(diff * (stats.dodgePercentage));
                         value += diff;
                         Debug.Log($"Dodged! Old: {oldValue}, new: {value}");
+                        transform.DOMove(dodgeMovement, 0.2f).SetRelative(true).SetLoops(2, LoopType.Yoyo);
                     }
                 }
 
@@ -91,9 +96,11 @@ public abstract class Unit : MonoBehaviour
     public IEnumerator AttackCoroutine(Unit to)
     {
         _startPosition = transform.position;
-        yield return transform.DOMove(to.damageTakePosition.position, 0.6f).SetEase(Ease.InCubic).WaitForCompletion();
+        transform.DOMove(to.damageTakePosition.position, 0.6f).SetEase(Ease.InCubic);
+        yield return new WaitForSeconds(0.4f);
         animator.SetTrigger("Attack");
         to.CurrentHp -= (int)(stats.baseDamage * AttackMultiplier);
+        yield return new WaitForSeconds(0.2f);
         yield return new WaitForSeconds(0.3f);
         yield return transform.DOMove(_startPosition, 1f).WaitForCompletion();
     }
@@ -101,7 +108,7 @@ public abstract class Unit : MonoBehaviour
     public IEnumerator DodgeCoroutine()
     {
         AddSkill(UnitSkill.Dodge);
-        yield return dodgeSprite.DOFade(1f, 1f).WaitForCompletion();
+        yield return dodgeSprite.DOFade(dodgeSpriteTargetOpaqueness, 1f).WaitForCompletion();
         yield return new WaitForSeconds(0.3f);
         // CombatManager.Instance.onTurnStart.AddListener(WearOffDodge);
     }
@@ -116,7 +123,7 @@ public abstract class Unit : MonoBehaviour
     public IEnumerator BlockCoroutine()
     {
         AddSkill(UnitSkill.Block);
-        yield return blockSprite.DOFade(1f, 1f).WaitForCompletion();
+        yield return blockSprite.DOFade(blockSpriteTargetOpaqueness, 1f).WaitForCompletion();
         yield return new WaitForSeconds(0.3f);
         // CombatManager.Instance.onTurnStart.AddListener(WearOffBlock);
     }
