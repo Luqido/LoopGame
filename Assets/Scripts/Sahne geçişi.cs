@@ -30,4 +30,10 @@ public class Sahnegeçişi : MonoBehaviour
         }
 
     }
+    public void NextLevel()
+    {
+        int currentindex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentindex + 1);
+
+    }
 }
