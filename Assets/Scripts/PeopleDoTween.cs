@@ -8,7 +8,7 @@ public class PeopleDoTween : MonoBehaviour
 {
     [SerializeField] GameObject[] Sekil;
     TrackMoveHandler tr;
-    
+    [SerializeField] private GameObject popupPanel;
     void Start()
     {
         tr = FindAnyObjectByType<TrackMoveHandler>();
@@ -61,13 +61,19 @@ public class PeopleDoTween : MonoBehaviour
             Destroy(sekil);
         }
 
-
+        
 
 
         // Bekle ve sahneyi yeniden yükle
         yield return new WaitForSecondsRealtime(1f);
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
-        
+        RectTransform popupRect = popupPanel.GetComponent<RectTransform>();
+        popupRect.anchoredPosition = new Vector2(0, -400); // ekranýn altý gibi
+        popupPanel.SetActive(true);
+
+        // Yukarý kaydýrarak göster (0, 0 pozisyonuna gitsin)
+        yield return popupRect.DOAnchorPosY(0, 1.5f).SetEase(Ease.OutExpo).WaitForCompletion();
+
+
 
 
 

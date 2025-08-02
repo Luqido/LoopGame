@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 1f602858464ffe5439372aa07913a3ee
+guid: 4dbe4aef262abcf49b720de557ebc3e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1457973528289064159
-    second: kafalar_0
+      213: 6118183153549946932
+    second: "skilllogolar\u0131_0"
   - first:
-      213: -7538702508128192626
-    second: kafalar_1
+      213: -547180337893501971
+    second: "skilllogolar\u0131_1"
   - first:
-      213: 8198785618540131947
-    second: kafalar_2
+      213: -4774772404253527216
+    second: "skilllogolar\u0131_2"
   - first:
-      213: 8966162716905169494
-    second: kafalar_3
+      213: 8209598227178212135
+    second: "skilllogolar\u0131_3"
   - first:
-      213: 28034136965530763
-    second: kafalar_4
+      213: 5020525197929219856
+    second: "skilllogolar\u0131_4"
   - first:
-      213: -1386997475273946777
-    second: kafalar_5
+      213: -2626685166079995851
+    second: "skilllogolar\u0131_5"
   - first:
-      213: -3154857613074904934
-    second: kafalar_6
+      213: -1305882014322149442
+    second: "skilllogolar\u0131_6"
   - first:
-      213: 5246629672955905559
-    second: kafalar_7
+      213: 289727287298575643
+    second: "skilllogolar\u0131_7"
+  - first:
+      213: 6527409393942493683
+    second: "skilllogolar\u0131_8"
+  - first:
+      213: -1134218940796167013
+    second: "skilllogolar\u0131_9"
+  - first:
+      213: -7853171263358463057
+    second: "skilllogolar\u0131_10"
+  - first:
+      213: -6111970161344055213
+    second: "skilllogolar\u0131_11"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,122 +133,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kafalar_0
+      name: "skilllogolar\u0131_0"
       rect:
         serializedVersion: 2
-        x: 34
-        y: 204
-        width: 102
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12b486afccc34cbe0800000000000000
-      internalID: -1457973528289064159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kafalar_1
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 199
-        width: 67
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e873ca7b206216790800000000000000
-      internalID: -7538702508128192626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kafalar_2
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 199
-        width: 62
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b667aaeb410f7c170800000000000000
-      internalID: 8198785618540131947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kafalar_3
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 194
-        width: 77
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 652eb7b7c753e6c70800000000000000
-      internalID: 8966162716905169494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kafalar_4
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 44
-        width: 82
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b844a6726e8936000800000000000000
-      internalID: 28034136965530763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kafalar_5
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 44
-        width: 77
+        x: 4
+        y: 244
+        width: 72
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 769cee5152560cce0800000000000000
-      internalID: -1386997475273946777
+      spriteID: 430bf12a92728e450800000000000000
+      internalID: 6118183153549946932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kafalar_6
+      name: "skilllogolar\u0131_1"
       rect:
         serializedVersion: 2
-        x: 364
-        y: 39
+        x: 84
+        y: 244
         width: 72
-        height: 77
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a98cbbf47b1b734d0800000000000000
-      internalID: -3154857613074904934
+      spriteID: de397cbb1660868f0800000000000000
+      internalID: -547180337893501971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kafalar_7
+      name: "skilllogolar\u0131_2"
       rect:
         serializedVersion: 2
-        x: 519
-        y: 34
-        width: 77
-        height: 102
+        x: 169
+        y: 244
+        width: 57
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +192,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7168f84c3e5cfc840800000000000000
-      internalID: 5246629672955905559
+      spriteID: 0537121dbc99cbdb0800000000000000
+      internalID: -4774772404253527216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_3"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 169
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b42af571a5ee170800000000000000
+      internalID: 8209598227178212135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_4"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 164
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0170870511d7ca540800000000000000
+      internalID: 5020525197929219856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_5"
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 164
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530930b12c32c8bd0800000000000000
+      internalID: -2626685166079995851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_6"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7b1c11a3390ede0800000000000000
+      internalID: -1305882014322149442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_7"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 84
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d4b29ce61550400800000000000000
+      internalID: 289727287298575643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_8"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 84
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f97d759244069a50800000000000000
+      internalID: 6527409393942493683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_9"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c1358f1e17240f0800000000000000
+      internalID: -1134218940796167013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_10"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa39637085ee30390800000000000000
+      internalID: -7853171263358463057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "skilllogolar\u0131_11"
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358fc47558bed2ba0800000000000000
+      internalID: -6111970161344055213
       vertices: []
       indices: 
       edges: []
