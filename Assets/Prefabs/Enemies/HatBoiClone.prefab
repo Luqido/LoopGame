@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 22100000, guid: 55726d31c497746beb571b9b0c2faac7, type: 2}
     - target: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Name
-      value: HatBoi
+      value: HatBoiClone
       objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61,9 +61,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_Size.x
+      value: 0.56666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6808717599093469643, guid: df85063ef062047b39e6d0bee28e2ad9, type: 3}
+    - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 860413697546039320, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
@@ -71,7 +83,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7429450828015114784}
+      addedObject: {fileID: 5151977360415773811}
   m_SourcePrefab: {fileID: 100100000, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
 --- !u!95 &447486033267001467 stripped
 Animator:
@@ -83,7 +95,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
   m_PrefabInstance: {fileID: 2718872020819495220}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7429450828015114784
+--- !u!114 &5151977360415773811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,20 +104,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1685589488673245974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c2ea2800a9d416ca093dd05b2ef4cb6, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bd957e3a66403897d2a37290569417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 447486033267001467}
   damageTakePosition: {fileID: 7726959613144915946}
   healthBarPosition: {fileID: 4733081344964909261}
-  stats: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
+  stats: {fileID: 11400000, guid: c1168c4f1410d48558ef24021da8f49c, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}
-  attackChance: 0.3
-  dodgeChance: 0.4
-  blockChance: 0.1
-  specialChance: 0.2
-  clonePrefab: {fileID: 5151977360415773811, guid: deb1bc712872f458e8ea03d3856ee30c, type: 3}
 --- !u!212 &3698640441156475320 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}

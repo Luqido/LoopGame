@@ -11,12 +11,18 @@ public class CombatUI : MonoBehaviour
     [SerializeField] private CanvasScaler canvasScaler;
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private Button[] enemySelectionButtons;
+    [SerializeField] private UnitHealthDisplay healthDisplayPrefab;
     
     private void Awake()
     {
         attackButton.onClick.AddListener(() => Select(Player.CombatOption.Attack));
         blockButton.onClick.AddListener(() => Select(Player.CombatOption.Block));
         dodgeButton.onClick.AddListener(() => Select(Player.CombatOption.Dodge));
+    }
+
+    private void Start()
+    {
+        CreateHealthBar(CombatManager.Instance.player);
     }
 
     public void InitializeTurnUI(/*stats??*/)
@@ -66,5 +72,11 @@ public class CombatUI : MonoBehaviour
             button.onClick.RemoveAllListeners();
             button.gameObject.SetActive(false);
         }
+    }
+
+    public void CreateHealthBar(Unit unit)
+    {
+        var unitHealthDisplay = Instantiate(healthDisplayPrefab, transform);
+        unitHealthDisplay.Initialize(unit, canvasScaler.referenceResolution);
     }
 }

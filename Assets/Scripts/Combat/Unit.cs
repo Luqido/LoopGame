@@ -15,10 +15,11 @@ public abstract class Unit : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private Transform damageTakePosition;
+    public Transform healthBarPosition;
     [SerializeField] private UnitStats stats;
     [SerializeField] private SpriteRenderer blockSprite;
     [SerializeField] private SpriteRenderer dodgeSprite;
-    private UnitSkill _activeSkills;
+    protected UnitSkill _activeSkills;
     
     public event UnityAction<int, int, int> HealthChanged;
     
@@ -67,7 +68,7 @@ public abstract class Unit : MonoBehaviour
     }
     protected virtual void Awake()
     {
-        _startPosition = transform.position;
+        // _startPosition = transform.position;
     }
 
     protected virtual void Start()
@@ -87,6 +88,7 @@ public abstract class Unit : MonoBehaviour
 
     public IEnumerator AttackCoroutine(Unit to)
     {
+        _startPosition = transform.position;
         yield return transform.DOMove(to.damageTakePosition.position, 0.6f).SetEase(Ease.InCubic).WaitForCompletion();
         animator.SetTrigger("Attack");
         to.CurrentHp -= stats.baseDamage;
@@ -99,14 +101,14 @@ public abstract class Unit : MonoBehaviour
         AddSkill(UnitSkill.Dodge);
         yield return dodgeSprite.DOFade(1f, 1f).WaitForCompletion();
         yield return new WaitForSeconds(0.3f);
-        CombatManager.Instance.onTurnStart.AddListener(WearOffDodge);
+        // CombatManager.Instance.onTurnStart.AddListener(WearOffDodge);
     }
 
-    private void WearOffDodge()
+    protected void WearOffDodge()
     {
         RemoveSkill(UnitSkill.Dodge);
-        CombatManager.Instance.onTurnStart.RemoveListener(WearOffDodge);
-        dodgeSprite.DOFade(0f, 1f).SetDelay(1f);
+        // CombatManager.Instance.onTurnStart.RemoveListener(WearOffDodge);
+        dodgeSprite.DOFade(0f, 1f);
     }
 
     public IEnumerator BlockCoroutine()
@@ -114,13 +116,14 @@ public abstract class Unit : MonoBehaviour
         AddSkill(UnitSkill.Block);
         yield return blockSprite.DOFade(1f, 1f).WaitForCompletion();
         yield return new WaitForSeconds(0.3f);
-        CombatManager.Instance.onTurnStart.AddListener(WearOffBlock);
+        // CombatManager.Instance.onTurnStart.AddListener(WearOffBlock);
     }
-    private void WearOffBlock()
+
+    protected void WearOffBlock()
     {
         RemoveSkill(UnitSkill.Block);
-        CombatManager.Instance.onTurnStart.RemoveListener(WearOffBlock);
-        blockSprite.DOFade(0f, 1f).SetDelay(1f);
+        // CombatManager.Instance.onTurnStart.RemoveListener(WearOffBlock);
+        blockSprite.DOFade(0f, 1f);
     }
     public abstract IEnumerator ExecuteTurn();
 }
