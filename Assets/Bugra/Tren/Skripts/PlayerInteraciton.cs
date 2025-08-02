@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -12,7 +13,11 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
-        if (isInTrigger && Input.GetKeyDown(KeyCode.X) && currentTarget != null)
+       
+    }
+    void OnEtkilesim(InputValue value)
+    {
+        if (isInTrigger  && currentTarget != null)
         {
             interactionManager.InteractWithObject(currentTarget);
         }

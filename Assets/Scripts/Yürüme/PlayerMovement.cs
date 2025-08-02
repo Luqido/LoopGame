@@ -33,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.velocity.y);
         playerRb.velocity = playerVelocity;
 
-        // Hareket varsa ve adým sesi zamaný geldiyse çal
         if (Mathf.Abs(playerVelocity.x) > 0.1f)
         {
             footstepTimer -= Time.deltaTime;

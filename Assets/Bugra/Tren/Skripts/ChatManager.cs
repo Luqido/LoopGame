@@ -44,7 +44,7 @@ public class ChatManager : MonoBehaviour
 
     private void Update()
     {
-        // Eðer yazý yazýlýyorsa ve oyuncu space'e basarsa yazýyý bitir
+        
         if (isTyping && Input.GetKeyDown(KeyCode.Space))
         {
             if (typeCoroutine != null)
@@ -58,7 +58,7 @@ public class ChatManager : MonoBehaviour
 
     private void ShowNPCMessage()
     {
-       // npcNameText.text = currentChatData.npcName;
+       
 
         if (typeCoroutine != null)
             StopCoroutine(typeCoroutine);
@@ -66,7 +66,7 @@ public class ChatManager : MonoBehaviour
         fullMessage = currentChatData.npcMessage;
         typeCoroutine = StartCoroutine(TypeMessage(fullMessage));
 
-        // Butonlarý gizle
+        
         answerButton1.gameObject.SetActive(false);
         answerButton2.gameObject.SetActive(false);
         answerButton3.gameObject.SetActive(false);
@@ -85,7 +85,7 @@ public class ChatManager : MonoBehaviour
 
         isTyping = false;
 
-        // Eðer cevap yoksa otomatik kapat
+      
         if (currentChatData.answers == null || currentChatData.answers.Length == 0)
         {
             Invoke(nameof(EndChat), 1.5f);
@@ -135,7 +135,7 @@ public class ChatManager : MonoBehaviour
                         }
                         else
                         {
-                            EndChat(); // fallback
+                            EndChat(); 
                         }
                     }
                 });

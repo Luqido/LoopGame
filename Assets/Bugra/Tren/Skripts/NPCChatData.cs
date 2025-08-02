@@ -4,17 +4,17 @@ using UnityEngine;
 public class NPCChatData : ScriptableObject
 {
     
-   // public string npcName; // NPC'nin adý
+   // public string npcName; 
     [TextArea(3, 10)]
-    public string npcMessage; // NPC'nin verdiði mesaj (baþlangýç mesajý)
+    public string npcMessage; 
 
-    public Answer[] answers; // 3 farklý cevap (cevaplar ve sonraki mesajlar)
+    public Answer[] answers; 
 }
 
 [System.Serializable]
 public class Answer
 {
-    public string answerText; // Cevap metni
-    public NPCChatData nextChat; // Cevaba baðlý bir sonraki sohbet
+    public string answerText; 
+    public NPCChatData nextChat; 
     public bool endsConversation;
 }
