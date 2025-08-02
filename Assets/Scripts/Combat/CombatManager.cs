@@ -5,15 +5,27 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
+[Flags]
+public enum EnemyType
+{
+    NormalAdam = 1 << 0,
+    Tazi = 1 << 1,
+    MuscleMan = 1 << 2,
+    HatBoi = 1 << 3,
+    FanBoi = 1 << 4,
+    Grandma = 1 << 5,
+    LariyeCroft = 1 << 6,
+}
 public class CombatManager : MonoBehaviour
 {
     public UnityEvent onTurnEnd;
     public UnityEvent onTurnStart;
     
-    [Header("References")]
+    [Header("References")] 
     public Player player;
     public List<Unit> enemies = new();
     [SerializeField] private CombatUI ui;
+    [SerializeField] private List<Unit> enemyPrefabs;
     [Header("Positioning")]
     [SerializeField] private Transform enemyInitialPosition;
     [SerializeField] private float distanceBetweenEnemies;
@@ -21,8 +33,18 @@ public class CombatManager : MonoBehaviour
     [SerializeField] private Unit[] debugEnemies;
     
     public bool IsPlayerTurn { get; private set; } = true;
-    public static CombatManager Instance { get; set; }
+    public static CombatManager Instance { get; private set; }
+    public static EnemyType EnemyToFightAgainst;
 
+    public static void SetEnemiesToFightAgainst(params EnemyType[] enemyTypes)
+    {
+        EnemyToFightAgainst = 0;
+        foreach (var enemyType in enemyTypes)
+        {
+            EnemyToFightAgainst |= enemyType;
+        }
+    }
+    
     private void Awake()
     {
         Instance = this;
@@ -30,7 +52,21 @@ public class CombatManager : MonoBehaviour
 
     private void Start()
     {
-        if (debugEnemies.Length > 0)
+        if (EnemyToFightAgainst != 0)
+        {
+            List<Unit> enemiesToSummon = new();
+            for (int i = 0; i < 7; i++)
+            {
+                if ((EnemyToFightAgainst & (EnemyType)(1 << i)) != 0)
+                {
+                    var enemy = Instantiate(enemyPrefabs[i]);
+                    enemiesToSummon.Add(enemy);
+                }
+            }
+
+            StartCoroutine(StartCombat(enemiesToSummon.ToArray()));
+        }
+        else if (debugEnemies.Length > 0)
         {
             StartCoroutine(StartCombat(debugEnemies));
         }

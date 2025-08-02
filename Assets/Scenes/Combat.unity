@@ -1418,6 +1418,14 @@ MonoBehaviour:
   player: {fileID: 2123469965}
   enemies: []
   ui: {fileID: 855513737}
+  enemyPrefabs:
+  - {fileID: 3066722257008448989, guid: 62af7e1af32f4413181aa12fe4aa04ab, type: 3}
+  - {fileID: 3066722257008448989, guid: eb218e84958f541ad812a5657ff45f5a, type: 3}
+  - {fileID: 2439037989469102561, guid: a54855dfefcd34588bee0d236470359a, type: 3}
+  - {fileID: 7429450828015114784, guid: bd5409cc3f3924f8da2b86a0c201dd12, type: 3}
+  - {fileID: 8007699442326175686, guid: e2750db048dcc458b95e3af45fe95777, type: 3}
+  - {fileID: 7897186218745587862, guid: ee2e04a84774b47ff9ecf8703ad44d74, type: 3}
+  - {fileID: 7354599776496035258, guid: 1f1eb3045b2ce470d9cfa7953ca8fa8c, type: 3}
   enemyInitialPosition: {fileID: 380952997}
   distanceBetweenEnemies: 0.6
   debugEnemies:
