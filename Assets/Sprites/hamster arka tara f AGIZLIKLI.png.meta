@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: fec3e0df21815134aaa64daed652cb01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1629503658176177673
+    second: hamster arka tara f AGIZLIKLI_0
+  - first:
+      213: 7029229466788864502
+    second: hamster arka tara f AGIZLIKLI_1
+  - first:
+      213: -262977468876757708
+    second: hamster arka tara f AGIZLIKLI_2
+  - first:
+      213: -8356890956866263367
+    second: hamster arka tara f AGIZLIKLI_3
+  - first:
+      213: -216807697115716990
+    second: hamster arka tara f AGIZLIKLI_4
+  - first:
+      213: -6453935974073080375
+    second: hamster arka tara f AGIZLIKLI_5
+  - first:
+      213: -2749156829324312487
+    second: hamster arka tara f AGIZLIKLI_6
+  - first:
+      213: -1761405564283034348
+    second: hamster arka tara f AGIZLIKLI_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9066ac191f82d9610800000000000000
+      internalID: 1629503658176177673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 21
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1a8a425f6dc8160800000000000000
+      internalID: 7029229466788864502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 26
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4356ba7a267b95cf0800000000000000
+      internalID: -262977468876757708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 32
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6ef4193fb560c80800000000000000
+      internalID: -8356890956866263367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 31
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282e8d45c8ebdfcf0800000000000000
+      internalID: -216807697115716990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 30
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5624e0d630f66a0800000000000000
+      internalID: -6453935974073080375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_6
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 23
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950094ced6809d9d0800000000000000
+      internalID: -2749156829324312487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster arka tara f AGIZLIKLI_7
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 16
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415638bb8fa3e87e0800000000000000
+      internalID: -1761405564283034348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hamster arka tara f AGIZLIKLI_0: 1629503658176177673
+      hamster arka tara f AGIZLIKLI_1: 7029229466788864502
+      hamster arka tara f AGIZLIKLI_2: -262977468876757708
+      hamster arka tara f AGIZLIKLI_3: -8356890956866263367
+      hamster arka tara f AGIZLIKLI_4: -216807697115716990
+      hamster arka tara f AGIZLIKLI_5: -6453935974073080375
+      hamster arka tara f AGIZLIKLI_6: -2749156829324312487
+      hamster arka tara f AGIZLIKLI_7: -1761405564283034348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

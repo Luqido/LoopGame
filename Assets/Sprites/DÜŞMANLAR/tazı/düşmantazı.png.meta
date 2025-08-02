@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 9aa7b11f6e7404d558e0662dc1ffddd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -347483585287370821
+    second: "du\u0308s\u0327mantaz\u0131_0"
+  - first:
+      213: -202947710357166057
+    second: "du\u0308s\u0327mantaz\u0131_1"
+  - first:
+      213: 3543274826591523863
+    second: "du\u0308s\u0327mantaz\u0131_2"
+  - first:
+      213: -4282899628180142383
+    second: "du\u0308s\u0327mantaz\u0131_3"
+  - first:
+      213: 5392151931134743890
+    second: "du\u0308s\u0327mantaz\u0131_4"
+  - first:
+      213: -9195511518752066654
+    second: "du\u0308s\u0327mantaz\u0131_5"
+  - first:
+      213: 4945987560476530702
+    second: "du\u0308s\u0327mantaz\u0131_6"
+  - first:
+      213: 7742263201337087455
+    second: "du\u0308s\u0327mantaz\u0131_7"
+  - first:
+      213: -7646119464107923116
+    second: "du\u0308s\u0327mantaz\u0131_8"
+  - first:
+      213: -7101160501455251333
+    second: "du\u0308s\u0327mantaz\u0131_9"
+  - first:
+      213: 2590501385339307831
+    second: "du\u0308s\u0327mantaz\u0131_10"
+  - first:
+      213: 8206292816610050730
+    second: "du\u0308s\u0327mantaz\u0131_11"
+  - first:
+      213: -5149217183478456243
+    second: "du\u0308s\u0327mantaz\u0131_12"
+  - first:
+      213: 21042098144927064
+    second: "du\u0308s\u0327mantaz\u0131_13"
+  - first:
+      213: -5182256913586799624
+    second: "du\u0308s\u0327mantaz\u0131_14"
+  - first:
+      213: -5573218239943009538
+    second: "du\u0308s\u0327mantaz\u0131_15"
+  - first:
+      213: -8436141048508840982
+    second: "du\u0308s\u0327mantaz\u0131_16"
+  - first:
+      213: -775458734914194361
+    second: "du\u0308s\u0327mantaz\u0131_17"
+  - first:
+      213: -7551217069851159950
+    second: "du\u0308s\u0327mantaz\u0131_18"
+  - first:
+      213: 1978534143368485586
+    second: "du\u0308s\u0327mantaz\u0131_19"
+  - first:
+      213: 7996086977320092536
+    second: "du\u0308s\u0327mantaz\u0131_20"
+  - first:
+      213: 5261778426639418762
+    second: "du\u0308s\u0327mantaz\u0131_21"
+  - first:
+      213: 1889254057792552787
+    second: "du\u0308s\u0327mantaz\u0131_22"
+  - first:
+      213: -3750660128174325733
+    second: "du\u0308s\u0327mantaz\u0131_23"
+  - first:
+      213: -1537805418490794549
+    second: "du\u0308s\u0327mantaz\u0131_24"
+  - first:
+      213: -3438300997908203279
+    second: "du\u0308s\u0327mantaz\u0131_25"
+  - first:
+      213: -904441192132418799
+    second: "du\u0308s\u0327mantaz\u0131_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_0"
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2794
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7caad258d7d2bf0800000000000000
+      internalID: -347483585287370821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_1"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2669
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718ae28f12cfe2df0800000000000000
+      internalID: -202947710357166057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_2"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2669
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71452948ead3c2130800000000000000
+      internalID: 3543274826591523863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_3"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2669
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d68badda751094c0800000000000000
+      internalID: -4282899628180142383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_4"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2349
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255193ecc95c4da40800000000000000
+      internalID: 5392151931134743890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_5"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2349
+        width: 112
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a335cc5efaf26080800000000000000
+      internalID: -9195511518752066654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_6"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2349
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0854b53b7da3a440800000000000000
+      internalID: 4945987560476530702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_7"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2029
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd596418c5b027b60800000000000000
+      internalID: 7742263201337087455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_8"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2029
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459a5a7bbd683e590800000000000000
+      internalID: -7646119464107923116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_9"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1679
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7899b1c52c937d90800000000000000
+      internalID: -7101160501455251333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_10"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1709
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7378e4fe84f43f320800000000000000
+      internalID: 2590501385339307831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_11"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1359
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2c1e086db92e170800000000000000
+      internalID: 8206292816610050730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_12"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1389
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40ed6bd04e4a88b0800000000000000
+      internalID: -5149217183478456243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_13"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1049
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dd1414da1ca4000800000000000000
+      internalID: 21042098144927064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_14"
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1114
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbb8da3bcce418b0800000000000000
+      internalID: -5182256913586799624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_15"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1124
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa1878f983f7a2b0800000000000000
+      internalID: -5573218239943009538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_16"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1069
+        width: 122
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae30a88b96eccea80800000000000000
+      internalID: -8436141048508840982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_17"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 749
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744377f93640d35f0800000000000000
+      internalID: -775458734914194361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_18"
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 779
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272d7a14510b43790800000000000000
+      internalID: -7551217069851159950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_19"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 789
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dad577125a257b10800000000000000
+      internalID: 1978534143368485586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_20"
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 749
+        width: 147
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738a44adbec7fe60800000000000000
+      internalID: 7996086977320092536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_21"
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 509
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8508a6d997950940800000000000000
+      internalID: 5261778426639418762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_22"
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 494
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fb03d4e8af73a10800000000000000
+      internalID: 1889254057792552787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_23"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 429
+        width: 132
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10c2fa3c7af2fbc0800000000000000
+      internalID: -3750660128174325733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_24"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd6f299e1e98aae0800000000000000
+      internalID: -1537805418490794549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_25"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 194
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f87fc49573b840d0800000000000000
+      internalID: -3438300997908203279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "du\u0308s\u0327mantaz\u0131_26"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 109
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11367b61787c273f0800000000000000
+      internalID: -904441192132418799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "du\u0308s\u0327mantaz\u0131_0": -347483585287370821
+      "du\u0308s\u0327mantaz\u0131_1": -202947710357166057
+      "du\u0308s\u0327mantaz\u0131_10": 2590501385339307831
+      "du\u0308s\u0327mantaz\u0131_11": 8206292816610050730
+      "du\u0308s\u0327mantaz\u0131_12": -5149217183478456243
+      "du\u0308s\u0327mantaz\u0131_13": 21042098144927064
+      "du\u0308s\u0327mantaz\u0131_14": -5182256913586799624
+      "du\u0308s\u0327mantaz\u0131_15": -5573218239943009538
+      "du\u0308s\u0327mantaz\u0131_16": -8436141048508840982
+      "du\u0308s\u0327mantaz\u0131_17": -775458734914194361
+      "du\u0308s\u0327mantaz\u0131_18": -7551217069851159950
+      "du\u0308s\u0327mantaz\u0131_19": 1978534143368485586
+      "du\u0308s\u0327mantaz\u0131_2": 3543274826591523863
+      "du\u0308s\u0327mantaz\u0131_20": 7996086977320092536
+      "du\u0308s\u0327mantaz\u0131_21": 5261778426639418762
+      "du\u0308s\u0327mantaz\u0131_22": 1889254057792552787
+      "du\u0308s\u0327mantaz\u0131_23": -3750660128174325733
+      "du\u0308s\u0327mantaz\u0131_24": -1537805418490794549
+      "du\u0308s\u0327mantaz\u0131_25": -3438300997908203279
+      "du\u0308s\u0327mantaz\u0131_26": -904441192132418799
+      "du\u0308s\u0327mantaz\u0131_3": -4282899628180142383
+      "du\u0308s\u0327mantaz\u0131_4": 5392151931134743890
+      "du\u0308s\u0327mantaz\u0131_5": -9195511518752066654
+      "du\u0308s\u0327mantaz\u0131_6": 4945987560476530702
+      "du\u0308s\u0327mantaz\u0131_7": 7742263201337087455
+      "du\u0308s\u0327mantaz\u0131_8": -7646119464107923116
+      "du\u0308s\u0327mantaz\u0131_9": -7101160501455251333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
