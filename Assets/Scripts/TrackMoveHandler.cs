@@ -6,12 +6,17 @@ using UnityEngine;
 
 public class TrackMoveHandler :  MonoBehaviour
 {
+    HamsterDoTween hamster;
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private float speed = 2f;
     
     private List<Transform> _currentlyMovingTransforms = new();
     private Dictionary<Transform, int> _targetWaypoints = new();
     private Dictionary<Transform, Tween> _tweens = new();
+    private void Start()
+    {
+        hamster = FindAnyObjectByType<HamsterDoTween>();
+    }
     public void MoveAlongTrack(Transform t, Action<int> onWaypointReached)
     {
         _currentlyMovingTransforms.Add(t);
@@ -27,6 +32,9 @@ public class TrackMoveHandler :  MonoBehaviour
             foreach (var t in _currentlyMovingTransforms)
             {
                 _tweens[t].Pause();
+                hamster.Animasyon1(false);
+                hamster.Animasyon2(false);
+
             }
         }
         else
@@ -34,6 +42,7 @@ public class TrackMoveHandler :  MonoBehaviour
             foreach (var t in _currentlyMovingTransforms)
             {
                 _tweens[t].Play();
+                
             }
         }
     }

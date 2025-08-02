@@ -17,9 +17,12 @@ public class PeopleDoTween : MonoBehaviour
     }
     IEnumerator Sýralý()
     {
-        yield return transform.DOMove(new Vector3(1, 1, 1), 2).WaitForCompletion();
+        yield return transform.DOMove(new Vector3(-4, 4, 0), 1).WaitForCompletion();
         Destroy(gameObject);
-    }
+        
 
+            
+    }
+    
     
 }
