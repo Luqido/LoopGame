@@ -1,49 +1,46 @@
 fileFormatVersion: 2
-guid: 5cc715345de2843bea13fb7f4f5f2fc4
+guid: 2df30fea7f7a944fe983d38d89bfe34d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1380140247275569261
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_0"
+      213: 1865980690822471841
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_0"
   - first:
-      213: 9038778660413031570
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_1"
+      213: 2256291525354412684
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_1"
   - first:
-      213: -941553884858673613
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_2"
+      213: 8949112405435517131
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_2"
   - first:
-      213: -8726344162895004270
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_3"
+      213: -8069727403221882250
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_3"
   - first:
-      213: -3818141502462602827
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_4"
+      213: -8397829022284090016
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_4"
   - first:
-      213: 1918111286360395639
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_5"
+      213: 4707798537108819934
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_5"
   - first:
-      213: 7572356035456724327
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_6"
+      213: 3469238106400397497
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_6"
   - first:
-      213: -7591708395064844275
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_7"
+      213: -6998974246421754920
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_7"
   - first:
-      213: -1940858493888251998
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_8"
+      213: 385173686908139741
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_8"
   - first:
-      213: -4896695881640391609
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_9"
+      213: 8681387764496865678
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_9"
   - first:
-      213: -8733132352497988431
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_10"
+      213: 6346483070926553072
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_10"
   - first:
-      213: 6094555501357251449
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_11"
+      213: 1225502108885059387
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_11"
   - first:
-      213: -3490270761679323602
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_12"
-  - first:
-      213: -8957575226339647628
-    second: "du\u0308s\u0327man_sald\u0131r\u0131_13"
+      213: 1498074915194027719
+    second: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_12"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,352 +132,269 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_0"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_0"
       rect:
         serializedVersion: 2
-        x: 134
-        y: 4659
-        width: 142
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39f7be4e1c1c8dce0800000000000000
-      internalID: -1380140247275569261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_1"
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 4434
+        x: 123
+        y: 17
         width: 102
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 294cc495d41307d70800000000000000
-      internalID: 9038778660413031570
+      spriteID: 1a0263a4d8b45e910800000000000000
+      internalID: 1865980690822471841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_2"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_1"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 4034
+        x: 363
+        y: 17
         width: 102
         height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3361c14fabdeee2f0800000000000000
-      internalID: -941553884858673613
+      spriteID: c8a597e1035ff4f10800000000000000
+      internalID: 2256291525354412684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_3"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_2"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 3634
+        x: 603
+        y: 17
         width: 102
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29df6dec73cc5e680800000000000000
-      internalID: -8726344162895004270
+      spriteID: bc8860d7152a13c70800000000000000
+      internalID: 8949112405435517131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_4"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_3"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 3234
+        x: 843
+        y: 17
         width: 102
         height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b15a8b688c330bc0800000000000000
-      internalID: -3818141502462602827
+      spriteID: 67a69b89ea1920090800000000000000
+      internalID: -8069727403221882250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_5"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_4"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 2834
+        x: 1083
+        y: 17
         width: 102
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77fcd276d008e9a10800000000000000
-      internalID: 1918111286360395639
+      spriteID: 0657a427ffae47b80800000000000000
+      internalID: -8397829022284090016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_6"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_5"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 2434
+        x: 1323
+        y: 17
         width: 102
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76dee26b1b9661960800000000000000
-      internalID: 7572356035456724327
+      spriteID: edf897693d5755140800000000000000
+      internalID: 4707798537108819934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_7"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_6"
       rect:
         serializedVersion: 2
-        x: 154
-        y: 2034
+        x: 1563
+        y: 17
         width: 102
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d002fc1ff65d4a690800000000000000
-      internalID: -7591708395064844275
+      spriteID: 9b89e3d4da5352030800000000000000
+      internalID: 3469238106400397497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_8"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_7"
       rect:
         serializedVersion: 2
-        x: 149
-        y: 1634
+        x: 1798
+        y: 17
         width: 107
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a7bd70ab7fa015e0800000000000000
-      internalID: -1940858493888251998
+      spriteID: 8db8ce94106aede90800000000000000
+      internalID: -6998974246421754920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_9"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_8"
       rect:
         serializedVersion: 2
-        x: 124
-        y: 1234
+        x: 2013
+        y: 17
         width: 132
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74cc4b91a017b0cb0800000000000000
-      internalID: -4896695881640391609
+      spriteID: dd8bcf07d69685500800000000000000
+      internalID: 385173686908139741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_10"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_9"
       rect:
         serializedVersion: 2
-        x: 109
-        y: 834
+        x: 2238
+        y: 17
         width: 147
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bcc2e0456eadc680800000000000000
-      internalID: -8733132352497988431
+      spriteID: e8912440d2c7a7870800000000000000
+      internalID: 8681387764496865678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_11"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_10"
       rect:
         serializedVersion: 2
-        x: 84
-        y: 434
+        x: 2453
+        y: 17
         width: 172
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97b3d4a20f5349450800000000000000
-      internalID: 6094555501357251449
+      spriteID: 0ff7b975abc331850800000000000000
+      internalID: 6346483070926553072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_12"
+      name: "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_12"
       rect:
         serializedVersion: 2
-        x: 49
-        y: 94
-        width: 77
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2efb280c31109fc0800000000000000
-      internalID: -3490270761679323602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "du\u0308s\u0327man_sald\u0131r\u0131_13"
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 34
-        width: 102
+        x: 2659
+        y: 17
+        width: 206
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47f9f297acc40b380800000000000000
-      internalID: -8957575226339647628
+      spriteID: 7ce301fb23b3ac410800000000000000
+      internalID: 1498074915194027719
       vertices: []
       indices: 
       edges: []
@@ -489,7 +403,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d11f8883ec7684d428e203f33086e924
     internalID: 0
     vertices: []
     indices: 
@@ -499,20 +413,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "du\u0308s\u0327man_sald\u0131r\u0131_0": -1380140247275569261
-      "du\u0308s\u0327man_sald\u0131r\u0131_1": 9038778660413031570
-      "du\u0308s\u0327man_sald\u0131r\u0131_10": -8733132352497988431
-      "du\u0308s\u0327man_sald\u0131r\u0131_11": 6094555501357251449
-      "du\u0308s\u0327man_sald\u0131r\u0131_12": -3490270761679323602
-      "du\u0308s\u0327man_sald\u0131r\u0131_13": -8957575226339647628
-      "du\u0308s\u0327man_sald\u0131r\u0131_2": -941553884858673613
-      "du\u0308s\u0327man_sald\u0131r\u0131_3": -8726344162895004270
-      "du\u0308s\u0327man_sald\u0131r\u0131_4": -3818141502462602827
-      "du\u0308s\u0327man_sald\u0131r\u0131_5": 1918111286360395639
-      "du\u0308s\u0327man_sald\u0131r\u0131_6": 7572356035456724327
-      "du\u0308s\u0327man_sald\u0131r\u0131_7": -7591708395064844275
-      "du\u0308s\u0327man_sald\u0131r\u0131_8": -1940858493888251998
-      "du\u0308s\u0327man_sald\u0131r\u0131_9": -4896695881640391609
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_0": 1865980690822471841
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_1": 2256291525354412684
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_10": 6346483070926553072
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_12": 1498074915194027719
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_2": 8949112405435517131
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_3": -8069727403221882250
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_4": -8397829022284090016
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_5": 4707798537108819934
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_6": 3469238106400397497
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_7": -6998974246421754920
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_8": 385173686908139741
+      "du\u0308s\u0327man_sald\u0131r\u0131-Sheet_9": 8681387764496865678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

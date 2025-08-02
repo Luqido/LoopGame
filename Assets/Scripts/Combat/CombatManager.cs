@@ -15,9 +15,15 @@ public class CombatManager : MonoBehaviour
 {
     public UnityEvent onTurnEnd;
     public UnityEvent onTurnStart;
-    [SerializeField] private Player player;
+    public Player player;
     [SerializeField] private BasicEnemy enemy;
     private bool _isPlayerTurn;
+    public static CombatManager Instance { get; set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
