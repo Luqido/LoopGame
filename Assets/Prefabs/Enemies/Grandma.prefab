@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 22100000, guid: 138a97b79fe0b4a8eada2d5c1e092c7b, type: 2}
     - target: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Name
-      value: Enemy Variant 2
+      value: Grandma
       objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -64,8 +64,64 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -3109406387701426132, guid: 57520ef38b7d346af810b3cb8306b194, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 860413697546039320, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+    - {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7897186218745587862}
   m_SourcePrefab: {fileID: 100100000, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+--- !u!4 &950451157537007786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7211415131032949241, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2856490488137625485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5656788754241361630, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5380161151544293404 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6628045858173827953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7897186218745587862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628045858173827953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc60a221f624c2db4572d5914331481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5380161151544293404}
+  damageTakePosition: {fileID: 2856490488137625485}
+  healthBarPosition: {fileID: 950451157537007786}
+  stats: {fileID: 11400000, guid: 7752aba9351844ffe96cdb72a3cb9970, type: 2}
+  blockSprite: {fileID: 8081247738142240951}
+  dodgeSprite: {fileID: 9208686685917145567}
+  aiProbabilities: {fileID: 11400000, guid: ea7ec0f6f3ab54489be9426bf56d008f, type: 2}
+  debuffTurnCount: 2
+  debuffMultiplier: 0.5
+--- !u!212 &8081247738142240951 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1802255208574028260, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &9208686685917145567 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}

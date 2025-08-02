@@ -12,13 +12,21 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: 0e016cc9151b64f99ac63fda39a9d271, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e016cc9151b64f99ac63fda39a9d271, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: aiProbabilities
+      value: 
+      objectReference: {fileID: 11400000, guid: 7fb774bb68b36419782fdf7e9aa26b9f, type: 2}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 76883f7ad275048dda2c0d4244dc65f6, type: 2}
     - target: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Name
-      value: NormalAdam 1
+      value: Tazi
       objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x

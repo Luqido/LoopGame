@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5854844993058121857}
   - component: {fileID: 8180883064058018124}
   - component: {fileID: 2562149751246405967}
-  - component: {fileID: 860413697546039320}
+  - component: {fileID: 1095623856119618793}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &860413697546039320
+--- !u!114 &1095623856119618793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,15 +124,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3665706926071710242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c2a786095d48b9b20a9b82c2bca0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a3d2d61366f454884222fc9959eeaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2562149751246405967}
   damageTakePosition: {fileID: 5656788754241361630}
   healthBarPosition: {fileID: 7211415131032949241}
-  stats: {fileID: 11400000, guid: 121e0a9749a4642b69dc1e815cd57c42, type: 2}
+  stats: {fileID: 0}
   blockSprite: {fileID: 1802255208574028260}
   dodgeSprite: {fileID: 1652656480395415692}
+  aiProbabilities: {fileID: 0}
 --- !u!1 &6154731470374052850
 GameObject:
   m_ObjectHideFlags: 0

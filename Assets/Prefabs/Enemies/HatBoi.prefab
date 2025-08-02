@@ -66,6 +66,7 @@ PrefabInstance:
       objectReference: {fileID: -6808717599093469643, guid: df85063ef062047b39e6d0bee28e2ad9, type: 3}
     m_RemovedComponents:
     - {fileID: 860413697546039320, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+    - {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -101,10 +102,7 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}
-  attackChance: 0.3
-  dodgeChance: 0.4
-  blockChance: 0.1
-  specialChance: 0.2
+  aiProbabilities: {fileID: 11400000, guid: abb96b0bbf87146e9aaf5fb7f0774056, type: 2}
   clonePrefab: {fileID: 5151977360415773811, guid: deb1bc712872f458e8ea03d3856ee30c, type: 3}
 --- !u!212 &3698640441156475320 stripped
 SpriteRenderer:

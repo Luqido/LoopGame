@@ -22,6 +22,8 @@ public abstract class Unit : MonoBehaviour
     protected UnitSkill _activeSkills;
     
     public event UnityAction<int, int, int> HealthChanged;
+
+    public float AttackMultiplier { get; set; } = 1f;
     
     private Vector3 _startPosition;
     private int _currentHp;
@@ -91,7 +93,7 @@ public abstract class Unit : MonoBehaviour
         _startPosition = transform.position;
         yield return transform.DOMove(to.damageTakePosition.position, 0.6f).SetEase(Ease.InCubic).WaitForCompletion();
         animator.SetTrigger("Attack");
-        to.CurrentHp -= stats.baseDamage;
+        to.CurrentHp -= (int)(stats.baseDamage * AttackMultiplier);
         yield return new WaitForSeconds(0.3f);
         yield return transform.DOMove(_startPosition, 1f).WaitForCompletion();
     }
@@ -104,11 +106,11 @@ public abstract class Unit : MonoBehaviour
         // CombatManager.Instance.onTurnStart.AddListener(WearOffDodge);
     }
 
-    protected void WearOffDodge()
+    protected IEnumerator WearOffDodge()
     {
         RemoveSkill(UnitSkill.Dodge);
         // CombatManager.Instance.onTurnStart.RemoveListener(WearOffDodge);
-        dodgeSprite.DOFade(0f, 1f);
+        yield return dodgeSprite.DOFade(0f, 1f).WaitForCompletion();
     }
 
     public IEnumerator BlockCoroutine()
@@ -119,11 +121,22 @@ public abstract class Unit : MonoBehaviour
         // CombatManager.Instance.onTurnStart.AddListener(WearOffBlock);
     }
 
-    protected void WearOffBlock()
+    protected IEnumerator WearOffBlock()
     {
         RemoveSkill(UnitSkill.Block);
         // CombatManager.Instance.onTurnStart.RemoveListener(WearOffBlock);
-        blockSprite.DOFade(0f, 1f);
+        yield return blockSprite.DOFade(0f, 1f).WaitForCompletion();
     }
-    public abstract IEnumerator ExecuteTurn();
+
+    public virtual IEnumerator ExecuteTurn()
+    {
+        if (_activeSkills.HasFlag(UnitSkill.Block))
+        {
+            yield return WearOffBlock();
+        }
+        else if (_activeSkills.HasFlag(UnitSkill.Dodge))
+        {
+            yield return WearOffDodge();
+        }
+    }
 }

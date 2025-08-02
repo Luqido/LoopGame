@@ -1,44 +1,45 @@
 using System.Collections;
 using UnityEngine;
 
-public abstract class Enemy : Unit
+public class Enemy : Unit
 {
-    [Range(0f, 1f)] [SerializeField] protected float attackChance;
-    [Range(0f, 1f)] [SerializeField] protected float dodgeChance;
-    [Range(0f, 1f)] [SerializeField] protected float blockChance;
-    [Range(0f, 1f)] [SerializeField] protected float specialChance;
+    [SerializeField] protected EnemyAIProbabilities aiProbabilities;
 
     public override IEnumerator ExecuteTurn()
     {
-        if (_activeSkills.HasFlag(UnitSkill.Block))
-        {
-            WearOffBlock();
-            yield return new WaitForSeconds(1f);
-        }
-        else if (_activeSkills.HasFlag(UnitSkill.Dodge))
-        {
-            WearOffDodge();
-            yield return new WaitForSeconds(1f);
-        }
+        yield return base.ExecuteTurn();
+
         var randomValue = Random.value;
 
-        if (randomValue < attackChance)
+        if (randomValue < aiProbabilities.attackUseChance)
         {
             yield return AttackCoroutine(CombatManager.Instance.player);
+            yield break;
         }
-        else if (randomValue < attackChance + dodgeChance)
+        randomValue -= aiProbabilities.attackUseChance;
+        
+        if (randomValue < aiProbabilities.dodgeUseChance)
         {
             yield return DodgeCoroutine();
+            yield break;
         }
-        else if (randomValue < attackChance + dodgeChance + blockChance)
+        randomValue -= aiProbabilities.dodgeUseChance;
+        
+        if (randomValue < aiProbabilities.blockUseChance)
         {
             yield return BlockCoroutine();
+            yield break;
         }
-        else if (randomValue < attackChance + dodgeChance + blockChance + specialChance)
+        randomValue -= aiProbabilities.blockUseChance;
+        
+        if (randomValue < aiProbabilities.specialUseChance)
         {
             yield return ExecuteSpecial();
         }
     }
 
-    public abstract IEnumerator ExecuteSpecial();
+    public virtual IEnumerator ExecuteSpecial()
+    {
+        yield break;
+    }
 }

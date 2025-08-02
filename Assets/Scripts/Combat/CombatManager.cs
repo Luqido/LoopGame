@@ -5,13 +5,6 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
-
-//TODO Player selection 
-//TODO Player stats
-//TODO Enemy turn, ai, stats
-//TODO Animation of combat
-//
-
 public class CombatManager : MonoBehaviour
 {
     public UnityEvent onTurnEnd;

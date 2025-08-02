@@ -32,6 +32,8 @@ public class Player : Unit
 
     public override IEnumerator ExecuteTurn()
     {
+        yield return base.ExecuteTurn();
+        
         combatUI.InitializeTurnUI();
         yield return new WaitUntil(() => CurrentCombatOption != null);
         switch (CurrentCombatOption)

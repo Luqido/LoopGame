@@ -12,13 +12,21 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: 195745338f71141d6a4e4a76dc2ec936, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 195745338f71141d6a4e4a76dc2ec936, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: aiProbabilities
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ea447806cb444a50b3a7b678957bacb, type: 2}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: fa810c34f8d9d4002a98c35808bb28ff, type: 2}
     - target: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Name
-      value: Enemy Variant
+      value: NormalAdam
       objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x

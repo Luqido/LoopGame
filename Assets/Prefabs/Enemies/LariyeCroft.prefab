@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: e9da8538a2f7840a9b4c29b71696f7ae, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: e9da8538a2f7840a9b4c29b71696f7ae, type: 2}
+    - target: {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: aiProbabilities
+      value: 
+      objectReference: {fileID: 11400000, guid: 8610dd6a862614ec2af427eff4c54317, type: 2}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 

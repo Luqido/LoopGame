@@ -64,8 +64,61 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -3029970447126476980, guid: ed4de672eea264c2e8eaa973b048869b, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2439037989469102561}
   m_SourcePrefab: {fileID: 100100000, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+--- !u!4 &950451157537007786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7211415131032949241, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2856490488137625485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5656788754241361630, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5380161151544293404 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6628045858173827953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2439037989469102561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628045858173827953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f24690ed394d60a10bad224e4507b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5380161151544293404}
+  damageTakePosition: {fileID: 2856490488137625485}
+  healthBarPosition: {fileID: 950451157537007786}
+  stats: {fileID: 11400000, guid: 4920ec7dfa1df49389b38b04eaf61f57, type: 2}
+  blockSprite: {fileID: 8081247738142240951}
+  dodgeSprite: {fileID: 9208686685917145567}
+  aiProbabilities: {fileID: 11400000, guid: ed9c1e6c915604a18b912b0bb86c790a, type: 2}
+--- !u!212 &8081247738142240951 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1802255208574028260, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &9208686685917145567 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
