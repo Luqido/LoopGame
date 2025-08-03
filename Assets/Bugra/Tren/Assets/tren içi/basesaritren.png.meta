@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 24901fdb14437d4429e885c22cdf092f
+guid: ec519271662338d4eb3d26fb35d4a9c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6689786420250931840
-    second: "TREN DI\u015E D\u0130REKT_0"
-  - first:
-      213: 5906438222011325707
-    second: "TREN DI\u015E D\u0130REKT_1"
+      213: -5167446244917345200
+    second: basesaritren_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "TREN DI\u015E D\u0130REKT_0"
+      name: basesaritren_0
       rect:
         serializedVersion: 2
         x: 0
@@ -157,8 +154,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08d06bdd1ba1923a0800000000000000
-      internalID: -6689786420250931840
+      spriteID: 05486cfb40b8948b0800000000000000
+      internalID: -5167446244917345200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64015803f48889e4398f3dcaf72fe32c
+      internalID: -1284189895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25294b2e525cc1847bbd32bb06743980
+      internalID: 773203204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f7d6c71e32be488559fbdf21cef96
+      internalID: -115103003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52b5d6954a3f4e49973a83036416128
+      internalID: -969095639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_5
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a722bb84e360d469936f198b99684f
+      internalID: 1802868687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basesaritren_6
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1777475aa268184bbdbdffdf8bf35f8
+      internalID: 1807477833
       vertices: []
       indices: 
       edges: []
@@ -167,7 +296,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7e863454fbca88c47aa14069797cb141
+    spriteID: 214b7161c8d90e641ae1c8ca4e4d040a
     internalID: 0
     vertices: []
     indices: 
@@ -177,7 +306,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "TREN DI\u015E D\u0130REKT_0": -6689786420250931840
+      basesaritren_0: -5167446244917345200
+      basesaritren_1: -1284189895
+      basesaritren_2: 773203204
+      basesaritren_3: -115103003
+      basesaritren_4: -969095639
+      basesaritren_5: 1802868687
+      basesaritren_6: 1807477833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

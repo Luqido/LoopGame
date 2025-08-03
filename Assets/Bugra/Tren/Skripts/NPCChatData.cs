@@ -17,4 +17,5 @@ public class Answer
     public string answerText; 
     public NPCChatData nextChat; 
     public bool endsConversation;
+    public bool startsCombat;
 }

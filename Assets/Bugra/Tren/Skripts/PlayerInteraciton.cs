@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     private bool isInTrigger = false;
-    private Transform currentTarget;
+    public Transform currentTarget { get; private set; }
 
     public InteractionManager interactionManager;
 
