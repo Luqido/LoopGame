@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f1e27831a3416095cae72b88aabf29, type: 3}
   m_Name: HatBoiCloneStats
   m_EditorClassIdentifier: 
-  unitName: Hat Boi
+  unitName: Hat Boi Clone
   health: 1
   baseDamage: 0
+  shortDescription: Such a deceiver. Don't trust everything you see.
   blockPercentage: 0
   blockChance: 0
   dodgePercentage: 0

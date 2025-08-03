@@ -20,6 +20,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: HatBoiClone
       objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.56666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.0111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.56666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0111111
+      objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -95,6 +111,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
   m_PrefabInstance: {fileID: 2718872020819495220}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1618891262232415153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1685589488673245974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
@@ -115,6 +136,7 @@ MonoBehaviour:
   animator: {fileID: 447486033267001467}
   damageTakePosition: {fileID: 7726959613144915946}
   healthBarPosition: {fileID: 4733081344964909261}
+  talkBubblePosition: {fileID: 1618891262232415153}
   stats: {fileID: 11400000, guid: c1168c4f1410d48558ef24021da8f49c, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}

@@ -15,6 +15,7 @@ MonoBehaviour:
   unitName: Hat Boi
   health: 150
   baseDamage: 30
+  shortDescription: Such a deceiver. Don't trust everything you see.
   blockPercentage: 0.6
   blockChance: 0.949
   dodgePercentage: 1

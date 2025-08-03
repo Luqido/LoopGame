@@ -113,6 +113,11 @@ public class CombatManager : MonoBehaviour
         enemies.Add(enemy);
         ui.CreateHealthBar(enemy, false);
         
+        RepositionEnemies(animate);
+    }
+
+    public void RepositionEnemies(bool animate = false)
+    {
         var offset = distanceBetweenEnemies * (enemies.Count - 1) / -2f; 
         if (!animate)
         {

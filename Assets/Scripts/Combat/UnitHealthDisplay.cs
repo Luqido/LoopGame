@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UnitHealthDisplay : MonoBehaviour
 {
     [SerializeField] private TMP_Text nameText;
+    [SerializeField] private TMP_Text nameText2;
     [SerializeField] private Image healthBar;
     [SerializeField] private SlicedFilledImage slicedFilledHealthBar;
     [SerializeField] private Unit unit;
@@ -28,10 +29,23 @@ public class UnitHealthDisplay : MonoBehaviour
                 (float)currentHp / startingHp, 
                 0.3f);
 
-        // if (currentHp <= 0)
-        // {
-        //     Destroy(gameObject, 0.31f);
-        // }
+        var oldHp = previousHp;
+        
+        DOTween.To(
+            () => oldHp,
+            x => {
+                oldHp = x;
+                nameText.text = $"{unit.stats.unitName} ({oldHp}/{startingHp})";
+                nameText2.text = $"{unit.stats.unitName} ({oldHp}/{startingHp})";
+            },
+            currentHp,
+            0.3f
+        ).SetEase(Ease.OutCubic);
+
+        if (currentHp <= 0)
+        {
+            Destroy(gameObject, 1f);
+        }
     }
 
     private void OnDestroy()
@@ -49,7 +63,9 @@ public class UnitHealthDisplay : MonoBehaviour
         // _refRes = referenceResolution;
         _rectTransform = transform as RectTransform;
         slicedFilledHealthBar.color = isPlayer ? playerColor : enemyColor;
-        nameText.text = unit.stats.unitName;
+        nameText2.color = isPlayer ? playerColor : enemyColor;
+        nameText.text = $"{unit.stats.unitName} ({unit.stats.health}/{unit.stats.health})";
+        nameText2.text = $"{unit.stats.unitName} ({unit.stats.health}/{unit.stats.health})";
         // _rectTransform.anchorMin = Vector2.zero;
         // _rectTransform.anchorMax = Vector2.zero;
         // _rectTransform.sizeDelta = new Vector2(200, 50);

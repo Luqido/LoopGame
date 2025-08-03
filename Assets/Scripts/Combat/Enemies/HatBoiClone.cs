@@ -6,4 +6,9 @@ public class HatBoiClone : Unit
     {
         yield break;
     }
+    
+    private void OnDestroy()
+    {
+        HatBoiEnemy.CloneActive = false;
+    }
 }

@@ -14,6 +14,7 @@ public class Player : Unit
     
     [SerializeField] private CombatUI combatUI;
     [SerializeField] private Animator slashAnimator;
+    [SerializeField] private Animator smokeAnimator;
     [SerializeField] private int specialDamage;
     
     public CombatOption? CurrentCombatOption { get; set; } = null;
@@ -86,7 +87,11 @@ public class Player : Unit
     private IEnumerator UseSpecialAbility(Unit to)
     {
         animator.SetTrigger("SpecialAbility");
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(.8f);
+        smokeAnimator.transform.position = to.GetComponent<SpriteRenderer>().bounds.center;
+        smokeAnimator.SetTrigger("SpecialAbility");
+        yield return new WaitForSeconds(0.6f);
         to.CurrentHp -= specialDamage;
+        yield return new WaitForSeconds(0.9f);
     }
 }

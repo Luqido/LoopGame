@@ -85,7 +85,10 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                 transform.DOMoveY(0.4f, 1f).SetDelay(0.6f).SetRelative(true);
                 GetComponent<SpriteRenderer>().DOFade(0.1f, 1f).SetDelay(0.6f);
                 blockSprite.DOFade(0f, 1f).SetDelay(0.6f);
-                dodgeSprite.DOFade(0f, 1f).SetDelay(0.6f);
+                dodgeSprite.DOFade(0f, 1f).SetDelay(0.6f).OnComplete(() =>
+                {
+                    CombatManager.Instance.RepositionEnemies(true);
+                });
                 Destroy(gameObject, 1.61f);
             }
             

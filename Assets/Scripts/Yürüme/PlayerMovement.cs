@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); // Animator component'i alýnýyor
+        animator = GetComponent<Animator>(); // Animator component'i alï¿½nï¿½yor
     }
 
     void Update()
@@ -39,11 +39,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.velocity.y);
-        playerRb.velocity = playerVelocity;
+        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.linearVelocity.y);
+        playerRb.linearVelocity = playerVelocity;
         FlipCharacter();
 
-        // Yürüme kontrolü
+        // Yï¿½rï¿½me kontrolï¿½
         bool walkingNow = Mathf.Abs(playerVelocity.x) > 0.1f;
         if (walkingNow)
         {
@@ -64,11 +64,11 @@ public class PlayerMovement : MonoBehaviour
             cameraZoom.ZoomTo(7f);
         }
 
-        // isWalking ve animasyon kontrolü
+        // isWalking ve animasyon kontrolï¿½
         if (isWalking != walkingNow)
         {
             isWalking = walkingNow;
-            animator.SetBool("isWalking", isWalking); // Animator parametresi güncelleniyor
+            animator.SetBool("isWalking", isWalking); // Animator parametresi gï¿½ncelleniyor
         }
     }
 
