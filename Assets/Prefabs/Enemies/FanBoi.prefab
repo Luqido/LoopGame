@@ -75,6 +75,11 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
   m_PrefabInstance: {fileID: 2015485208821403061}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2897041248025284400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2015485208821403061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2965413755873857431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
@@ -95,6 +100,7 @@ MonoBehaviour:
   animator: {fileID: 4068690559462493434}
   damageTakePosition: {fileID: 6158815945962920811}
   healthBarPosition: {fileID: 9217855533292330060}
+  talkBubblePosition: {fileID: 2897041248025284400}
   stats: {fileID: 11400000, guid: 121e0a9749a4642b69dc1e815cd57c42, type: 2}
   blockSprite: {fileID: 214647271143081041}
   dodgeSprite: {fileID: 943252670396620089}

@@ -52,6 +52,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tazi
       objectReference: {fileID: 0}
+    - target: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.355
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.099
+      objectReference: {fileID: 0}
     - target: {fileID: 5656788754241361630, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.401

@@ -16,6 +16,7 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] protected Animator animator;
     [SerializeField] private Transform damageTakePosition;
     public Transform healthBarPosition;
+    public Transform talkBubblePosition;
     [SerializeField] public UnitStats stats;
     [SerializeField] private SpriteRenderer blockSprite;
     [SerializeField] private SpriteRenderer dodgeSprite;
@@ -31,6 +32,7 @@ public abstract class Unit : MonoBehaviour
     
     private Vector3 _startPosition;
     private int _currentHp = 1;
+
     public int CurrentHp
     {
         get => _currentHp;

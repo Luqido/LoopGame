@@ -20,6 +20,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuscleMan
       objectReference: {fileID: 0}
+    - target: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31
+      objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -112,6 +120,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
   m_PrefabInstance: {fileID: 7576384502751213907}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &6550647442208701398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 7576384502751213907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6628045858173827953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
@@ -132,6 +145,7 @@ MonoBehaviour:
   animator: {fileID: 5380161151544293404}
   damageTakePosition: {fileID: 2856490488137625485}
   healthBarPosition: {fileID: 950451157537007786}
+  talkBubblePosition: {fileID: 6550647442208701398}
   stats: {fileID: 11400000, guid: 4920ec7dfa1df49389b38b04eaf61f57, type: 2}
   blockSprite: {fileID: 8081247738142240951}
   dodgeSprite: {fileID: 9208686685917145567}

@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -81,5 +83,31 @@ public class CombatUI : MonoBehaviour
     {
         var unitHealthDisplay = Instantiate(healthDisplayPrefab, healthBarParent);
         unitHealthDisplay.Initialize(unit, isPlayer);
+    }
+
+    [Header("Talk Bubble")]
+    [SerializeField] private RectTransform talkBubbleTransform;
+    [SerializeField] private CanvasGroup talkBubbleCanvasGroup;
+    [SerializeField] private TMP_Text talkBubbleText;
+
+
+    public IEnumerator Say(Unit unit, string message)
+    {
+        var position = RectTransformUtility.WorldToScreenPoint(Camera.main, unit.talkBubblePosition.position);
+        position = new Vector2(position.x / Screen.width * canvasScaler.referenceResolution.x,
+            position.y / Screen.height * canvasScaler.referenceResolution.y);
+        talkBubbleTransform.anchoredPosition = position;
+
+        talkBubbleText.text = "";
+        yield return talkBubbleCanvasGroup.DOFade(1f, 0.3f).WaitForCompletion();
+        var waitForSeconds = new WaitForSeconds(0.05f);
+        foreach (var ch in message)
+        {
+            talkBubbleText.text += ch;
+            yield return waitForSeconds;
+        }
+
+        yield return new WaitForSeconds(1.8f);
+        yield return talkBubbleCanvasGroup.DOFade(0f, 0.3f).WaitForCompletion();
     }
 }

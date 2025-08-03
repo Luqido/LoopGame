@@ -36,6 +36,7 @@ Transform:
   - {fileID: 1871386797603919067}
   - {fileID: 8032806630825326975}
   - {fileID: 7211415131032949241}
+  - {fileID: 3732405143932043909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8180883064058018124
@@ -130,6 +131,7 @@ MonoBehaviour:
   animator: {fileID: 2562149751246405967}
   damageTakePosition: {fileID: 5656788754241361630}
   healthBarPosition: {fileID: 7211415131032949241}
+  talkBubblePosition: {fileID: 3732405143932043909}
   stats: {fileID: 0}
   blockSprite: {fileID: 1802255208574028260}
   dodgeSprite: {fileID: 1652656480395415692}
@@ -163,6 +165,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.554, y: -0.103, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5854844993058121857}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6251003373519480408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3732405143932043909}
+  m_Layer: 0
+  m_Name: TalkBubblePosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3732405143932043909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251003373519480408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.42, y: 0.384, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

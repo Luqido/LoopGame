@@ -127,6 +127,7 @@ MonoBehaviour:
   animator: {fileID: 447486033267001467}
   damageTakePosition: {fileID: 7726959613144915946}
   healthBarPosition: {fileID: 4733081344964909261}
+  talkBubblePosition: {fileID: 0}
   stats: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}
@@ -135,6 +136,9 @@ MonoBehaviour:
   dodgeMovement: {x: 0.3, y: 0, z: 0}
   aiProbabilities: {fileID: 11400000, guid: abb96b0bbf87146e9aaf5fb7f0774056, type: 2}
   clonePrefab: {fileID: 5151977360415773811, guid: deb1bc712872f458e8ea03d3856ee30c, type: 3}
+  cloneLines:
+  - ' Deception? Deception is my surname.'
+  - Here you go my dear clone!
 --- !u!212 &3698640441156475320 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}

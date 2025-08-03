@@ -24,7 +24,7 @@ public class CombatManager : MonoBehaviour
     [Header("References")] 
     public Player player;
     public List<Unit> enemies = new();
-    [SerializeField] private CombatUI ui;
+    [SerializeField] public CombatUI ui;
     [SerializeField] private List<Unit> enemyPrefabs;
     [Header("Positioning")]
     [SerializeField] private Transform enemyInitialPosition;

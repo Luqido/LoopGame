@@ -27,7 +27,8 @@ public class GrandmaEnemy : Enemy
         //todo book anim smt??
         CombatManager.Instance.player.AttackMultiplier *= debuffMultiplier;
         _remainingTurnsToDebuffWearOff += debuffTurnCount;
-        Debug.Log($"Player debuffed with {debuffMultiplier} for {_remainingTurnsToDebuffWearOff} turns.");
+        yield return CombatManager.Instance.ui.Say(this, $"Have some respect for your elders!\n<i>$Player got debuffed by {debuffMultiplier} for {_remainingTurnsToDebuffWearOff} turns</i>");
+        // Debug.Log($"Player debuffed with {debuffMultiplier} for {_remainingTurnsToDebuffWearOff} turns.");
         yield break;
     }
 }

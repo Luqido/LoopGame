@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfff8d56cd4b4f6d9c0af9106d947f1f, type: 3}
   m_Name: Muscle Man AI Probabilities
   m_EditorClassIdentifier: 
-  attackUseChance: 0.8
+  attackUseChance: 0.4
   dodgeUseChance: 0.1
   blockUseChance: 0.35
   specialUseChance: 0.15
