@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 150
   baseDamage: 30
+  blockPercentage: 0.369
+  blockChance: 0.748
+  dodgePercentage: 0.699
+  dodgeChance: 0.864

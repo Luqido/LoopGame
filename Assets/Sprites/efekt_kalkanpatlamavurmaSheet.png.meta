@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: c40d29230682e474da31f304761cc260
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4540439675138232689
+    second: efekt_kalkanpatlamavurmaSheet_0
+  - first:
+      213: -9047860393857522803
+    second: efekt_kalkanpatlamavurmaSheet_1
+  - first:
+      213: -5016751764193329749
+    second: efekt_kalkanpatlamavurmaSheet_2
+  - first:
+      213: 7094547805320738352
+    second: efekt_kalkanpatlamavurmaSheet_3
+  - first:
+      213: 1103992045205677513
+    second: efekt_kalkanpatlamavurmaSheet_4
+  - first:
+      213: -5507516233419636119
+    second: efekt_kalkanpatlamavurmaSheet_5
+  - first:
+      213: -6830678091114355172
+    second: efekt_kalkanpatlamavurmaSheet_6
+  - first:
+      213: -5421459115219604234
+    second: efekt_kalkanpatlamavurmaSheet_7
+  - first:
+      213: -6422712567469654410
+    second: efekt_kalkanpatlamavurmaSheet_8
+  - first:
+      213: 172062968473405457
+    second: efekt_kalkanpatlamavurmaSheet_9
+  - first:
+      213: 476476703719698202
+    second: efekt_kalkanpatlamavurmaSheet_10
+  - first:
+      213: 1879064620665330920
+    second: efekt_kalkanpatlamavurmaSheet_11
+  - first:
+      213: 4423446692318103815
+    second: efekt_kalkanpatlamavurmaSheet_12
+  - first:
+      213: -5087570952486684892
+    second: efekt_kalkanpatlamavurmaSheet_13
+  - first:
+      213: -5336268427260589330
+    second: efekt_kalkanpatlamavurmaSheet_14
+  - first:
+      213: 4151564506661607923
+    second: efekt_kalkanpatlamavurmaSheet_15
+  - first:
+      213: -168966408817128017
+    second: efekt_kalkanpatlamavurmaSheet_16
+  - first:
+      213: 5447974358101296589
+    second: efekt_kalkanpatlamavurmaSheet_17
+  - first:
+      213: 434646134205153027
+    second: efekt_kalkanpatlamavurmaSheet_18
+  - first:
+      213: -1175418805315181614
+    second: efekt_kalkanpatlamavurmaSheet_19
+  - first:
+      213: 7834200914977614996
+    second: efekt_kalkanpatlamavurmaSheet_20
+  - first:
+      213: -7064635297042272010
+    second: efekt_kalkanpatlamavurmaSheet_21
+  - first:
+      213: -7148382800624911621
+    second: efekt_kalkanpatlamavurmaSheet_22
+  - first:
+      213: 3845681434037612781
+    second: efekt_kalkanpatlamavurmaSheet_23
+  - first:
+      213: -2402973152009080076
+    second: efekt_kalkanpatlamavurmaSheet_24
+  - first:
+      213: 2864037989667508092
+    second: efekt_kalkanpatlamavurmaSheet_25
+  - first:
+      213: -8039477361118508637
+    second: efekt_kalkanpatlamavurmaSheet_26
+  - first:
+      213: -5545638534719641865
+    second: efekt_kalkanpatlamavurmaSheet_27
+  - first:
+      213: 399424965504411401
+    second: efekt_kalkanpatlamavurmaSheet_28
+  - first:
+      213: -261280451971274099
+    second: efekt_kalkanpatlamavurmaSheet_29
+  - first:
+      213: -8602508011757068243
+    second: efekt_kalkanpatlamavurmaSheet_30
+  - first:
+      213: -2910985480772010867
+    second: efekt_kalkanpatlamavurmaSheet_31
+  - first:
+      213: -8641949938439179599
+    second: efekt_kalkanpatlamavurmaSheet_32
+  - first:
+      213: -3662593892331771882
+    second: efekt_kalkanpatlamavurmaSheet_33
+  - first:
+      213: -1814981404109944306
+    second: efekt_kalkanpatlamavurmaSheet_34
+  - first:
+      213: -4266090930132860648
+    second: efekt_kalkanpatlamavurmaSheet_35
+  - first:
+      213: 7347681054423278943
+    second: efekt_kalkanpatlamavurmaSheet_36
+  - first:
+      213: -8063354310813972176
+    second: efekt_kalkanpatlamavurmaSheet_37
+  - first:
+      213: -7862450771345160128
+    second: efekt_kalkanpatlamavurmaSheet_38
+  - first:
+      213: 2950725292129176575
+    second: efekt_kalkanpatlamavurmaSheet_39
+  - first:
+      213: -4543395059233056390
+    second: efekt_kalkanpatlamavurmaSheet_40
+  - first:
+      213: -5104060542339370183
+    second: efekt_kalkanpatlamavurmaSheet_41
+  - first:
+      213: -4749981057984213379
+    second: efekt_kalkanpatlamavurmaSheet_42
+  - first:
+      213: 4989315592805339465
+    second: efekt_kalkanpatlamavurmaSheet_43
+  - first:
+      213: -4434132413293129269
+    second: efekt_kalkanpatlamavurmaSheet_44
+  - first:
+      213: 6636201265150617806
+    second: efekt_kalkanpatlamavurmaSheet_45
+  - first:
+      213: -6272165340574785489
+    second: efekt_kalkanpatlamavurmaSheet_46
+  - first:
+      213: 6052301075699441961
+    second: efekt_kalkanpatlamavurmaSheet_47
+  - first:
+      213: 3251792967602526420
+    second: efekt_kalkanpatlamavurmaSheet_48
+  - first:
+      213: -6670915456452822749
+    second: efekt_kalkanpatlamavurmaSheet_49
+  - first:
+      213: -3754235165830660897
+    second: efekt_kalkanpatlamavurmaSheet_50
+  - first:
+      213: -2487344406800396236
+    second: efekt_kalkanpatlamavurmaSheet_51
+  - first:
+      213: -3322837788004799373
+    second: efekt_kalkanpatlamavurmaSheet_52
+  - first:
+      213: 5596200784485055353
+    second: efekt_kalkanpatlamavurmaSheet_53
+  - first:
+      213: -3687773183999305297
+    second: efekt_kalkanpatlamavurmaSheet_54
+  - first:
+      213: -4146049609797931733
+    second: efekt_kalkanpatlamavurmaSheet_55
+  - first:
+      213: -5315630783825471929
+    second: efekt_kalkanpatlamavurmaSheet_56
+  - first:
+      213: 3455227061503210464
+    second: efekt_kalkanpatlamavurmaSheet_57
+  - first:
+      213: -980211825960046955
+    second: efekt_kalkanpatlamavurmaSheet_58
+  - first:
+      213: -8105193137900810742
+    second: efekt_kalkanpatlamavurmaSheet_59
+  - first:
+      213: -7142627162034430896
+    second: efekt_kalkanpatlamavurmaSheet_60
+  - first:
+      213: -2097163560643424284
+    second: efekt_kalkanpatlamavurmaSheet_61
+  - first:
+      213: -191308969485116581
+    second: efekt_kalkanpatlamavurmaSheet_62
+  - first:
+      213: -4910217778900636332
+    second: efekt_kalkanpatlamavurmaSheet_63
+  - first:
+      213: -2114012612009222105
+    second: efekt_kalkanpatlamavurmaSheet_64
+  - first:
+      213: 609155875355743432
+    second: efekt_kalkanpatlamavurmaSheet_65
+  - first:
+      213: -4837228034832317346
+    second: efekt_kalkanpatlamavurmaSheet_66
+  - first:
+      213: -4806448493436690914
+    second: efekt_kalkanpatlamavurmaSheet_67
+  - first:
+      213: 8394740650214100859
+    second: efekt_kalkanpatlamavurmaSheet_68
+  - first:
+      213: -9108204643881399499
+    second: efekt_kalkanpatlamavurmaSheet_69
+  - first:
+      213: 6024652689006645553
+    second: efekt_kalkanpatlamavurmaSheet_70
+  - first:
+      213: 101148635353043911
+    second: efekt_kalkanpatlamavurmaSheet_71
+  - first:
+      213: -3202087977644208691
+    second: efekt_kalkanpatlamavurmaSheet_72
+  - first:
+      213: -4299633550785431893
+    second: efekt_kalkanpatlamavurmaSheet_73
+  - first:
+      213: -2235625324619028172
+    second: efekt_kalkanpatlamavurmaSheet_74
+  - first:
+      213: 377411756873830522
+    second: efekt_kalkanpatlamavurmaSheet_75
+  - first:
+      213: -2335590235805792977
+    second: efekt_kalkanpatlamavurmaSheet_76
+  - first:
+      213: 3984645001740693042
+    second: efekt_kalkanpatlamavurmaSheet_77
+  - first:
+      213: -8364578933976645826
+    second: efekt_kalkanpatlamavurmaSheet_78
+  - first:
+      213: 7359960896836320409
+    second: efekt_kalkanpatlamavurmaSheet_79
+  - first:
+      213: -4281394335974755132
+    second: efekt_kalkanpatlamavurmaSheet_80
+  - first:
+      213: 215088846119815000
+    second: efekt_kalkanpatlamavurmaSheet_81
+  - first:
+      213: -8041357213663065573
+    second: efekt_kalkanpatlamavurmaSheet_82
+  - first:
+      213: 3523549899730749807
+    second: efekt_kalkanpatlamavurmaSheet_83
+  - first:
+      213: 5370515882502680242
+    second: efekt_kalkanpatlamavurmaSheet_84
+  - first:
+      213: 1461619380515981515
+    second: efekt_kalkanpatlamavurmaSheet_85
+  - first:
+      213: -3005068038406226356
+    second: efekt_kalkanpatlamavurmaSheet_86
+  - first:
+      213: 2392298030494445828
+    second: efekt_kalkanpatlamavurmaSheet_87
+  - first:
+      213: -6955562387246053287
+    second: efekt_kalkanpatlamavurmaSheet_88
+  - first:
+      213: 3399573624949046629
+    second: efekt_kalkanpatlamavurmaSheet_89
+  - first:
+      213: -1242251348988258684
+    second: efekt_kalkanpatlamavurmaSheet_90
+  - first:
+      213: 5833115456045614947
+    second: efekt_kalkanpatlamavurmaSheet_91
+  - first:
+      213: 6905085185291199531
+    second: efekt_kalkanpatlamavurmaSheet_92
+  - first:
+      213: 5870348032784443969
+    second: efekt_kalkanpatlamavurmaSheet_93
+  - first:
+      213: 6051990044202274847
+    second: efekt_kalkanpatlamavurmaSheet_94
+  - first:
+      213: 1890709952067408902
+    second: efekt_kalkanpatlamavurmaSheet_95
+  - first:
+      213: -3285671287487596732
+    second: efekt_kalkanpatlamavurmaSheet_96
+  - first:
+      213: 7879039450725574444
+    second: efekt_kalkanpatlamavurmaSheet_97
+  - first:
+      213: -7974707142440744012
+    second: efekt_kalkanpatlamavurmaSheet_98
+  - first:
+      213: -578097233784470101
+    second: efekt_kalkanpatlamavurmaSheet_99
+  - first:
+      213: 3784163485921279724
+    second: efekt_kalkanpatlamavurmaSheet_100
+  - first:
+      213: -7203714081924622692
+    second: efekt_kalkanpatlamavurmaSheet_101
+  - first:
+      213: 6423189233278740678
+    second: efekt_kalkanpatlamavurmaSheet_102
+  - first:
+      213: 3381592087335443212
+    second: efekt_kalkanpatlamavurmaSheet_103
+  - first:
+      213: 5332830807368852998
+    second: efekt_kalkanpatlamavurmaSheet_104
+  - first:
+      213: -3022513406069959258
+    second: efekt_kalkanpatlamavurmaSheet_105
+  - first:
+      213: -3758423761766576926
+    second: efekt_kalkanpatlamavurmaSheet_106
+  - first:
+      213: -735112054464886551
+    second: efekt_kalkanpatlamavurmaSheet_107
+  - first:
+      213: 6574256808667765848
+    second: efekt_kalkanpatlamavurmaSheet_108
+  - first:
+      213: -660663388612569327
+    second: efekt_kalkanpatlamavurmaSheet_109
+  - first:
+      213: -1735041329139189604
+    second: efekt_kalkanpatlamavurmaSheet_110
+  - first:
+      213: -4862896944923692614
+    second: efekt_kalkanpatlamavurmaSheet_111
+  - first:
+      213: -8261742680967637373
+    second: efekt_kalkanpatlamavurmaSheet_112
+  - first:
+      213: -8728853292327780488
+    second: efekt_kalkanpatlamavurmaSheet_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 584
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17154b804d1e20f30800000000000000
+      internalID: 4540439675138232689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 584
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ebcec8ea8f6280800000000000000
+      internalID: -9047860393857522803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 584
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad31f0b9dae06ab0800000000000000
+      internalID: -5016751764193329749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 424
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0367b22f3a5e47260800000000000000
+      internalID: 7094547805320738352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 424
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c567597aea225f00800000000000000
+      internalID: 1103992045205677513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 444
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96243507a2f5193b0800000000000000
+      internalID: -5507516233419636119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_6
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 444
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16e514777e8431a0800000000000000
+      internalID: -6830678091114355172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 434
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc2809a8ab13c4b0800000000000000
+      internalID: -5421459115219604234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 434
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eb889e2f0fdd6a0800000000000000
+      internalID: -6422712567469654410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 362
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbce13050513f820800000000000000
+      internalID: 2950725292129176575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 45
+        width: 465
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d0b00fe72bf42f3b2dae87daea96a6
+      internalID: 504953137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_29
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 80
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef6a4ed4ae8b4eeb84accea9f727e8b
+      internalID: -288447195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 45
+        width: 500
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff3e4b611a1445c817c2a114a12636
+      internalID: 1848256867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 430
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bded1ed60f7d47dc988598d0540269d
+      internalID: -1023807708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efekt_kalkanpatlamavurmaSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 430
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd889f19fbc4e778ffee84bfc73e96
+      internalID: 924788791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8eb7d72c00ddb4c5aa62481268340cd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      efekt_kalkanpatlamavurmaSheet_10: 924788791
+      efekt_kalkanpatlamavurmaSheet_114: 1938969052
+      efekt_kalkanpatlamavurmaSheet_23: 1848256867
+      efekt_kalkanpatlamavurmaSheet_26: 241939445
+      efekt_kalkanpatlamavurmaSheet_28: 504953137
+      efekt_kalkanpatlamavurmaSheet_29: -288447195
+      efekt_kalkanpatlamavurmaSheet_9: -1023807708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

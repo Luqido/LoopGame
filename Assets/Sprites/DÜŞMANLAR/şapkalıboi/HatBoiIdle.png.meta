@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: ea780aa6506e647be8110ca2bc9c610a
+guid: df85063ef062047b39e6d0bee28e2ad9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2549745160119843185
-    second: "du\u0308s\u0327man_idle_0"
+      213: -6808717599093469643
+    second: HatBoiIdle_0
   - first:
-      213: -4631393240746435998
-    second: "du\u0308s\u0327man_idle_1"
+      213: 1877354373124130841
+    second: HatBoiIdle_1
   - first:
-      213: -5415421422362303475
-    second: "du\u0308s\u0327man_idle_2"
-  - first:
-      213: 8090173428104974075
-    second: "du\u0308s\u0327man_idle_3"
+      213: -1344883270648227574
+    second: HatBoiIdle_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -109,89 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_idle_0"
+      name: HatBoiIdle_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 534
-        width: 142
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 179f6b8c6b3826320800000000000000
-      internalID: 2549745160119843185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "du\u0308s\u0327man_idle_1"
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 524
-        width: 102
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26ad92eb26cf9bfb0800000000000000
-      internalID: -4631393240746435998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "du\u0308s\u0327man_idle_2"
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 284
+        x: 34
+        y: 504
         width: 102
         height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d04ed0398ee88d4b0800000000000000
-      internalID: -5415421422362303475
+      spriteID: 53e4512fa639281a0800000000000000
+      internalID: -6808717599093469643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_idle_3"
+      name: HatBoiIdle_1
       rect:
         serializedVersion: 2
-        x: 274
-        y: 44
+        x: 34
+        y: 258
         width: 102
-        height: 172
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfe40898ed1164070800000000000000
-      internalID: 8090173428104974075
+      spriteID: 918079f0bd3bd0a10800000000000000
+      internalID: 1877354373124130841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatBoiIdle_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 102
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0995a47ac3065de0800000000000000
+      internalID: -1344883270648227574
       vertices: []
       indices: 
       edges: []
@@ -200,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cfc0d1d62d4cd4c7d92401787c769fdc
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "du\u0308s\u0327man_idle_0": 2549745160119843185
-      "du\u0308s\u0327man_idle_1": -4631393240746435998
-      "du\u0308s\u0327man_idle_2": -5415421422362303475
-      "du\u0308s\u0327man_idle_3": 8090173428104974075
+      HatBoiIdle_0: -6808717599093469643
+      HatBoiIdle_1: 1877354373124130841
+      HatBoiIdle_2: -1344883270648227574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
