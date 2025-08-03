@@ -154,6 +154,7 @@ MonoBehaviour:
   npcName: Muscular Man
   npcImage: {fileID: -5999919760804369761, guid: 314e98ea3ab2ce14d962781752f10b60, type: 3}
   npcType: 4
+  xIcon: {fileID: 5412290093344664194}
 --- !u!58 &9079740321090530991
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -247,6 +248,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}
+--- !u!1 &5412290093344664194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1264275609219885284, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}
+  m_PrefabInstance: {fileID: 6527909238831923814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8097146800748541242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3083016038613251932, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}

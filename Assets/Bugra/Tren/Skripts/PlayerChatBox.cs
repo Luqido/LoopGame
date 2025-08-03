@@ -17,6 +17,8 @@ public class PlayerChatBox : MonoBehaviour
     private bool loopActive = false;
     private Queue<string> messageQueue = new Queue<string>();
     private string lastMessage = "";
+    [SerializeField] private string[] possibleCustomMessages;
+
 
     void Start()
     {
@@ -116,5 +118,35 @@ public class PlayerChatBox : MonoBehaviour
             chatText.text = chatText.text.Substring(0, chatText.text.Length - 1);
             yield return new WaitForSeconds(eraseSpeed);
         }
+    }
+    public void ShowRandomCustomMessageAndContinue()
+    {
+        if (possibleCustomMessages == null || possibleCustomMessages.Length == 0)
+        {
+            Debug.LogWarning("Özel mesaj listesi boþ!");
+            return;
+        }
+
+        int rand = Random.Range(0, possibleCustomMessages.Length);
+        string selectedMessage = possibleCustomMessages[rand];
+        ShowCustomMessageAndContinue(selectedMessage);
+    }
+
+    public void ShowCustomMessageAndContinue(string message)
+    {
+        StopTextLoop();
+        StartCoroutine(ShowMessageThenResume(message));
+    }
+
+    private IEnumerator ShowMessageThenResume(string message)
+    {
+        chatPanel.SetActive(true);
+
+        yield return StartCoroutine(TypeText(message));
+        yield return new WaitForSeconds(sentenceDelay);
+        yield return StartCoroutine(EraseText());
+
+        chatPanel.SetActive(false);
+        StartTextLoop();
     }
 }
