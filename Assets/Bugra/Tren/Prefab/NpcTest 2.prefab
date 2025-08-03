@@ -80,8 +80,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.12799188, g: 0.5188679, b: 0.080767184, a: 1}
+  m_Sprite: {fileID: -5999919760804369761, guid: 314e98ea3ab2ce14d962781752f10b60, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -129,7 +129,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.5, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,10 +149,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a4affc67fb94b43a02d627001e7d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcChatData: {fileID: 11400000, guid: f5339a7a6688562458a575ced55c5a31, type: 2}
+  npcChatData: {fileID: 11400000, guid: c015e70d903a4974a830ba78643ac4c1, type: 2}
   npcPortrait: {fileID: -8231331576406689926, guid: bfce045e9e8c6bd469c5b29c8476502a, type: 3}
-  npcName: "Deh\u015FetPorno"
-  npcImage: {fileID: -8106379862026432361, guid: c0556da19b4764821a763fa70bac46d3, type: 3}
+  npcName: Muscular Man
+  npcImage: {fileID: -5999919760804369761, guid: 314e98ea3ab2ce14d962781752f10b60, type: 3}
+  npcType: 4
 --- !u!58 &9079740321090530991
 CircleCollider2D:
   m_ObjectHideFlags: 0
