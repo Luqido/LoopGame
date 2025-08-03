@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
     private bool isWalking = false;
+    public bool canMove = true;
+
 
     void Start()
     {
@@ -31,6 +34,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!canMove)
+        {
+            // Hareketi sıfırla (gerekirse)
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            return;
+        }
         Run();
     }
 

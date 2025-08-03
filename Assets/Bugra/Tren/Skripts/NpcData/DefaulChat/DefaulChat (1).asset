@@ -18,7 +18,7 @@ MonoBehaviour:
     nextChat: {fileID: 11400000, guid: 687e20f43f8087f41895994b4728383f, type: 2}
     endsConversation: 1
     startsCombat: 0
-  - answerText: ...
+  - answerText: Come to the conductor room (starts a battle)
     nextChat: {fileID: 11400000, guid: 687e20f43f8087f41895994b4728383f, type: 2}
     endsConversation: 0
     startsCombat: 1

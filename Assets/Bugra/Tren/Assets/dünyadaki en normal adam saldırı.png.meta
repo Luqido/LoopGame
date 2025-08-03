@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: ba4e60ba7def65f4da1e394f77a36d53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5811428619988618546
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_0"
+  - first:
+      213: -1539168218431227105
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_1"
+  - first:
+      213: 7809400465047461049
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_2"
+  - first:
+      213: -4213590723043536547
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_3"
+  - first:
+      213: -3497034231365449883
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_4"
+  - first:
+      213: 4981940293016434785
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_5"
+  - first:
+      213: 9200015976458502366
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_6"
+  - first:
+      213: 5686834367361232049
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_7"
+  - first:
+      213: 1941100622026637129
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_8"
+  - first:
+      213: -1686492780852307625
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_9"
+  - first:
+      213: -7488946464762272080
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_10"
+  - first:
+      213: 7957818231406301000
+    second: "d\xFCnyadaki en normal adam sald\u0131r\u0131_11"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_0"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dc5f32a8756a050800000000000000
+      internalID: 5811428619988618546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_1"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bf5d209a6c3aae0800000000000000
+      internalID: -1539168218431227105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_2"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc9ce3d850906c60800000000000000
+      internalID: 7809400465047461049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_3"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51db1cdf815685c0800000000000000
+      internalID: -4213590723043536547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_4"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567c41805e9087fc0800000000000000
+      internalID: -3497034231365449883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_5"
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16833711d48632540800000000000000
+      internalID: 4981940293016434785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_6"
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed04abc69c50daf70800000000000000
+      internalID: 9200015976458502366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_7"
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcac0b1ab1bbee40800000000000000
+      internalID: 5686834367361232049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_8"
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fff293bbc20fa10800000000000000
+      internalID: 1941100622026637129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_9"
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759990150cf5898e0800000000000000
+      internalID: -1686492780852307625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_10"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b66de15edae11890800000000000000
+      internalID: -7488946464762272080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xFCnyadaki en normal adam sald\u0131r\u0131_11"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f8916e489df6e60800000000000000
+      internalID: 7957818231406301000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_0": 5811428619988618546
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_1": -1539168218431227105
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_10": -7488946464762272080
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_11": 7957818231406301000
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_2": 7809400465047461049
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_3": -4213590723043536547
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_4": -3497034231365449883
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_5": 4981940293016434785
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_6": 9200015976458502366
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_7": 5686834367361232049
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_8": 1941100622026637129
+      "d\xFCnyadaki en normal adam sald\u0131r\u0131_9": -1686492780852307625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
