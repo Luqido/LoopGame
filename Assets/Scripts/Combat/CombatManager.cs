@@ -111,7 +111,7 @@ public class CombatManager : MonoBehaviour
     public void AddEnemy(Unit enemy, bool animate = false)
     {
         enemies.Add(enemy);
-        ui.CreateHealthBar(enemy);
+        ui.CreateHealthBar(enemy, false);
         
         var offset = distanceBetweenEnemies * (enemies.Count - 1) / -2f; 
         if (!animate)

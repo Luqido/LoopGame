@@ -16,7 +16,7 @@ public abstract class Unit : MonoBehaviour
     [SerializeField] protected Animator animator;
     [SerializeField] private Transform damageTakePosition;
     public Transform healthBarPosition;
-    [SerializeField] private UnitStats stats;
+    [SerializeField] public UnitStats stats;
     [SerializeField] private SpriteRenderer blockSprite;
     [SerializeField] private SpriteRenderer dodgeSprite;
     [SerializeField] private float blockSpriteTargetOpaqueness = 1f;

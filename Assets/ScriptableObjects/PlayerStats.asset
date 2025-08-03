@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f1e27831a3416095cae72b88aabf29, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
+  unitName: Conductor
   health: 300
   baseDamage: 40
   blockPercentage: 0.51

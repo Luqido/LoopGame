@@ -1,10 +1,12 @@
 using System;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UnitHealthDisplay : MonoBehaviour
 {
+    [SerializeField] private TMP_Text nameText;
     [SerializeField] private Image healthBar;
     [SerializeField] private SlicedFilledImage slicedFilledHealthBar;
     [SerializeField] private Unit unit;
@@ -23,10 +25,10 @@ public class UnitHealthDisplay : MonoBehaviour
                 (float)currentHp / startingHp, 
                 0.3f);
 
-        if (currentHp <= 0)
-        {
-            Destroy(gameObject, 0.31f);
-        }
+        // if (currentHp <= 0)
+        // {
+        //     Destroy(gameObject, 0.31f);
+        // }
     }
 
     private void OnDestroy()
@@ -37,25 +39,26 @@ public class UnitHealthDisplay : MonoBehaviour
         }
     }
 
-    public void Initialize(Unit unit, Vector2 referenceResolution)
+    public void Initialize(Unit unit, bool isPlayer)
     {
         this.unit = unit;
         unit.HealthChanged += UpdateHealthBar;
-        _refRes = referenceResolution;
+        // _refRes = referenceResolution;
         _rectTransform = transform as RectTransform;
-
-        _rectTransform.anchorMin = Vector2.zero;
-        _rectTransform.anchorMax = Vector2.zero;
-        _rectTransform.sizeDelta = new Vector2(200, 50);
+        slicedFilledHealthBar.color = isPlayer ? Color.green : Color.red;
+        nameText.text = unit.stats.unitName;
+        // _rectTransform.anchorMin = Vector2.zero;
+        // _rectTransform.anchorMax = Vector2.zero;
+        // _rectTransform.sizeDelta = new Vector2(200, 50);
     }
 
-    private void LateUpdate()
-    {
-        if (unit)
-        {
-            var position = RectTransformUtility.WorldToScreenPoint(Camera.main, unit.healthBarPosition.position);
-            position = new Vector2(position.x / Screen.width * _refRes.x, position.y / Screen.height * _refRes.y);
-            _rectTransform.anchoredPosition = position;
-        }
-    }
+    // private void LateUpdate()
+    // {
+    //     if (unit)
+    //     {
+    //         var position = RectTransformUtility.WorldToScreenPoint(Camera.main, unit.healthBarPosition.position);
+    //         position = new Vector2(position.x / Screen.width * _refRes.x, position.y / Screen.height * _refRes.y);
+    //         _rectTransform.anchoredPosition = position;
+    //     }
+    // }
 }

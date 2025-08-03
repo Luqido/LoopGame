@@ -13,6 +13,7 @@ public class CombatUI : MonoBehaviour
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private Button[] enemySelectionButtons;
     [SerializeField] private UnitHealthDisplay healthDisplayPrefab;
+    [SerializeField] private Transform healthBarParent;
     
     private void Awake()
     {
@@ -24,7 +25,7 @@ public class CombatUI : MonoBehaviour
 
     private void Start()
     {
-        CreateHealthBar(CombatManager.Instance.player);
+        CreateHealthBar(CombatManager.Instance.player, true);
     }
 
     public void InitializeTurnUI(/*stats??*/)
@@ -76,9 +77,9 @@ public class CombatUI : MonoBehaviour
         }
     }
 
-    public void CreateHealthBar(Unit unit)
+    public void CreateHealthBar(Unit unit, bool isPlayer)
     {
-        var unitHealthDisplay = Instantiate(healthDisplayPrefab, transform);
-        unitHealthDisplay.Initialize(unit, canvasScaler.referenceResolution);
+        var unitHealthDisplay = Instantiate(healthDisplayPrefab, healthBarParent);
+        unitHealthDisplay.Initialize(unit, isPlayer);
     }
 }
