@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 7dede220c00d74561b4445884038c2e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8575812994791912644
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_0"
+  - first:
+      213: -5191747513423475072
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_1"
+  - first:
+      213: 253294617208104108
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_2"
+  - first:
+      213: 7558557821527914081
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_3"
+  - first:
+      213: -5626627611421404003
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_4"
+  - first:
+      213: 3106429192954936289
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_5"
+  - first:
+      213: -399087113653466653
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_6"
+  - first:
+      213: 2192194784559761218
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_7"
+  - first:
+      213: 4432031861388205282
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_8"
+  - first:
+      213: -1917050157800536178
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_9"
+  - first:
+      213: 4185847786878329011
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_10"
+  - first:
+      213: -6765372182351007092
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_11"
+  - first:
+      213: 9065906313729352045
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_12"
+  - first:
+      213: -4032685806567940830
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_13"
+  - first:
+      213: 4882052851829285634
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_14"
+  - first:
+      213: 6501618936569021985
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_15"
+  - first:
+      213: -2462444124571571939
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_16"
+  - first:
+      213: -7869874456944185928
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_17"
+  - first:
+      213: 6467418960042899250
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_18"
+  - first:
+      213: -5956562925644974335
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_19"
+  - first:
+      213: -1818995631115911886
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_20"
+  - first:
+      213: -9044403021396532973
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_21"
+  - first:
+      213: -2456695397060249806
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_22"
+  - first:
+      213: 7661066515619840841
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_23"
+  - first:
+      213: -5936024337395038592
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_24"
+  - first:
+      213: -6533555410497883395
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_25"
+  - first:
+      213: -3219046642328898587
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_26"
+  - first:
+      213: 2428887149503076252
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_27"
+  - first:
+      213: -3022570055753305963
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_28"
+  - first:
+      213: -2272043032451421132
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_29"
+  - first:
+      213: 7054004254725190006
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_30"
+  - first:
+      213: -3689712596454185374
+    second: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_31"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c430ce6b78630770800000000000000
+      internalID: 8575812994791912644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e40e2c42533f7b0800000000000000
+      internalID: -5191747513423475072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca42532cc12e38300800000000000000
+      internalID: 253294617208104108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166fb6eaa4465e860800000000000000
+      internalID: 7558557821527914081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9492d1aff33ae1b0800000000000000
+      internalID: -5626627611421404003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_5"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb7bf574e04c1b20800000000000000
+      internalID: 3106429192954936289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_6"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9cf347268267af0800000000000000
+      internalID: -399087113653466653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2470624ba8d3c6e10800000000000000
+      internalID: 2192194784559761218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_8"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecd14bfe7db18d30800000000000000
+      internalID: 4432031861388205282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_9"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8741b7d9054565e0800000000000000
+      internalID: -1917050157800536178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_10"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0ecb4726e171a30800000000000000
+      internalID: 4185847786878329011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f34663d90f4040b1ac48bce55b86aea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_0": 8575812994791912644
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_1": -5191747513423475072
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_10": 4185847786878329011
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_2": 253294617208104108
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_3": 7558557821527914081
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_4": -5626627611421404003
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_5": 3106429192954936289
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_6": -399087113653466653
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_7": 2192194784559761218
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_8": 4432031861388205282
+      "1KONDUKTOR SPECI\u0307AL ABALI\u0307TY DAMAGE_9": -1917050157800536178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

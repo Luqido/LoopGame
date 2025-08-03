@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f1e27831a3416095cae72b88aabf29, type: 3}
   m_Name: HatBoiStats
   m_EditorClassIdentifier: 
+  unitName: Hat Boi
   health: 150
   baseDamage: 30
+  shortDescription: Such a deceiver. Don't trust everything you see.
+  blockPercentage: 0.6
+  blockChance: 0.949
+  dodgePercentage: 1
+  dodgeChance: 1

@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Bugra/MainMenu/MainMenu.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Bugra/TestScene/TestScene.unity
-    guid: fdf463981b61b6b43960c6e03d79269d
+    path: Assets/Scenes/Taha.unity
+    guid: f95856908b78c864d9ea37840cdf14f3
+  - enabled: 1
+    path: Assets/Bugra/Tren/Scene/TrenScene.unity
+    guid: b6b54b71aac4ee64a8a141b0e8aa78af
+  - enabled: 1
+    path: Assets/Scenes/Combat.unity
+    guid: 242372c66411142d29b1df6398a1fae0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

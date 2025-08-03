@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: c1cf9ab8e09424156a6a73b2b5306d78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2116763671147292334
+    second: "konduktor spceial ability VURUS\u0327_0"
+  - first:
+      213: -3970962703635171697
+    second: "konduktor spceial ability VURUS\u0327_1"
+  - first:
+      213: 6888802356590754979
+    second: "konduktor spceial ability VURUS\u0327_2"
+  - first:
+      213: -4179337405261851434
+    second: "konduktor spceial ability VURUS\u0327_3"
+  - first:
+      213: -3360946924795780783
+    second: "konduktor spceial ability VURUS\u0327_4"
+  - first:
+      213: 3246877974469828537
+    second: "konduktor spceial ability VURUS\u0327_5"
+  - first:
+      213: -3630318981711054124
+    second: "konduktor spceial ability VURUS\u0327_6"
+  - first:
+      213: 4598927667848405482
+    second: "konduktor spceial ability VURUS\u0327_7"
+  - first:
+      213: 574961856937620082
+    second: "konduktor spceial ability VURUS\u0327_8"
+  - first:
+      213: 1721684897042870013
+    second: "konduktor spceial ability VURUS\u0327_9"
+  - first:
+      213: 1671979510544457378
+    second: "konduktor spceial ability VURUS\u0327_10"
+  - first:
+      213: -4095921644139604928
+    second: "konduktor spceial ability VURUS\u0327_11"
+  - first:
+      213: -182261239683039524
+    second: "konduktor spceial ability VURUS\u0327_12"
+  - first:
+      213: 7418782988182645454
+    second: "konduktor spceial ability VURUS\u0327_13"
+  - first:
+      213: 2553975508057467505
+    second: "konduktor spceial ability VURUS\u0327_14"
+  - first:
+      213: -3058491677878282296
+    second: "konduktor spceial ability VURUS\u0327_15"
+  - first:
+      213: 6533054572409310305
+    second: "konduktor spceial ability VURUS\u0327_16"
+  - first:
+      213: 6232391454855220952
+    second: "konduktor spceial ability VURUS\u0327_17"
+  - first:
+      213: -5375480940107810233
+    second: "konduktor spceial ability VURUS\u0327_18"
+  - first:
+      213: 7076172270452332577
+    second: "konduktor spceial ability VURUS\u0327_19"
+  - first:
+      213: 1099680643708278665
+    second: "konduktor spceial ability VURUS\u0327_20"
+  - first:
+      213: -8276534160179886249
+    second: "konduktor spceial ability VURUS\u0327_21"
+  - first:
+      213: 3740919345121782916
+    second: "konduktor spceial ability VURUS\u0327_22"
+  - first:
+      213: 2533856548475664597
+    second: "konduktor spceial ability VURUS\u0327_23"
+  - first:
+      213: 4777042354671510458
+    second: "konduktor spceial ability VURUS\u0327_24"
+  - first:
+      213: 5405495581008254993
+    second: "konduktor spceial ability VURUS\u0327_25"
+  - first:
+      213: 8973903314608933585
+    second: "konduktor spceial ability VURUS\u0327_26"
+  - first:
+      213: -7076928645657820972
+    second: "konduktor spceial ability VURUS\u0327_27"
+  - first:
+      213: 4699961057977260566
+    second: "konduktor spceial ability VURUS\u0327_28"
+  - first:
+      213: 3433161021106687218
+    second: "konduktor spceial ability VURUS\u0327_29"
+  - first:
+      213: 5957173727860022204
+    second: "konduktor spceial ability VURUS\u0327_30"
+  - first:
+      213: -7790491790556474358
+    second: "konduktor spceial ability VURUS\u0327_31"
+  - first:
+      213: -6960316865035599932
+    second: "konduktor spceial ability VURUS\u0327_32"
+  - first:
+      213: 4334658397714001613
+    second: "konduktor spceial ability VURUS\u0327_33"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25950dbf7aebf92e0800000000000000
+      internalID: -2116763671147292334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f863089c57e44e8c0800000000000000
+      internalID: -3970962703635171697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac3770be31f99f50800000000000000
+      internalID: 6888802356590754979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d45dd2e5c20006c0800000000000000
+      internalID: -4179337405261851434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1512b9634948b51d0800000000000000
+      internalID: -3360946924795780783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_5"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf5059a05a3f0d20800000000000000
+      internalID: 3246877974469828537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_6"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da31c1de148e9dc0800000000000000
+      internalID: -3630318981711054124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1e1d5095ca2df30800000000000000
+      internalID: 4598927667848405482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_8"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2727a2a33ccaaf700800000000000000
+      internalID: 574961856937620082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_9"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe256fba47a4e710800000000000000
+      internalID: 1721684897042870013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_10"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aedbbd9180143710800000000000000
+      internalID: 1671979510544457378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_11"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044993d37fc5827c0800000000000000
+      internalID: -4095921644139604928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_12"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdebe504e5a787df0800000000000000
+      internalID: -182261239683039524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_13"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca665442dfc4f660800000000000000
+      internalID: 7418782988182645454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_14"
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a20da613b817320800000000000000
+      internalID: 2553975508057467505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "konduktor spceial ability VURUS\u0327_15"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c79397060e0e85d0800000000000000
+      internalID: -3058491677878282296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4cc4b1deaeeb8462a86904304ae12879
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "konduktor spceial ability VURUS\u0327_0": -2116763671147292334
+      "konduktor spceial ability VURUS\u0327_1": -3970962703635171697
+      "konduktor spceial ability VURUS\u0327_10": 1671979510544457378
+      "konduktor spceial ability VURUS\u0327_11": -4095921644139604928
+      "konduktor spceial ability VURUS\u0327_12": -182261239683039524
+      "konduktor spceial ability VURUS\u0327_13": 7418782988182645454
+      "konduktor spceial ability VURUS\u0327_14": 2553975508057467505
+      "konduktor spceial ability VURUS\u0327_15": -3058491677878282296
+      "konduktor spceial ability VURUS\u0327_2": 6888802356590754979
+      "konduktor spceial ability VURUS\u0327_3": -4179337405261851434
+      "konduktor spceial ability VURUS\u0327_4": -3360946924795780783
+      "konduktor spceial ability VURUS\u0327_5": 3246877974469828537
+      "konduktor spceial ability VURUS\u0327_6": -3630318981711054124
+      "konduktor spceial ability VURUS\u0327_7": 4598927667848405482
+      "konduktor spceial ability VURUS\u0327_8": 574961856937620082
+      "konduktor spceial ability VURUS\u0327_9": 1721684897042870013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

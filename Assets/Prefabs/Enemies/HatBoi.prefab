@@ -12,6 +12,26 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 
@@ -19,6 +39,14 @@ PrefabInstance:
     - target: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Name
       value: HatBoi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.56666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722324654148838535, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0111111
       objectReference: {fileID: 0}
     - target: {fileID: 5854844993058121857, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,8 +88,87 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032806630825326975, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.393
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180883064058018124, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6808717599093469643, guid: df85063ef062047b39e6d0bee28e2ad9, type: 3}
+    m_RemovedComponents:
+    - {fileID: 860413697546039320, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+    - {fileID: 1095623856119618793, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7429450828015114784}
   m_SourcePrefab: {fileID: 100100000, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+--- !u!95 &447486033267001467 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1618891262232415153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3732405143932043909, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1685589488673245974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3665706926071710242, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7429450828015114784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685589488673245974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ea2800a9d416ca093dd05b2ef4cb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 447486033267001467}
+  damageTakePosition: {fileID: 7726959613144915946}
+  healthBarPosition: {fileID: 4733081344964909261}
+  talkBubblePosition: {fileID: 1618891262232415153}
+  stats: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
+  blockSprite: {fileID: 4375733170894979280}
+  dodgeSprite: {fileID: 3698640441156475320}
+  blockSpriteTargetOpaqueness: 0.66
+  dodgeSpriteTargetOpaqueness: 1
+  dodgeMovement: {x: 0.3, y: 0, z: 0}
+  aiProbabilities: {fileID: 11400000, guid: abb96b0bbf87146e9aaf5fb7f0774056, type: 2}
+  clonePrefab: {fileID: 5151977360415773811, guid: deb1bc712872f458e8ea03d3856ee30c, type: 3}
+  cloneLines:
+  - ' Deception? Deception is my surname.'
+  - Here you go my dear clone!
+--- !u!212 &3698640441156475320 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1652656480395415692, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4375733170894979280 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1802255208574028260, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4733081344964909261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7211415131032949241, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7726959613144915946 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5656788754241361630, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+  m_PrefabInstance: {fileID: 2718872020819495220}
+  m_PrefabAsset: {fileID: 0}

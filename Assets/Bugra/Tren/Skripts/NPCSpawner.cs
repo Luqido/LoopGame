@@ -18,8 +18,19 @@ public class NPCSpawner : MonoBehaviour
 
     private Dictionary<string, PrefabData> infoToPrefab;
 
+    public static List<EnemyType> NpcsToSpawn;
+
     void Awake()
     {
+        foreach (var enemyType in NpcsToSpawn)
+        {
+            if (enemyType == EnemyType.Grandma)
+            {
+                //TODO gereken enemyler spawnlanacak
+            }
+        }
+        NpcsToSpawn.Clear();
+        
         infoToPrefab = new Dictionary<string, PrefabData>();
         foreach (var data in prefabMappings)
         {
@@ -39,7 +50,7 @@ public class NPCSpawner : MonoBehaviour
         {
             if (!infoToPrefab.ContainsKey(info))
             {
-                Debug.LogWarning($"Bilgi bulunamadý: {info}");
+                Debug.LogWarning($"Bilgi bulunamadï¿½: {info}");
                 continue;
             }
 

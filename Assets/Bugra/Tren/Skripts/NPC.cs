@@ -6,4 +6,5 @@ public class NPC : MonoBehaviour
     public Sprite npcPortrait;
     public string npcName;
     public Sprite npcImage;
+    public EnemyType npcType; //TODO editorde doldurulacak
 }

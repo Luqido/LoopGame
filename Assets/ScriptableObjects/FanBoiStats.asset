@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f1e27831a3416095cae72b88aabf29, type: 3}
   m_Name: FanBoiStats
   m_EditorClassIdentifier: 
+  unitName: Fan Boi
   health: 150
   baseDamage: 30
+  shortDescription: A huge fan of game. Doesn't damage you for the first 3 turns.
+  blockPercentage: 0.369
+  blockChance: 0.748
+  dodgePercentage: 0.699
+  dodgeChance: 0.864

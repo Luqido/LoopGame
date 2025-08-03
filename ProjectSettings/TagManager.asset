@@ -18,7 +18,7 @@ TagManager:
   - Ray
   - Arkaplan
   - Hamster
-  - 
+  - Stop
   - 
   - 
   - 
@@ -42,20 +42,32 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: "\xC7imenBLok"
+    uniqueID: 3154370969
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Stop
+    uniqueID: 2665122391
     locked: 0
   - name: ArkaPlan
     uniqueID: 593163149
     locked: 0
+  - name: "trenAlt\u0131"
+    uniqueID: 294571167
+    locked: 0
   - name: Ray
     uniqueID: 4257563433
     locked: 0
-  - name: Hamster
-    uniqueID: 2972915545
+  - name: efect
+    uniqueID: 3307467109
     locked: 0
   - name: Tren
     uniqueID: 1305438257
+    locked: 0
+  - name: Hamster
+    uniqueID: 2972915545
     locked: 0
   m_RenderingLayers:
   - Default

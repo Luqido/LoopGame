@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -27,6 +28,7 @@ public class ChatManager : MonoBehaviour
     public PlayerMovement playerMovement;
 
 
+    public int combatSceneIndex = 3;
     //  [SerializeField] private EnemyType[] types;
 
     void Start()
@@ -207,8 +209,30 @@ public class ChatManager : MonoBehaviour
     public void StartCombat()
     {
         EndChat();
-        Debug.Log("Þu an hedefte: " + playerInteraction.currentTarget.name);
+        Debug.Log("ï¿½u an hedefte: " + playerInteraction.currentTarget.name);
 
+        if (playerInteraction.currentTarget.CompareTag("NPC"))
+        {
+            var npc = playerInteraction.currentTarget.GetComponent<NPC>();
+            switch (npc.npcType)
+            {
+                case EnemyType.NormalAdam:
+                case EnemyType.Tazi:
+                    CombatManager.SetEnemiesToFightAgainst(EnemyType.Tazi, EnemyType.NormalAdam);
+                    break;
+                case EnemyType.MuscleMan:
+                case EnemyType.HatBoi:
+                case EnemyType.FanBoi:
+                case EnemyType.Grandma:
+                case EnemyType.LariyeCroft:
+                    CombatManager.SetEnemiesToFightAgainst(npc.npcType);
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+
+            SceneManager.LoadScene(combatSceneIndex);
+        }
 
     }
 
