@@ -1,0 +1,14 @@
+Font: Symtext  Style: Regular
+Point Size: 671   Padding: 9   SP/PD Ratio: 1.3%
+
+Characters included: 79/81
+Missing characters: 2
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 304	Hex: 130	Char [İ]
+ID: 351	Hex: 15F	Char [ş]
+
+Characters excluded from packing:
+----------------------------------------
