@@ -68,7 +68,7 @@ public class CombatManager : MonoBehaviour
             }
 
             StartCoroutine(StartCombat(enemiesToSummon.ToArray()));
-            _enemyToFightAgainst = 0;
+            // _enemyToFightAgainst = 0;
         }
         else if (debugEnemies.Length > 0)
         {
@@ -143,6 +143,7 @@ public class CombatManager : MonoBehaviour
 
     public void GameLost()
     {
+        //todo lost ui
         Debug.Log("You lost");
         PlayerLevels.Instance.Reset();
         SceneManager.LoadScene(0);
@@ -151,6 +152,22 @@ public class CombatManager : MonoBehaviour
     private void GameWon()
     {
         Debug.Log("CONGRATS");
-        SceneManager.LoadScene(0);
+        //todo yeme animasyonu
+        
+        if (_enemyToFightAgainst.HasFlag(EnemyType.NormalAdam))
+        {
+            PeopleDoTween.LastBeatenEnemy = EnemyType.NormalAdam;
+        }
+        else
+        {
+            PeopleDoTween.LastBeatenEnemy = _enemyToFightAgainst;
+        }
+        
+        SceneManager.LoadScene(1);
+    }
+
+    private void OnDestroy()
+    {
+        _enemyToFightAgainst = 0;
     }
 }
