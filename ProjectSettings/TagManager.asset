@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Interactable
+  - NPC
+  - Vagon
+  - Door
   layers:
   - Default
   - TransparentFX
