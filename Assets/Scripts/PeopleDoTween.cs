@@ -39,9 +39,8 @@ public class PeopleDoTween : MonoBehaviour
             enemyTypes.Add(SekildenTypeaGecisSirasi[index]);
             havuz.RemoveAt(randomIndex);
         }
-     
-        //TODO bugra duzeltecek
-        // CombatManagerTester.enemies = enemyTypes;
+
+        NPCSpawner.NpcsToSpawn = enemyTypes;
     }
 
     // Update is called once per frame
