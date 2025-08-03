@@ -24,6 +24,8 @@ public class ChatManager : MonoBehaviour
     public Image npcLandscapeImage;
     public PlayerChatBox chatBox;
     public PlayerInteraction playerInteraction;
+    public PlayerMovement playerMovement;
+
 
     //  [SerializeField] private EnemyType[] types;
 
@@ -33,6 +35,7 @@ public class ChatManager : MonoBehaviour
         answerButton1.onClick.AddListener(() => OnAnswerButtonClicked(0));
         answerButton2.onClick.AddListener(() => OnAnswerButtonClicked(1));
         answerButton3.onClick.AddListener(() => OnAnswerButtonClicked(2));
+
     }
 
     public void StartChat(NPCChatData chatData)
@@ -41,13 +44,15 @@ public class ChatManager : MonoBehaviour
         chatPanel.SetActive(true);
 
         chatBox.StopTextLoop();
-        if (player != null)
+
+        if (playerMovement != null)
         {
-            player.GetComponent<PlayerMovement>().enabled = false; 
+            playerMovement.canMove = false;
+            playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
+
         ShowNPCMessage();
     }
-
     private void Update()
     {
         
@@ -173,15 +178,16 @@ public class ChatManager : MonoBehaviour
         }
     }
 
-    private void EndChat()
+    public void EndChat()
     {
         chatPanel.SetActive(false);
-        if (player != null)
-        {
-            player.GetComponent<PlayerMovement>().enabled = true; 
-        }
-        chatBox.StartTextLoop();
 
+        if (playerMovement != null)
+        {
+            playerMovement.canMove = true;
+        }
+
+        chatBox.StartTextLoop();
         Debug.Log("Sohbet bitti!");
     }
     public void SetPortrait(Sprite portrait )
