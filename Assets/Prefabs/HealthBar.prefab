@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2537351502359194528}
   - component: {fileID: 1054158323811665968}
-  - component: {fileID: 1993864790375786696}
+  - component: {fileID: 2144275581270757152}
   m_Layer: 5
   m_Name: HealthBar Fill
   m_TagString: Untagged
@@ -45,7 +45,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954587768420420287}
   m_CullTransparentMesh: 1
---- !u!114 &1993864790375786696
+--- !u!114 &2144275581270757152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,26 +54,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 954587768420420287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e83f33f171ac4b3bb8150c011a2ecfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.2444452, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
+  m_Sprite: {fileID: 2531905132020968384, guid: e0eb23525faab4c3dac3295eb91d8847, type: 3}
+  m_FillDirection: 0
   m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_FillCenter: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &2210919599574937250
 GameObject:
@@ -142,8 +137,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 2531905132020968384, guid: e0eb23525faab4c3dac3295eb91d8847, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -164,5 +159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b72b97cd89442c98983773e3577d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 1993864790375786696}
+  healthBar: {fileID: 0}
+  slicedFilledHealthBar: {fileID: 2144275581270757152}
   unit: {fileID: 0}

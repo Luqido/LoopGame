@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: e0eb23525faab4c3dac3295eb91d8847
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2531905132020968384
+    second: ui_ikonlar_0
+  - first:
+      213: 8526801327772666370
+    second: ui_ikonlar_1
+  - first:
+      213: -4307120004059594936
+    second: ui_ikonlar_2
+  - first:
+      213: -3099043946834491238
+    second: ui_ikonlar_3
+  - first:
+      213: -4229522273971503803
+    second: ui_ikonlar_4
+  - first:
+      213: 3438398966531504818
+    second: ui_ikonlar_5
+  - first:
+      213: 7438222999253727892
+    second: ui_ikonlar_6
+  - first:
+      213: 3065562237641153892
+    second: ui_ikonlar_7
+  - first:
+      213: 6029853855925007748
+    second: ui_ikonlar_8
+  - first:
+      213: 6582326340549973402
+    second: ui_ikonlar_9
+  - first:
+      213: -2223909687217853987
+    second: ui_ikonlar_10
+  - first:
+      213: 5284370615514604107
+    second: ui_ikonlar_11
+  - first:
+      213: 7487518612761944593
+    second: ui_ikonlar_12
+  - first:
+      213: 7126685609485793438
+    second: ui_ikonlar_13
+  - first:
+      213: 6836223711396851847
+    second: ui_ikonlar_14
+  - first:
+      213: -8396956449649963559
+    second: ui_ikonlar_15
+  - first:
+      213: 4658522884338045559
+    second: ui_ikonlar_16
+  - first:
+      213: 8744942243074561699
+    second: ui_ikonlar_17
+  - first:
+      213: -5353243020599197826
+    second: ui_ikonlar_18
+  - first:
+      213: 5939426269800829568
+    second: ui_ikonlar_19
+  - first:
+      213: 5667508885596539337
+    second: ui_ikonlar_20
+  - first:
+      213: 3820908502695136044
+    second: ui_ikonlar_21
+  - first:
+      213: 8696653585712547026
+    second: ui_ikonlar_22
+  - first:
+      213: 705496134230426870
+    second: ui_ikonlar_23
+  - first:
+      213: -1534591169978492031
+    second: ui_ikonlar_24
+  - first:
+      213: -9217441026221912995
+    second: ui_ikonlar_25
+  - first:
+      213: 2732925281695280244
+    second: ui_ikonlar_26
+  - first:
+      213: -1995158863326208976
+    second: ui_ikonlar_27
+  - first:
+      213: 5036642589510743577
+    second: ui_ikonlar_28
+  - first:
+      213: 2620954559190151783
+    second: ui_ikonlar_29
+  - first:
+      213: 6967869684992842691
+    second: ui_ikonlar_30
+  - first:
+      213: -1631649618111725079
+    second: ui_ikonlar_31
+  - first:
+      213: -2963044779167678571
+    second: ui_ikonlar_32
+  - first:
+      213: 8778027585575741815
+    second: ui_ikonlar_33
+  - first:
+      213: -775661386586506966
+    second: ui_ikonlar_34
+  - first:
+      213: -253388560235099586
+    second: ui_ikonlar_35
+  - first:
+      213: -3336667816145420319
+    second: ui_ikonlar_36
+  - first:
+      213: -5126459283811927047
+    second: ui_ikonlar_37
+  - first:
+      213: 1283842422042837995
+    second: ui_ikonlar_38
+  - first:
+      213: 7401813029838192147
+    second: ui_ikonlar_39
+  - first:
+      213: -8588201449527734937
+    second: ui_ikonlar_40
+  - first:
+      213: -9025997506922007500
+    second: ui_ikonlar_41
+  - first:
+      213: -4430189974801569359
+    second: ui_ikonlar_42
+  - first:
+      213: 4773588567930267862
+    second: ui_ikonlar_43
+  - first:
+      213: -271910655149069227
+    second: ui_ikonlar_44
+  - first:
+      213: -7361455003228498297
+    second: ui_ikonlar_45
+  - first:
+      213: 4771988201067985395
+    second: ui_ikonlar_46
+  - first:
+      213: -7718011818098233957
+    second: ui_ikonlar_47
+  - first:
+      213: 5630478107131397650
+    second: ui_ikonlar_48
+  - first:
+      213: -9094416965974308925
+    second: ui_ikonlar_49
+  - first:
+      213: 2940935640054258348
+    second: ui_ikonlar_50
+  - first:
+      213: -7208157107423500079
+    second: ui_ikonlar_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_ikonlar_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 659
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 21, y: 21, z: 21, w: 21}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb291f8d42232320800000000000000
+      internalID: 2531905132020968384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 684
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a083471a8455670800000000000000
+      internalID: 8526801327772666370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 679
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f7c092d290a34c0800000000000000
+      internalID: -4307120004059594936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_3
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 659
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a980b9523fbfdf4d0800000000000000
+      internalID: -3099043946834491238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 649
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d735a96e7bd45c0800000000000000
+      internalID: -4229522273971503803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_5
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 644
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3e2484a5a7bf20800000000000000
+      internalID: 3438398966531504818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_6
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 694
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ab8ae8860e93760800000000000000
+      internalID: 7438222999253727892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_7
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 649
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dd373fc901b8a20800000000000000
+      internalID: 3065562237641153892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 654
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485fde962285ea350800000000000000
+      internalID: 6029853855925007748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 579
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a959d2c9eee195b50800000000000000
+      internalID: 6582326340549973402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 564
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd964d81ce51321e0800000000000000
+      internalID: -2223909687217853987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 564
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42a247b31bd55940800000000000000
+      internalID: 5284370615514604107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 564
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1122dcaf18209e760800000000000000
+      internalID: 7487518612761944593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_13
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 564
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98f9439dc217e260800000000000000
+      internalID: 7126685609485793438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 499
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78079e2ee352fde50800000000000000
+      internalID: 6836223711396851847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 484
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd40381994087b80800000000000000
+      internalID: -8396956449649963559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_16
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 484
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7725ff2a1e566a040800000000000000
+      internalID: 4658522884338045559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_17
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 484
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a654cb23a64c5970800000000000000
+      internalID: 8744942243074561699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_18
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 484
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f78d0e5d575b5b0800000000000000
+      internalID: -5353243020599197826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 419
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0821a1559b41d6250800000000000000
+      internalID: 5939426269800829568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 414
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c90a5fbd4907ae40800000000000000
+      internalID: 5667508885596539337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_21
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 414
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bc9660a08960530800000000000000
+      internalID: 3820908502695136044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 339
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4060ffb58b0b870800000000000000
+      internalID: 8696653585712547026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 334
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f447370ffc6ac900800000000000000
+      internalID: 705496134230426870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_24
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 334
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b1bf5267904bae0800000000000000
+      internalID: -1534591169978492031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 259
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c4ee50932151080800000000000000
+      internalID: -9217441026221912995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_26
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 254
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ca125601d4de520800000000000000
+      internalID: 2732925281695280244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_27
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 254
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c18f8a595cf44e0800000000000000
+      internalID: -1995158863326208976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 179
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9163468ffbfb5e540800000000000000
+      internalID: 5036642589510743577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_29
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 174
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76238f009408f5420800000000000000
+      internalID: 2620954559190151783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_30
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 174
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb1637af88d2b060800000000000000
+      internalID: 6967869684992842691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 99
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e18c8231573b59e0800000000000000
+      internalID: -1631649618111725079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f7224e87621e6d0800000000000000
+      internalID: -2963044779167678571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 99
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77962d2c491d1d970800000000000000
+      internalID: 8778027585575741815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_34
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 104
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29368a141c4c35f0800000000000000
+      internalID: -775661386586506966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_35
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a0a0d6278cb7cf0800000000000000
+      internalID: -253388560235099586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_36
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef7c25bc46c1b1d0800000000000000
+      internalID: -3336667816145420319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_37
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 89
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbf2e841782bd8b0800000000000000
+      internalID: -5126459283811927047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_38
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c07971ef11d110800000000000000
+      internalID: 1283842422042837995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_39
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 89
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31efc51fbb588b660800000000000000
+      internalID: 7401813029838192147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_40
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 84
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d876da84490d880800000000000000
+      internalID: -8588201449527734937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_41
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 81
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4343a58d6173db280800000000000000
+      internalID: -9025997506922007500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9a478a0bdc482c0800000000000000
+      internalID: -4430189974801569359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_43
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 14
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8695fc2813f3240800000000000000
+      internalID: 4773588567930267862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 14
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c223523baf93cf0800000000000000
+      internalID: -271910655149069227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 14
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7861b8e5dabd6d990800000000000000
+      internalID: -7361455003228498297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_46
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 14
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9330d5cf1893240800000000000000
+      internalID: 4771988201067985395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_47
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 14
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9decf9a42d14e490800000000000000
+      internalID: -7718011818098233957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 9
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2164e23c10a732e40800000000000000
+      internalID: 5630478107131397650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_49
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 14
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7c0d724f32ac180800000000000000
+      internalID: -9094416965974308925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_50
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 9
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa58b4026d40d820800000000000000
+      internalID: 2940935640054258348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_ikonlar_51
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 4
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8a0de1d4b77fb90800000000000000
+      internalID: -7208157107423500079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a29c6f8dc23449ba9380dbaa244fcfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_ikonlar_0: 2531905132020968384
+      ui_ikonlar_1: 8526801327772666370
+      ui_ikonlar_10: -2223909687217853987
+      ui_ikonlar_11: 5284370615514604107
+      ui_ikonlar_12: 7487518612761944593
+      ui_ikonlar_13: 7126685609485793438
+      ui_ikonlar_14: 6836223711396851847
+      ui_ikonlar_15: -8396956449649963559
+      ui_ikonlar_16: 4658522884338045559
+      ui_ikonlar_17: 8744942243074561699
+      ui_ikonlar_18: -5353243020599197826
+      ui_ikonlar_19: 5939426269800829568
+      ui_ikonlar_2: -4307120004059594936
+      ui_ikonlar_20: 5667508885596539337
+      ui_ikonlar_21: 3820908502695136044
+      ui_ikonlar_22: 8696653585712547026
+      ui_ikonlar_23: 705496134230426870
+      ui_ikonlar_24: -1534591169978492031
+      ui_ikonlar_25: -9217441026221912995
+      ui_ikonlar_26: 2732925281695280244
+      ui_ikonlar_27: -1995158863326208976
+      ui_ikonlar_28: 5036642589510743577
+      ui_ikonlar_29: 2620954559190151783
+      ui_ikonlar_3: -3099043946834491238
+      ui_ikonlar_30: 6967869684992842691
+      ui_ikonlar_31: -1631649618111725079
+      ui_ikonlar_32: -2963044779167678571
+      ui_ikonlar_33: 8778027585575741815
+      ui_ikonlar_34: -775661386586506966
+      ui_ikonlar_35: -253388560235099586
+      ui_ikonlar_36: -3336667816145420319
+      ui_ikonlar_37: -5126459283811927047
+      ui_ikonlar_38: 1283842422042837995
+      ui_ikonlar_39: 7401813029838192147
+      ui_ikonlar_4: -4229522273971503803
+      ui_ikonlar_40: -8588201449527734937
+      ui_ikonlar_41: -9025997506922007500
+      ui_ikonlar_42: -4430189974801569359
+      ui_ikonlar_43: 4773588567930267862
+      ui_ikonlar_44: -271910655149069227
+      ui_ikonlar_45: -7361455003228498297
+      ui_ikonlar_46: 4771988201067985395
+      ui_ikonlar_47: -7718011818098233957
+      ui_ikonlar_48: 5630478107131397650
+      ui_ikonlar_49: -9094416965974308925
+      ui_ikonlar_5: 3438398966531504818
+      ui_ikonlar_50: 2940935640054258348
+      ui_ikonlar_51: -7208157107423500079
+      ui_ikonlar_6: 7438222999253727892
+      ui_ikonlar_7: 3065562237641153892
+      ui_ikonlar_8: 6029853855925007748
+      ui_ikonlar_9: 6582326340549973402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

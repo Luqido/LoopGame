@@ -1,34 +1,40 @@
 fileFormatVersion: 2
-guid: 29dc44faa910c433482b666cd3f03f50
+guid: 8542f7e654f594af893eb10cd6fd0a9e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1457063796179177658
-    second: "du\u0308s\u0327man_hasaral\u0131yor_0"
+      213: 7786487110580632875
+    second: HatBoiAttack_0
   - first:
-      213: -8714915025896428361
-    second: "du\u0308s\u0327man_hasaral\u0131yor_1"
+      213: -3238221489159191749
+    second: HatBoiAttack_1
   - first:
-      213: -3111603713199938647
-    second: "du\u0308s\u0327man_hasaral\u0131yor_2"
+      213: -4784933309352685257
+    second: HatBoiAttack_2
   - first:
-      213: 6660233739067237375
-    second: "du\u0308s\u0327man_hasaral\u0131yor_3"
+      213: -7151584000757415953
+    second: HatBoiAttack_3
   - first:
-      213: -2523449610848280667
-    second: "du\u0308s\u0327man_hasaral\u0131yor_4"
+      213: 8737202730930713670
+    second: HatBoiAttack_4
   - first:
-      213: 8875186025194045473
-    second: "du\u0308s\u0327man_hasaral\u0131yor_5"
+      213: -6248209246925112546
+    second: HatBoiAttack_5
   - first:
-      213: 7034043106964958784
-    second: "du\u0308s\u0327man_hasaral\u0131yor_6"
+      213: -2729717132926067323
+    second: HatBoiAttack_6
   - first:
-      213: 2418003930181326477
-    second: "du\u0308s\u0327man_hasaral\u0131yor_7"
+      213: 5434023925745635467
+    second: HatBoiAttack_7
   - first:
-      213: -446138904925496832
-    second: "du\u0308s\u0327man_hasaral\u0131yor_8"
+      213: 2423455293741631118
+    second: HatBoiAttack_8
+  - first:
+      213: -4813792273948950323
+    second: HatBoiAttack_9
+  - first:
+      213: 1898202828180029570
+    second: HatBoiAttack_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +102,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -124,199 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_0"
+      name: HatBoiAttack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2560
-        width: 320
-        height: 320
+        x: 79
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1b6f584c4efd545d2ac5e5bf16112e69
-      internalID: 561951578
+      spriteID: b2df052c5c82f0c60800000000000000
+      internalID: 7786487110580632875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_1"
+      name: HatBoiAttack_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2240
-        width: 320
-        height: 320
+        x: 319
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 34b9a6fb7f90445da84d3bf5fc29b30b
-      internalID: 1443241053
+      spriteID: b3341a266b68f03d0800000000000000
+      internalID: -3238221489159191749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_2"
+      name: HatBoiAttack_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1920
-        width: 320
-        height: 320
+        x: 559
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 67dc1bc28496c49f28ef031690b8bbbd
-      internalID: 692050565
+      spriteID: 731591eb180889db0800000000000000
+      internalID: -4784933309352685257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_3"
+      name: HatBoiAttack_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
-        width: 320
-        height: 320
+        x: 799
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2dbb3662206a54b789aeae3c0b77a14f
-      internalID: -1531450528
+      spriteID: fefbc75fd3870cc90800000000000000
+      internalID: -7151584000757415953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_4"
+      name: HatBoiAttack_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 320
-        height: 320
+        x: 1039
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d180b2a1f291442fa85718426ff353e7
-      internalID: 972992690
+      spriteID: 644b2b39797c04970800000000000000
+      internalID: 8737202730930713670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_5"
+      name: HatBoiAttack_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 960
-        width: 320
-        height: 320
+        x: 1279
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 56b7e91b4b9cb4989a22a1c7681bf4cd
-      internalID: 944861022
+      spriteID: e1bb7ba5bc6e949a0800000000000000
+      internalID: -6248209246925112546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_6"
+      name: HatBoiAttack_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
-        width: 320
-        height: 320
+        x: 1519
+        y: 44
+        width: 102
+        height: 182
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b82dafb5ad96844dcbcc361210de34a0
-      internalID: -502077176
+      spriteID: 58dd4a2fab81e1ad0800000000000000
+      internalID: -2729717132926067323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_7"
+      name: HatBoiAttack_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1754
+        y: 44
+        width: 107
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f755d02459bde4a5f9740761e1162642
-      internalID: 2065311843
+      spriteID: b80da0348f7896b40800000000000000
+      internalID: 5434023925745635467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "du\u0308s\u0327man_hasaral\u0131yor_8"
+      name: HatBoiAttack_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1969
+        y: 44
+        width: 132
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5984849, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: da599f90971d04ce794f30fb76a4e1ff
-      internalID: 401660508
+      spriteID: e868288efb7d1a120800000000000000
+      internalID: 2423455293741631118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatBoiAttack_9
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 44
+        width: 147
+        height: 182
+      alignment: 9
+      pivot: {x: 0.6394558, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0c0c07e69f13db0800000000000000
+      internalID: -4813792273948950323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatBoiAttack_10
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 44
+        width: 172
+        height: 182
+      alignment: 9
+      pivot: {x: 0.69186044, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28000554a65c75a10800000000000000
+      internalID: 1898202828180029570
       vertices: []
       indices: 
       edges: []
@@ -325,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 92682b11d5549430da977e63eb9f7e54
+    spriteID: e6d956f7fcef44c998c0aeaa02b2f025
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "du\u0308s\u0327man_hasaral\u0131yor_0": 561951578
-      "du\u0308s\u0327man_hasaral\u0131yor_1": 1443241053
-      "du\u0308s\u0327man_hasaral\u0131yor_2": 692050565
-      "du\u0308s\u0327man_hasaral\u0131yor_3": -1531450528
-      "du\u0308s\u0327man_hasaral\u0131yor_4": 972992690
-      "du\u0308s\u0327man_hasaral\u0131yor_5": 944861022
-      "du\u0308s\u0327man_hasaral\u0131yor_6": -502077176
-      "du\u0308s\u0327man_hasaral\u0131yor_7": 2065311843
-      "du\u0308s\u0327man_hasaral\u0131yor_8": 401660508
+      HatBoiAttack_0: 7786487110580632875
+      HatBoiAttack_1: -3238221489159191749
+      HatBoiAttack_10: 1898202828180029570
+      HatBoiAttack_2: -4784933309352685257
+      HatBoiAttack_3: -7151584000757415953
+      HatBoiAttack_4: 8737202730930713670
+      HatBoiAttack_5: -6248209246925112546
+      HatBoiAttack_6: -2729717132926067323
+      HatBoiAttack_7: 5434023925745635467
+      HatBoiAttack_8: 2423455293741631118
+      HatBoiAttack_9: -4813792273948950323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
