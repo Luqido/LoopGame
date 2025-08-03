@@ -3,15 +3,15 @@ using UnityEngine.UI;
 
 public class BarControl : MonoBehaviour
 {
-    public Transform barContainer; // Image’larýn parent'ý
-    public Button artýButonu;
+    public Transform barContainer; // Imageï¿½larï¿½n parent'ï¿½
+    public Button artiButonu;
     public Button eksiButonu;
 
     private int aktifSayisi = 0;
 
     void Start()
     {
-        artýButonu.onClick.AddListener(Artir);
+        artiButonu.onClick.AddListener(Artir);
         eksiButonu.onClick.AddListener(Azalt);
 
         GuncelleButonlar();
@@ -56,11 +56,11 @@ public class BarControl : MonoBehaviour
         bool artiAktif = SkillManager.Instance.KalanSkill() > 0 && aktifSayisi < barContainer.childCount;
         bool eksiAktif = aktifSayisi > 0;
 
-        artýButonu.interactable = artiAktif;
+        artiButonu.interactable = artiAktif;
         eksiButonu.interactable = eksiAktif;
 
-        // Görsel renk deðiþimi yapmak istersen:
-        artýButonu.image.color = artiAktif ? Color.white : Color.red;
+        // Gï¿½rsel renk deï¿½iï¿½imi yapmak istersen:
+        artiButonu.image.color = artiAktif ? Color.white : Color.red;
         eksiButonu.image.color = eksiAktif ? Color.white : Color.red;
     }
     void OnEnable()

@@ -26,7 +26,7 @@ public class Sahnegeçişi : MonoBehaviour
         {
             tr.SetPause(true);
 
-            StartCoroutine(people.Sıralı());
+            StartCoroutine(people.Sirali());
         }
 
     }

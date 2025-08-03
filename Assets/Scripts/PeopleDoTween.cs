@@ -34,7 +34,7 @@ public class PeopleDoTween : MonoBehaviour
        
     }
     
-    public IEnumerator Sýralý()
+    public IEnumerator Sirali()
     {
 
         List<GameObject> aktifSekiller = new List<GameObject>();
@@ -64,13 +64,13 @@ public class PeopleDoTween : MonoBehaviour
         
 
 
-        // Bekle ve sahneyi yeniden yükle
+        // Bekle ve sahneyi yeniden yï¿½kle
         yield return new WaitForSecondsRealtime(1f);
         RectTransform popupRect = popupPanel.GetComponent<RectTransform>();
-        popupRect.anchoredPosition = new Vector2(0, -400); // ekranýn altý gibi
+        popupRect.anchoredPosition = new Vector2(0, -400); // ekranï¿½n altï¿½ gibi
         popupPanel.SetActive(true);
 
-        // Yukarý kaydýrarak göster (0, 0 pozisyonuna gitsin)
+        // Yukarï¿½ kaydï¿½rarak gï¿½ster (0, 0 pozisyonuna gitsin)
         yield return popupRect.DOAnchorPosY(0, 1.5f).SetEase(Ease.OutExpo).WaitForCompletion();
 
 

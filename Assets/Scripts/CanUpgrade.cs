@@ -5,8 +5,8 @@ using TMPro;
 public class CanUpgrade : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Transform canContainer; // "Can" objesini buraya sürükle
-    public Button artýButonu;
+    public Transform canContainer; // "Can" objesini buraya sï¿½rï¿½kle
+    public Button artiButonu;
     public Button eksiButonu;
     public int SkillPoint = 5;
     private int aktifCanSayisi = 0;
@@ -15,7 +15,7 @@ public class CanUpgrade : MonoBehaviour
 
     void Start()
     {
-        artýButonu.onClick.AddListener(CanArtir);
+        artiButonu.onClick.AddListener(CanArtir);
         eksiButonu.onClick.AddListener(CanAzalt);
         GuncelleUI();
 
@@ -40,7 +40,7 @@ public class CanUpgrade : MonoBehaviour
 
     void CanAzalt()
     {
-        // tersten döneriz, son aktif olaný bulmak için
+        // tersten dï¿½neriz, son aktif olanï¿½ bulmak iï¿½in
         for (int i = canContainer.childCount - 1; i >= 0; i--)
         {
             if (canContainer.GetChild(i).gameObject.activeSelf)
@@ -55,13 +55,13 @@ public class CanUpgrade : MonoBehaviour
     }
     void GuncelleUI()
     {
-        // Skill puaný yazýsýný güncelle
+        // Skill puanï¿½ yazï¿½sï¿½nï¿½ gï¿½ncelle
         SkorText.text = "SKILL POINTS: " + SkillPoint;
 
-        // Artý butonu: sadece puan varsa açýk olsun
-        artýButonu.interactable = SkillPoint > 0;
+        // Artï¿½ butonu: sadece puan varsa aï¿½ï¿½k olsun
+        artiButonu.interactable = SkillPoint > 0;
 
-        // Eksi butonu: en az 1 can aktifse açýk
+        // Eksi butonu: en az 1 can aktifse aï¿½ï¿½k
         eksiButonu.interactable = aktifCanSayisi > 0;
     }
 
