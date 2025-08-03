@@ -41,6 +41,7 @@ public class CombatUI : MonoBehaviour
 
     private void Select(Player.CombatOption option)
     {
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick2);
         CombatManager.Instance.player.CurrentCombatOption = option;
         canvasGroup.DOFade(0f, 0.5f);
     }
@@ -67,7 +68,7 @@ public class CombatUI : MonoBehaviour
             enemySelectionButtons[i1].onClick.AddListener(() =>
             {
                 setter.Invoke(CombatManager.Instance.enemies[i1]);
-                
+                SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick2);
                 DisableEnemySelectionButtons();
             });
         }

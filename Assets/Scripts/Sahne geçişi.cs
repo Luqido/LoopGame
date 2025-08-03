@@ -32,6 +32,7 @@ public class Sahnegeçişi : MonoBehaviour
     }
     public void NextLevel()
     {
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
         int currentindex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentindex + 1);
 

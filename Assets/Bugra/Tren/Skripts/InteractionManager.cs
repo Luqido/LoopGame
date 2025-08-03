@@ -7,11 +7,12 @@ public class InteractionManager : MonoBehaviour
     public CameraZoom cameraZoom;
     public void InteractWithObject(Transform target)
     {
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
         if (target.CompareTag("NPC"))
         {
             cameraZoom.ZoomTo(9.15f);
             StartChat(target); 
-            Debug.Log("NPC ile sohbet baþlatýldý!");
+            Debug.Log("NPC ile sohbet baï¿½latï¿½ldï¿½!");
         }
         else if (target.CompareTag("Door"))
         {
@@ -19,13 +20,13 @@ public class InteractionManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Bilinmeyen etkileþim!");
+            Debug.Log("Bilinmeyen etkileï¿½im!");
         }
     }
 
     private void StartChat()
     {
-        Debug.Log("NPC ile sohbet baþlatýldý!");
+        Debug.Log("NPC ile sohbet baï¿½latï¿½ldï¿½!");
     }
 
     private void StartVagonTransition(Transform doorTransform)
@@ -61,6 +62,6 @@ public class InteractionManager : MonoBehaviour
     }
     private void OpenDoor()
     {
-        Debug.Log("Kapý açýldý!");
+        Debug.Log("Kapï¿½ aï¿½ï¿½ldï¿½!");
     }
 }

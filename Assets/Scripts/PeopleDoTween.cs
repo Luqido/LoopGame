@@ -16,6 +16,7 @@ public class PeopleDoTween : MonoBehaviour
     public static EnemyType LastBeatenEnemy;
     void Start()
     {
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.TrainSteamWhistle);
         tr = FindAnyObjectByType<TrackMoveHandler>();
         foreach (GameObject sekil in Sekil)
         {

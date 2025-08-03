@@ -53,6 +53,7 @@ public class CombatManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.CombatTheme);
     }
 
     private void Start()
@@ -150,6 +151,7 @@ public class CombatManager : MonoBehaviour
         PlayerLevels.Instance.Reset();
         canvas.DOFade(1f, 0.3f);
         HamAnim.SetTrigger("HConductor");
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.HamsterEating);
         Invoke(nameof(OpenMenuScene), 4f);
     }
 
@@ -194,6 +196,8 @@ public class CombatManager : MonoBehaviour
                 Debug.LogWarning("Tetiklenecek animasyon bulunamad�.");
                 break;
         }
+
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.HamsterEating);
 
         StartCoroutine(WaitForAnimAndContinue());
 

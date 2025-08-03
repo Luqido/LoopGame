@@ -6,7 +6,14 @@ public class SoundManager : MonoBehaviour
 
     private void Awake()
     {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        
         instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     [SerializeField] private AudioSource MusicPlayer;
@@ -24,7 +31,24 @@ public class SoundManager : MonoBehaviour
         BackgroundMusic,
         CubeShow,
         AutoCubeShow,
-        ButtonHover
+        ButtonHover,
+        
+        MenuClick1,
+        MenuClick2,
+        
+        IsometricTrainTheme,
+        CombatTheme,
+        HamsterEating,
+        TrainAmbience,
+        TrainWindTheme,
+        TrainSteamWhistle,
+        TrainFootstep1,
+        TrainFootstep2,
+        Punch1,
+        Punch2,
+        Steam,
+        
+        
     }
 
     [System.Serializable]
@@ -45,7 +69,7 @@ public class SoundManager : MonoBehaviour
         {
             if (audioClip.soundName == soundName)
             {
-                if (soundName == SoundNames.BackgroundMusic)
+                if (soundName.ToString().Contains("Theme"))
                 {
                     MusicPlayer.clip = audioClip.clip;
                     MusicPlayer.volume = MusicVolume;

@@ -136,6 +136,7 @@ public class Player : Unit
         animator.SetTrigger("SpecialAbility");
         yield return new WaitForSeconds(.8f);
         smokeAnimator.transform.position = to.GetComponent<SpriteRenderer>().bounds.center;
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.Steam);
         smokeAnimator.SetTrigger("SpecialAbility");
         yield return new WaitForSeconds(0.6f);
         to.CurrentHp -= currentSpecialDamage;
