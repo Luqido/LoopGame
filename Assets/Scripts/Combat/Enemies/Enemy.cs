@@ -3,6 +3,27 @@ using UnityEngine;
 
 public class Enemy : Unit
 {
+    protected override void Awake()
+    {
+        base.Awake();
+        startingHealth = (int)(CombatManager.Instance.player.startingHealth 
+                               * Random.Range
+                               (
+                                   CombatManager.Instance.commonEnemyStats.enemyHealthMultiplierMin, 
+                                   CombatManager.Instance.commonEnemyStats.enemyHealthMultiplierMax
+                               ) 
+                               * aiProbabilities.hpMultiplier
+                               );
+        currentDamage = (int)(CombatManager.Instance.player.currentDamage
+                              * Random.Range
+                              (
+                                  CombatManager.Instance.commonEnemyStats.enemyDamageMultiplierMin,
+                                  CombatManager.Instance.commonEnemyStats.enemyDamageMultiplierMax
+                              )
+                              * aiProbabilities.damageMultiplier
+            );
+    }
+
     [SerializeField] protected EnemyAIProbabilities aiProbabilities;
 
     public override IEnumerator ExecuteTurn()

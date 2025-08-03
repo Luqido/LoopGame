@@ -2,8 +2,51 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+public class PlayerLevels
+{
+    private static PlayerLevels _instance;
+    private static readonly object _lock = new();
+
+    public static PlayerLevels Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                lock (_lock)
+                {
+                    if (_instance == null)
+                    {
+                        _instance = new PlayerLevels();
+                    }
+                }
+            }
+
+            return _instance;
+        }
+    }
+
+    // Private constructor ensures no external instantiation
+    private PlayerLevels() { }
+
+    public int healthLevel;
+    public int attackLevel;
+    public int defenseLevel;
+    public int luckLevel;
+
+    public void Reset()
+    {
+        healthLevel = 0;
+        attackLevel = 0;
+        defenseLevel = 0;
+        luckLevel = 0;
+    }
+}
+
 public class Player : Unit
 {
+    [SerializeField] private PlayerStats playerStats;
+    
     public enum CombatOption
     {
         Attack,
@@ -15,16 +58,17 @@ public class Player : Unit
     [SerializeField] private CombatUI combatUI;
     [SerializeField] private Animator slashAnimator;
     [SerializeField] private Animator smokeAnimator;
-    [SerializeField] private int specialPerTurn;
-    [SerializeField] private int specialDamage;
 
     private int _turnCount;
     public CombatOption? CurrentCombatOption { get; set; } = null;
+    private int currentSpecialDamage;
 
     protected override void Awake()
     {
         base.Awake();
+        
         HealthChanged += OnHealthChanged;
+        ApplyUpgrade();
     }
 
     private void OnHealthChanged(int prevHp, int currentHp, int maxHp)
@@ -40,7 +84,7 @@ public class Player : Unit
         yield return base.ExecuteTurn();
 
         _turnCount++;
-        combatUI.InitializeTurnUI(_turnCount % specialPerTurn == 0);
+        combatUI.InitializeTurnUI(_turnCount % playerStats.specialPerTurn == 0);
         yield return new WaitUntil(() => CurrentCombatOption != null);
         switch (CurrentCombatOption)
         {
@@ -94,7 +138,22 @@ public class Player : Unit
         smokeAnimator.transform.position = to.GetComponent<SpriteRenderer>().bounds.center;
         smokeAnimator.SetTrigger("SpecialAbility");
         yield return new WaitForSeconds(0.6f);
-        to.CurrentHp -= specialDamage;
+        to.CurrentHp -= currentSpecialDamage;
         yield return new WaitForSeconds(0.9f);
+    }
+    
+    // can
+    // atak
+    // blok
+    // luck
+
+    public override float BlockAbsorbPercentage => stats.blockPercentage + PlayerLevels.Instance.defenseLevel * playerStats.defenseIncreasePercentage;
+    public override float DodgeHitChance =>  stats.dodgeChance + PlayerLevels.Instance.luckLevel * playerStats.luckIncreasePercentage;
+
+    public void ApplyUpgrade()
+    {
+        startingHealth = (int)(playerStats.baseHealth * (1 + PlayerLevels.Instance.healthLevel * playerStats.healthIncreasePercentage));
+        currentDamage = (int)(playerStats.baseDamage * (1 + PlayerLevels.Instance.attackLevel * playerStats.damageIncreasePercentage));
+        currentSpecialDamage = (int)(playerStats.baseSpecialDamage * (1 + PlayerLevels.Instance.attackLevel * playerStats.damageIncreasePercentage));
     }
 }

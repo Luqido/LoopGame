@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: NormalAdamStats
   m_EditorClassIdentifier: 
   unitName: Average Man
-  health: 150
-  baseDamage: 30
-  blockPercentage: 0
-  blockChance: 0
-  dodgePercentage: 0
-  dodgeChance: 0
+  shortDescription: The most average man you can possibly imagine.
+  blockPercentage: 0.5
+  dodgeChance: 0.5

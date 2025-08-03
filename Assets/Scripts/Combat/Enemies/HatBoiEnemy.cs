@@ -1,13 +1,17 @@
 using System;
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class HatBoiEnemy : Enemy
 {
-    [SerializeField] private Unit clonePrefab;
+    [SerializeField] private HatBoiClone clonePrefab;
     public static bool CloneActive;
     [SerializeField] private string[] cloneLines;
+    private HatBoiClone _clone;
+    
+
     public override IEnumerator ExecuteSpecial()
     {
         if (CloneActive)
@@ -18,15 +22,10 @@ public class HatBoiEnemy : Enemy
         {
             yield return CombatManager.Instance.ui.Say(this, cloneLines[Random.Range(0, cloneLines.Length)]);
             CloneActive = true;
-            var clone = Instantiate(clonePrefab, transform.position, Quaternion.identity);
-            CombatManager.Instance.AddEnemy(clone, true);
+            _clone = Instantiate(clonePrefab, transform.position, Quaternion.identity);
+            _clone.Enemy = this;
+            CombatManager.Instance.AddEnemy(_clone, true);
             yield return new WaitForSeconds(1f);
         }
-    }
-
-    protected override void Awake()
-    {
-        base.Awake();
-        CloneActive = false;
     }
 }

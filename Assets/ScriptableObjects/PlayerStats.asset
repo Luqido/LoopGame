@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6f1e27831a3416095cae72b88aabf29, type: 3}
+  m_Script: {fileID: 11500000, guid: d36868c699d546f1a985074c2997705c, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  unitName: Conductor
-  health: 300
-  baseDamage: 40
-  shortDescription: Big and old. Just like how your mama likes it.
-  blockPercentage: 0.51
-  blockChance: 0.913
-  dodgePercentage: 0.529
-  dodgeChance: 1
+  baseHealth: 100
+  healthIncreasePercentage: 0.03
+  baseDamage: 15
+  damageIncreasePercentage: 0.05
+  luckIncreasePercentage: 0.03
+  defenseIncreasePercentage: 0.03
+  baseSpecialDamage: 30
+  specialPerTurn: 3

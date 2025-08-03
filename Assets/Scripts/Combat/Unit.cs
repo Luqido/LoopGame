@@ -25,7 +25,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField] private float dodgeSpriteTargetOpaqueness = 1f;
     [SerializeField] private Vector3 dodgeMovement;
     
-    protected UnitSkill _activeSkills;
+    public UnitSkill ActiveSkills { get; set; }
     
     public event UnityAction<int, int, int> HealthChanged;
 
@@ -33,7 +33,12 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     
     private Vector3 _startPosition;
     private int _currentHp = 1;
+    //todo
+    public int startingHealth { get; protected set; }
+    public int currentDamage { get; protected set; }
 
+    public virtual float BlockAbsorbPercentage => stats.blockPercentage;
+    public virtual float DodgeHitChance => stats.dodgeChance;
     public int CurrentHp
     {
         get => _currentHp;
@@ -43,31 +48,26 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             
             if (value < _currentHp)
             {
-                if (_activeSkills.HasFlag(UnitSkill.Block))
+                if (ActiveSkills.HasFlag(UnitSkill.Block))
                 {
-                    if (stats.blockChance > Random.value)
-                    {
-                        var oldValue = value;
-                        var diff = _currentHp - value;
-                        diff = (int)(diff * (stats.blockPercentage));
-                        value += diff;
-                        Debug.Log($"Blocked! Old: {oldValue}, new: {value}");
-                    }
+                    var oldValue = value;
+                    var diff = _currentHp - value;
+                    diff = (int)(diff * (BlockAbsorbPercentage));
+                    value += diff; 
+                    Debug.Log($"Blocked! Old: {oldValue}, new: {value}");
+                    
                 }
-                else if (_activeSkills.HasFlag(UnitSkill.Dodge))
+                else if (ActiveSkills.HasFlag(UnitSkill.Dodge))
                 {
-                    if (stats.dodgeChance > Random.value)
+                    if (DodgeHitChance > Random.value)
                     {
-                        var oldValue = value;
-                        var diff = _currentHp - value;
-                        diff = (int)(diff * (stats.dodgePercentage));
-                        value += diff;
-                        Debug.Log($"Dodged! Old: {oldValue}, new: {value}");
+                        value = _currentHp;
                         transform.DOMove(dodgeMovement, 0.2f).SetRelative(true).SetLoops(2, LoopType.Yoyo);
                     }
                 }
 
-                animator.SetTrigger("TakeDamage");
+                if (value < _currentHp)
+                    animator.SetTrigger("TakeDamage");
             }
             if (value < 0)
             {
@@ -79,7 +79,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
                 if (CombatManager.Instance.player == this as Player)
                 {
-                    Debug.Log("LOST");
+                    CombatManager.Instance.GameLost();
                 }
                 
                 transform.DOMoveY(0.4f, 1f).SetDelay(0.6f).SetRelative(true);
@@ -92,7 +92,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                 Destroy(gameObject, 1.61f);
             }
             
-            HealthChanged?.Invoke(_currentHp, value, stats.health);
+            HealthChanged?.Invoke(_currentHp, value, startingHealth);
             _currentHp = value;
         }
     }
@@ -103,17 +103,17 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     protected virtual void Start()
     {
-        CurrentHp = stats.health;
+        CurrentHp = startingHealth;
     }
     
     private void AddSkill(UnitSkill skill)
     {
-        _activeSkills |= skill;
+        ActiveSkills |= skill;
     }
     
     private void RemoveSkill(UnitSkill skill)
     {
-        _activeSkills ^= skill;
+        ActiveSkills ^= skill;
     }
 
     public IEnumerator AttackCoroutine(Unit to)
@@ -122,7 +122,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         transform.DOMove(to.damageTakePosition.position, 0.6f).SetEase(Ease.InCubic);
         yield return new WaitForSeconds(0.4f);
         animator.SetTrigger("Attack");
-        to.CurrentHp -= (int)(stats.baseDamage * AttackMultiplier);
+        to.CurrentHp -= (int)(currentDamage * AttackMultiplier);
         yield return new WaitForSeconds(0.2f);
         yield return new WaitForSeconds(0.3f);
         yield return transform.DOMove(_startPosition, 1f).WaitForCompletion();
@@ -160,11 +160,11 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public virtual IEnumerator ExecuteTurn()
     {
-        if (_activeSkills.HasFlag(UnitSkill.Block))
+        if (ActiveSkills.HasFlag(UnitSkill.Block))
         {
             yield return WearOffBlock();
         }
-        else if (_activeSkills.HasFlag(UnitSkill.Dodge))
+        else if (ActiveSkills.HasFlag(UnitSkill.Dodge))
         {
             yield return WearOffDodge();
         }

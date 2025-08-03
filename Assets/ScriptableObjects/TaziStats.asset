@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: TaziStats
   m_EditorClassIdentifier: 
   unitName: Doggy
-  health: 150
-  baseDamage: 30
   shortDescription: 'Woof woof. '
-  blockPercentage: 0
-  blockChance: 0
-  dodgePercentage: 0
-  dodgeChance: 0
+  blockPercentage: 0.5
+  dodgeChance: 0.5

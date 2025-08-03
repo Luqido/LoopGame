@@ -12,6 +12,26 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 11400000, guid: ce253870ac6d94e2982c05155ce2613f, type: 2}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.51908845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871386797603919067, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
     - target: {fileID: 2562149751246405967, guid: 53df9deddfb214c49bcc1384ca03fbcc, type: 3}
       propertyPath: m_Controller
       value: 
@@ -140,7 +160,7 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: c1168c4f1410d48558ef24021da8f49c, type: 2}
   blockSprite: {fileID: 4375733170894979280}
   dodgeSprite: {fileID: 3698640441156475320}
-  blockSpriteTargetOpaqueness: 0.17
+  blockSpriteTargetOpaqueness: 0.66
   dodgeSpriteTargetOpaqueness: 1
   dodgeMovement: {x: 0.3, y: 0, z: 0}
 --- !u!212 &3698640441156475320 stripped
