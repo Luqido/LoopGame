@@ -28844,6 +28844,7 @@ MonoBehaviour:
   - {fileID: 208193242}
   - {fileID: 702855851}
   - {fileID: 213485560}
+  SekildenTypeaGecisSirasi: 2000000010000000010000000800000004000000
   popupPanel: {fileID: 1530991871}
 --- !u!1 &1439927319
 GameObject:

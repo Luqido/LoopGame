@@ -4,7 +4,8 @@ using UnityEngine.Rendering;
 
 public class FadeOutController : MonoBehaviour
 {
-    public string sceneToLoad;
+    public string sceneNameToLoad;
+    public int sceneIndexToLoad;
     public RenderPipelineAsset urp2DAsset;
     public RenderPipelineAsset urp3DAsset;
 
@@ -28,6 +29,14 @@ public class FadeOutController : MonoBehaviour
             GraphicsSettings.defaultRenderPipeline = urp2DAsset; 
         }
 
-        SceneManager.LoadScene(sceneToLoad);
+        if (!string.IsNullOrEmpty(sceneNameToLoad))
+        {
+            SceneManager.LoadScene(sceneNameToLoad);
+        }
+        else
+        {
+            SceneManager.LoadScene(sceneIndexToLoad);
+        }
+
     }
 }

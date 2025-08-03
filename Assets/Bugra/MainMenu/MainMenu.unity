@@ -443,8 +443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06b249111b09d1943a0615b0f3fca422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: TestScene
-  urp2DAsset: {fileID: 11400000, guid: 8cff2f29c096f1046ad3768f00fa1448, type: 2}
+  sceneNameToLoad: 
+  sceneIndexToLoad: 1
+  urp2DAsset: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
   urp3DAsset: {fileID: 11400000, guid: 4b83569d67af61e458304325a23e5dfd, type: 2}
 --- !u!95 &76124342
 Animator:
