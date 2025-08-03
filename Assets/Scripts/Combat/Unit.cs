@@ -3,6 +3,7 @@ using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
 [Flags]
@@ -11,7 +12,7 @@ public enum UnitSkill
     Block = 1 << 0,
     Dodge = 1 << 1,
 }
-public abstract class Unit : MonoBehaviour
+public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] protected Animator animator;
     [SerializeField] private Transform damageTakePosition;
@@ -164,5 +165,15 @@ public abstract class Unit : MonoBehaviour
         {
             yield return WearOffDodge();
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        CombatManager.Instance.ui.ShowTooltip(this, stats.shortDescription);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        CombatManager.Instance.ui.HideTooltip(this);
     }
 }

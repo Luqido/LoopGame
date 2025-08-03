@@ -10,6 +10,9 @@ public class UnitHealthDisplay : MonoBehaviour
     [SerializeField] private Image healthBar;
     [SerializeField] private SlicedFilledImage slicedFilledHealthBar;
     [SerializeField] private Unit unit;
+    [SerializeField] private Color playerColor = Color.green;
+    [SerializeField] private Color enemyColor = Color.red;
+    
     private RectTransform _rectTransform;
     private Vector2 _refRes;
 
@@ -45,7 +48,7 @@ public class UnitHealthDisplay : MonoBehaviour
         unit.HealthChanged += UpdateHealthBar;
         // _refRes = referenceResolution;
         _rectTransform = transform as RectTransform;
-        slicedFilledHealthBar.color = isPlayer ? Color.green : Color.red;
+        slicedFilledHealthBar.color = isPlayer ? playerColor : enemyColor;
         nameText.text = unit.stats.unitName;
         // _rectTransform.anchorMin = Vector2.zero;
         // _rectTransform.anchorMax = Vector2.zero;

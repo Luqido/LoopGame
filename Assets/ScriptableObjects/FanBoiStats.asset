@@ -15,6 +15,7 @@ MonoBehaviour:
   unitName: Fan Boi
   health: 150
   baseDamage: 30
+  shortDescription: A huge fan of game. Doesn't damage you for the first 3 turns.
   blockPercentage: 0.369
   blockChance: 0.748
   dodgePercentage: 0.699

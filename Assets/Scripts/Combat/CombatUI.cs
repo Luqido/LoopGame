@@ -16,7 +16,9 @@ public class CombatUI : MonoBehaviour
     [SerializeField] private Button[] enemySelectionButtons;
     [SerializeField] private UnitHealthDisplay healthDisplayPrefab;
     [SerializeField] private Transform healthBarParent;
-    
+    [SerializeField] private TMP_Text descriptionText;
+    private Unit _currentTooltipUnit;
+
     private void Awake()
     {
         specialAbilityButton.onClick.AddListener(() => Select(Player.CombatOption.SpecialAbility));
@@ -89,6 +91,7 @@ public class CombatUI : MonoBehaviour
     [SerializeField] private RectTransform talkBubbleTransform;
     [SerializeField] private CanvasGroup talkBubbleCanvasGroup;
     [SerializeField] private TMP_Text talkBubbleText;
+    [SerializeField] private GameObject descriptionObject;
 
 
     public IEnumerator Say(Unit unit, string message)
@@ -99,7 +102,7 @@ public class CombatUI : MonoBehaviour
         talkBubbleTransform.anchoredPosition = position;
 
         talkBubbleText.text = "";
-        yield return talkBubbleCanvasGroup.DOFade(1f, 0.3f).WaitForCompletion();
+        talkBubbleCanvasGroup.DOFade(1f, 0.3f);
         var waitForSeconds = new WaitForSeconds(0.05f);
         foreach (var ch in message)
         {
@@ -109,5 +112,19 @@ public class CombatUI : MonoBehaviour
 
         yield return new WaitForSeconds(1.8f);
         yield return talkBubbleCanvasGroup.DOFade(0f, 0.3f).WaitForCompletion();
+    }
+
+
+    public void ShowTooltip(Unit unit, string desc)
+    {
+        _currentTooltipUnit = unit;
+        descriptionObject.SetActive(true);
+        descriptionText.text = desc;
+    }
+
+    public void HideTooltip(Unit unit)
+    {
+        if (_currentTooltipUnit == unit)
+            descriptionObject.SetActive(false);
     }
 }

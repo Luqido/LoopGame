@@ -15,6 +15,7 @@ MonoBehaviour:
   unitName: Doggy
   health: 150
   baseDamage: 30
+  shortDescription: 'Woof woof. '
   blockPercentage: 0
   blockChance: 0
   dodgePercentage: 0

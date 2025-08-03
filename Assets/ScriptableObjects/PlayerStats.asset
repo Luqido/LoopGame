@@ -15,6 +15,7 @@ MonoBehaviour:
   unitName: Conductor
   health: 300
   baseDamage: 40
+  shortDescription: Big and old. Just like how your mama likes it.
   blockPercentage: 0.51
   blockChance: 0.913
   dodgePercentage: 0.529
