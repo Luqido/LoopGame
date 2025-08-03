@@ -9,7 +9,7 @@ public class PlayerInteraction : MonoBehaviour
     public InteractionManager interactionManager;
 
     // Hangi tag'lerle etkileþime girileceðini buradan ayarlayabilirsin
-    private readonly string[] interactableTags = { "NPC", "Door" };
+    private readonly string[] interactableTags = { "NPC", "Door" , "nonNPC" };
 
     void Update()
     {
