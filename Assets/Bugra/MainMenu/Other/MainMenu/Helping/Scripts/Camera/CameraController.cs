@@ -31,7 +31,7 @@ public class CameraController : MonoBehaviour
         
 
         _originalCamPos = _mainCamera.transform.localPosition;
-        transform.position = _camMenuPosition; // Set initial position
+        transform.position = _camMenuPosition; 
     }
     private void Update()
 {
@@ -58,7 +58,7 @@ public class CameraController : MonoBehaviour
         StartCoroutine(MoveCameraCoroutine(isGameStarted));
     }
 
-    // For Shaking
+    
     private IEnumerator ShakeCameraCoroutine()
     {
         float elapsed = 0f;
@@ -75,11 +75,11 @@ public class CameraController : MonoBehaviour
         _mainCamera.transform.localPosition = _originalCamPos;
     }
 
-    // For Moving
+   
     private IEnumerator MoveCameraCoroutine(bool isGameStarted)
     {
         if (isGameStarted) {
-           // LevelManager.Instance.RespawnCubes();
+           
         }
         
         Vector3 targetPosition = isGameStarted ? _camPlayPosition : _camMenuPosition;
@@ -98,9 +98,6 @@ public class CameraController : MonoBehaviour
 
         transform.position = targetPosition;
 
-        if (isGameStarted)
-        {
-           // LevelManager.Instance.ResetLevel();
-        }
+       
     }
 }

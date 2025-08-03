@@ -48,8 +48,7 @@ public class StartButton : MonoBehaviour
     }
     public void StartGame() {
         isClickable = false;
-        //  DeActiveButtons();
-        //  CameraController.Instance.ShakeCamera();
+     
 
         CameraController.Instance.MoveCamera(true);
         FadeOutController.PlayFadeOut();

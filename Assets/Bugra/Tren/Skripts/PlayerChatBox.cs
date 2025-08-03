@@ -21,7 +21,7 @@ public class PlayerChatBox : MonoBehaviour
     void Start()
     {
         chatPanel.SetActive(false);
-        StartTextLoop(); // Ýstersen burayý yoruma al
+        StartTextLoop(); 
     }
 
     public void StartTextLoop()
@@ -47,24 +47,24 @@ public class PlayerChatBox : MonoBehaviour
     {
         while (loopActive)
         {
-            // Panel her mesaj baþýnda açýlýr
+            
             chatPanel.SetActive(true);
 
-            // Mesaj kuyruðu boþsa yeni shuffle yapýlýr
+            
             if (messageQueue.Count == 0)
                 FillShuffledQueue();
 
-            // Ayný mesaj art arda gelmesin
+            
             string nextMessage = messageQueue.Dequeue();
             while (nextMessage == lastMessage && messageQueue.Count > 0)
                 nextMessage = messageQueue.Dequeue();
 
             lastMessage = nextMessage;
 
-            // Mesajý cümle cümle yaz ve sil
+            
             yield return StartCoroutine(TypeAndEraseSentences(nextMessage));
 
-            // Panel her mesaj sonunda kapanýr
+            
             chatPanel.SetActive(false);
 
             yield return new WaitForSeconds(messageDelay);
