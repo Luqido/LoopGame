@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Muscle Man
   shortDescription: His brain is not as big as his muscles.
-  blockPercentage: 0.5
-  dodgeChance: 0.5
+  blockPercentage: 0.552
+  dodgeChance: 0.222
