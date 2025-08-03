@@ -2246,6 +2246,7 @@ MonoBehaviour:
   enemyInitialPosition: {fileID: 380952997}
   distanceBetweenEnemies: 0.4
   debugEnemies: []
+  commonEnemyStats: {fileID: 11400000, guid: f4c476e443720441d9a356a12f479932, type: 2}
 --- !u!4 &1407828467
 Transform:
   m_ObjectHideFlags: 0
@@ -2959,11 +2960,10 @@ MonoBehaviour:
   blockSpriteTargetOpaqueness: 0.35
   dodgeSpriteTargetOpaqueness: 1
   dodgeMovement: {x: -0.3, y: 0, z: 0}
+  playerStats: {fileID: 11400000, guid: ce6096bf3e3b7439697efaf54ad01155, type: 2}
   combatUI: {fileID: 855513737}
   slashAnimator: {fileID: 1392185928}
   smokeAnimator: {fileID: 2010744538595659373}
-  specialPerTurn: 3
-  specialDamage: 100
 --- !u!61 &2123469966
 BoxCollider2D:
   m_ObjectHideFlags: 0

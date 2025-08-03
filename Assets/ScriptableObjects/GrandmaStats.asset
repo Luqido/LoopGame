@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: GrandmaStats
   m_EditorClassIdentifier: 
   unitName: Grandma
-  health: 150
-  baseDamage: 30
-  blockPercentage: 0
-  blockChance: 0
-  dodgePercentage: 0
-  dodgeChance: 0
+  shortDescription: She is such a cutie, isn't she?
+  blockPercentage: 0.5
+  dodgeChance: 0.5

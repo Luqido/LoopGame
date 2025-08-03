@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: MuscleManStats
   m_EditorClassIdentifier: 
   unitName: Muscle Man
-  health: 150
-  baseDamage: 30
-  blockPercentage: 0
-  blockChance: 0
-  dodgePercentage: 0
-  dodgeChance: 0
+  shortDescription: His brain is not as big as his muscles.
+  blockPercentage: 0.5
+  dodgeChance: 0.5

@@ -8579,6 +8579,7 @@ MonoBehaviour:
   barContainer: {fileID: 1654271182}
   artiButonu: {fileID: 1250693104}
   eksiButonu: {fileID: 735011579}
+  statType: 0
 --- !u!114 &546448840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20752,6 +20753,7 @@ MonoBehaviour:
   barContainer: {fileID: 622287587}
   artiButonu: {fileID: 1795832979}
   eksiButonu: {fileID: 825718260}
+  statType: 1
 --- !u!114 &958298193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36539,6 +36541,7 @@ MonoBehaviour:
   barContainer: {fileID: 327547461}
   artiButonu: {fileID: 275869766}
   eksiButonu: {fileID: 2024250498}
+  statType: 3
 --- !u!114 &1801441002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38475,6 +38478,7 @@ MonoBehaviour:
   barContainer: {fileID: 1961420938}
   artiButonu: {fileID: 1374377866}
   eksiButonu: {fileID: 2143762757}
+  statType: 2
 --- !u!114 &2111483394
 MonoBehaviour:
   m_ObjectHideFlags: 0

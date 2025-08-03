@@ -64,8 +64,8 @@ public class UnitHealthDisplay : MonoBehaviour
         _rectTransform = transform as RectTransform;
         slicedFilledHealthBar.color = isPlayer ? playerColor : enemyColor;
         nameText2.color = isPlayer ? playerColor : enemyColor;
-        nameText.text = $"{unit.stats.unitName} ({unit.stats.health}/{unit.stats.health})";
-        nameText2.text = $"{unit.stats.unitName} ({unit.stats.health}/{unit.stats.health})";
+        nameText.text = $"{unit.stats.unitName} ({unit.startingHealth}/{unit.startingHealth})";
+        nameText2.text = $"{unit.stats.unitName} ({unit.startingHealth}/{unit.startingHealth})";
         // _rectTransform.anchorMin = Vector2.zero;
         // _rectTransform.anchorMax = Vector2.zero;
         // _rectTransform.sizeDelta = new Vector2(200, 50);

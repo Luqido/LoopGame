@@ -5,6 +5,13 @@ using UnityEngine;
 public class HatBoiClone : Unit
 {
     public HatBoiEnemy Enemy { get; set; }
+
+    protected override void Awake()
+    {
+        startingHealth = 1;
+        currentDamage = 0;
+    }
+
     public override IEnumerator ExecuteTurn()
     {
         yield return base.ExecuteTurn();

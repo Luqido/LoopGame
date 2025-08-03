@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 [Flags]
 public enum EnemyType
@@ -16,6 +17,7 @@ public enum EnemyType
     Grandma = 1 << 5,
     LariyeCroft = 1 << 6,
 }
+
 public class CombatManager : MonoBehaviour
 {
     public UnityEvent onTurnEnd;
@@ -35,6 +37,7 @@ public class CombatManager : MonoBehaviour
     public bool IsPlayerTurn { get; private set; } = true;
     public static CombatManager Instance { get; private set; }
     private static EnemyType _enemyToFightAgainst;
+    public CommonEnemyStats commonEnemyStats;
 
     public static void SetEnemiesToFightAgainst(params EnemyType[] enemyTypes)
     {
@@ -85,8 +88,9 @@ public class CombatManager : MonoBehaviour
             yield return ExecuteNextTurn();
         }
 
-        Debug.Log("Won");
+        GameWon();
     }
+
 
     private IEnumerator ExecuteNextTurn()
     {
@@ -135,5 +139,18 @@ public class CombatManager : MonoBehaviour
                 offset += distanceBetweenEnemies;
             }
         }
+    }
+
+    public void GameLost()
+    {
+        Debug.Log("You lost");
+        PlayerLevels.Instance.Reset();
+        SceneManager.LoadScene(0);
+    }
+    
+    private void GameWon()
+    {
+        Debug.Log("CONGRATS");
+        SceneManager.LoadScene(0);
     }
 }
