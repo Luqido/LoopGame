@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "kond\xFCkt\xF6 idle tren i\xE7ii_0": 3115067548504285266
+      "kond\xFCkt\xF6 idle tren i\xE7ii_1": -7102523105022227108
+      "kond\xFCkt\xF6 idle tren i\xE7ii_2": 3050153393472908955
+      "kond\xFCkt\xF6 idle tren i\xE7ii_3": 2597779728573716341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

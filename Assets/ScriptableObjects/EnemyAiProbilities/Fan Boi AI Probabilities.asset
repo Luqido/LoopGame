@@ -16,3 +16,5 @@ MonoBehaviour:
   dodgeUseChance: 0.25
   blockUseChance: 0.25
   specialUseChance: 0
+  damageMultiplier: 0.95
+  hpMultiplier: 1.65

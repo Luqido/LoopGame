@@ -16,6 +16,7 @@ public class TrackMoveHandler :  MonoBehaviour
     private void Start()
     {
         hamster = FindAnyObjectByType<HamsterDoTween>();
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.IsometricTrainTheme);
     }
     public void MoveAlongTrack(Transform t, Action<int> onWaypointReached)
     {

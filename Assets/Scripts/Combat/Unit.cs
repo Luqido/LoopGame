@@ -123,6 +123,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         yield return new WaitForSeconds(0.4f);
         animator.SetTrigger("Attack");
         to.CurrentHp -= (int)(currentDamage * AttackMultiplier);
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.Punch1 + Random.Range(0, 2));
         yield return new WaitForSeconds(0.2f);
         yield return new WaitForSeconds(0.3f);
         yield return transform.DOMove(_startPosition, 1f).WaitForCompletion();

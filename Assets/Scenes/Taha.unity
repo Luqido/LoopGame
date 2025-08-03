@@ -7667,7 +7667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a80afd09cd3c334b97a75c61b850bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillPoint: 14
+  skillPoint: 2
   skillPointText: {fileID: 899367711}
 --- !u!1 &438518212
 GameObject:

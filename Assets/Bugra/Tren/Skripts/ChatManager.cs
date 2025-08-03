@@ -43,6 +43,7 @@ public class ChatManager : MonoBehaviour
         answerButton2.onClick.AddListener(() => OnAnswerButtonClicked(1));
         answerButton3.onClick.AddListener(() => OnAnswerButtonClicked(2));
 
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.TrainWindTheme);
     }
 
     public void StartChat(NPCChatData chatData)
@@ -66,7 +67,7 @@ public class ChatManager : MonoBehaviour
         if (playerMovement != null)
         {
             playerMovement.canMove = false;
-            playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            playerMovement.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         }
 
         ShowNPCMessage();
@@ -150,6 +151,8 @@ public class ChatManager : MonoBehaviour
                 button.onClick.RemoveAllListeners();
                 button.onClick.AddListener(() =>
                 {
+                    SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
+
                     if (currentChatData.answers[capturedIndex].startsCombat)
                     {
                         StartCombat();

@@ -61,6 +61,7 @@ public class BarControl : MonoBehaviour
     {
         if (SkillManager.Instance.SkillHarca())
         {
+            SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
             foreach (Transform item in barContainer)
             {
                 if (!item.gameObject.activeSelf)
@@ -78,6 +79,8 @@ public class BarControl : MonoBehaviour
 
     void Azalt()
     {
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
+
         for (int i = barContainer.childCount - 1; i >= 0; i--)
         {
             if (barContainer.GetChild(i).gameObject.activeSelf)

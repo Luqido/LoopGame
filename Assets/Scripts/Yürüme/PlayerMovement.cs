@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         if (!canMove)
         {
             // Hareketi sıfırla (gerekirse)
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
             return;
         }
         Run();
@@ -51,8 +51,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.velocity.y);
-        playerRb.velocity = playerVelocity;
+        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.linearVelocity.y);
+        playerRb.linearVelocity = playerVelocity;
 
         // Yürüme kontrolü
         bool walkingNow = Mathf.Abs(playerVelocity.x) > 0.1f;

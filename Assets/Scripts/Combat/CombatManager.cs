@@ -33,9 +33,9 @@ public class CombatManager : MonoBehaviour
     [SerializeField] private float distanceBetweenEnemies;
     [Header("Debug")]
     [SerializeField] private Unit[] debugEnemies;
-    public Animator anim;
-
-
+    [SerializeField] Animator HamAnim;
+    [SerializeField] CanvasGroup canvas;
+    
     public bool IsPlayerTurn { get; private set; } = true;
     public static CombatManager Instance { get; private set; }
     private static EnemyType _enemyToFightAgainst;
@@ -53,6 +53,7 @@ public class CombatManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.CombatTheme);
     }
 
     private void Start()
@@ -91,6 +92,7 @@ public class CombatManager : MonoBehaviour
         }
 
         GameWon();
+        
     }
 
 
@@ -145,17 +147,22 @@ public class CombatManager : MonoBehaviour
 
     public void GameLost()
     {
-        //todo lost ui
         Debug.Log("You lost");
         PlayerLevels.Instance.Reset();
+        canvas.DOFade(1f, 0.3f);
+        HamAnim.SetTrigger("HConductor");
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.HamsterEating);
+        Invoke(nameof(OpenMenuScene), 4f);
+    }
+
+    private void OpenMenuScene()
+    {
         SceneManager.LoadScene(0);
     }
-    
+
     private void GameWon()
     {
         Debug.Log("CONGRATS");
-        //todo yeme animasyonu
-        
         if (_enemyToFightAgainst.HasFlag(EnemyType.NormalAdam))
         {
             PeopleDoTween.LastBeatenEnemy = EnemyType.NormalAdam;
@@ -165,41 +172,44 @@ public class CombatManager : MonoBehaviour
             PeopleDoTween.LastBeatenEnemy = _enemyToFightAgainst;
         }
 
-        Debug.Log(PeopleDoTween.LastBeatenEnemy);
+
+        canvas.DOFade(1f, 0.5f);
         switch (PeopleDoTween.LastBeatenEnemy)
         {
-            //case EnemyType.NormalAdam:
-            //    anim.SetTrigger("Victory_NormalAdam");
-            //    break;
-            //case EnemyType.MuscleMan:
-            //    anim.SetTrigger("Victory_Muscle");
-            //    break;
-            //case EnemyType.HatBoi:
-            //    anim.SetTrigger("Victory_HatBoi");
-            //    break;
-            //case EnemyType.FanBoi:
-            //    anim.SetTrigger("Victory_FanBoi");
-            //    break;
-            //case EnemyType.Grandma:
-            //    anim.SetTrigger("Victory_Grandma");
-            //    break;
-            //case EnemyType.LariyeCroft:
-            //    anim.SetTrigger("Victory_Lariye");
-            //    break;
-            //default:
-            //    Debug.LogWarning("Tetiklenecek animasyon bulunamadý.");
-            //    break;
+            case EnemyType.NormalAdam:
+                HamAnim.SetTrigger("HNormalAdam");
+                break;
+            case EnemyType.MuscleMan:
+                HamAnim.SetTrigger("HKasliAdam");
+                break;
+            case EnemyType.HatBoi:
+                HamAnim.SetTrigger("HSapkali");
+                break;
+            case EnemyType.FanBoi:
+                HamAnim.SetTrigger("HFanBoi");
+                break;
+            case EnemyType.Grandma:
+                HamAnim.SetTrigger("HYasliKadin");
+                break;
+
+            default:
+                Debug.LogWarning("Tetiklenecek animasyon bulunamadï¿½.");
+                break;
         }
+
+        SoundManager.instance.PlaySound(SoundManager.SoundNames.HamsterEating);
+
         StartCoroutine(WaitForAnimAndContinue());
-    }
-    private IEnumerator WaitForAnimAndContinue()
-    {
-        yield return new WaitForSeconds(2f); // animasyon süresi kadar bekle
-        SceneManager.LoadScene(1); // veya baþka sahne
+
     }
 
     private void OnDestroy()
     {
         _enemyToFightAgainst = 0;
+    }
+    private IEnumerator WaitForAnimAndContinue()
+    {
+        yield return new WaitForSeconds(4f); // animasyon sï¿½resi kadar bekle
+        SceneManager.LoadScene(1); // veya baï¿½ka sahne
     }
 }

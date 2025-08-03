@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -4366,7 +4366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5f942361002e5479a02979b10ee3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicPlayer: {fileID: 0}
+  MusicPlayer: {fileID: 1280731278}
   MusicVolume: 0.5
   SFXVolume: 0.5
   audioClips:
@@ -4386,6 +4386,30 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: cf755b4a45a7d044c874db560ed382d7, type: 3}
   - soundName: 4
     clip: {fileID: 8300000, guid: 1a55861e268f21f4094510c6982e6931, type: 3}
+  - soundName: 9
+    clip: {fileID: 8300000, guid: 73ddf06ff3a6444d5a05e89368dcea71, type: 3}
+  - soundName: 10
+    clip: {fileID: 8300000, guid: fe2d6a4781a9c4d2a9dfbdd5cd8951c5, type: 3}
+  - soundName: 11
+    clip: {fileID: 8300000, guid: 7543ba2d6c39849c4afa59327eaeaf1b, type: 3}
+  - soundName: 12
+    clip: {fileID: 8300000, guid: 1e047d971b3f94b53a7c3ab715709b09, type: 3}
+  - soundName: 13
+    clip: {fileID: 8300000, guid: 55bff5189675a47eb9ff4c211014e78b, type: 3}
+  - soundName: 14
+    clip: {fileID: 8300000, guid: 1ccc24141796048afba96d60cf01b2f7, type: 3}
+  - soundName: 15
+    clip: {fileID: 8300000, guid: da0ee535fa3ca45de85ee765e27ef45c, type: 3}
+  - soundName: 16
+    clip: {fileID: 8300000, guid: 2bc02d37a9cfc49e09a7c8c593807658, type: 3}
+  - soundName: 17
+    clip: {fileID: 8300000, guid: ef5cbc35237cf421fa3fcb6a9478f5d6, type: 3}
+  - soundName: 19
+    clip: {fileID: 8300000, guid: 672b11a73a09b4a77b415a0780c07dd2, type: 3}
+  - soundName: 20
+    clip: {fileID: 8300000, guid: b46c78681e35a4b6a816b58bd8de0dbd, type: 3}
+  - soundName: 21
+    clip: {fileID: 8300000, guid: 40a3d5b2bf3674b21bb6f93c8eb8fb7e, type: 3}
 --- !u!1 &1530102499
 GameObject:
   m_ObjectHideFlags: 0

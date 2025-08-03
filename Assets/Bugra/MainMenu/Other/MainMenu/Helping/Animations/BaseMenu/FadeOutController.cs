@@ -11,11 +11,11 @@ public class FadeOutController : MonoBehaviour
 
     private void Awake()
     {
-        if (urp3DAsset != null)
-        {
-            GraphicsSettings.defaultRenderPipeline = urp3DAsset;
-            Debug.Log("URP: 3D Renderer aktif edildi.");
-        }
+        //if (urp3DAsset != null)
+        //{
+        //    GraphicsSettings.defaultRenderPipeline = urp3DAsset;
+        //    Debug.Log("URP: 3D Renderer aktif edildi.");
+        //}
     }
     public void PlayFadeOut()
     {
@@ -24,10 +24,10 @@ public class FadeOutController : MonoBehaviour
 
     public void OnFadeComplete()
     {
-        if (urp2DAsset != null)
-        {
-            GraphicsSettings.defaultRenderPipeline = urp2DAsset; 
-        }
+        //if (urp2DAsset != null)
+        //{
+        //    GraphicsSettings.defaultRenderPipeline = urp2DAsset; 
+        //}
 
         if (!string.IsNullOrEmpty(sceneNameToLoad))
         {
