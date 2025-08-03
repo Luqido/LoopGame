@@ -13,7 +13,7 @@ public enum UnitSkill
 }
 public abstract class Unit : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    [SerializeField] protected Animator animator;
     [SerializeField] private Transform damageTakePosition;
     public Transform healthBarPosition;
     [SerializeField] private UnitStats stats;

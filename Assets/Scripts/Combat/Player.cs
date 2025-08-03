@@ -8,11 +8,13 @@ public class Player : Unit
     {
         Attack,
         Dodge,
-        Block
+        Block,
+        SpecialAbility,
     }
     
     [SerializeField] private CombatUI combatUI;
     [SerializeField] private Animator slashAnimator;
+    [SerializeField] private int specialDamage;
     
     public CombatOption? CurrentCombatOption { get; set; } = null;
 
@@ -60,10 +62,31 @@ public class Player : Unit
             case CombatOption.Block:
                 yield return BlockCoroutine();
                 break;
+            case CombatOption.SpecialAbility:
+                if (CombatManager.Instance.enemies.Count == 1)
+                {
+                    yield return UseSpecialAbility(CombatManager.Instance.enemies[0]);
+                }
+                else
+                {
+                    Unit enemyToAttack = null;
+                    combatUI.SelectEnemyToAttack((unit) => { enemyToAttack = unit; });
+                    yield return new WaitUntil(() => enemyToAttack != null);
+                    yield return UseSpecialAbility(enemyToAttack);
+                }
+
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
 
         CurrentCombatOption = null;
+    }
+
+    private IEnumerator UseSpecialAbility(Unit to)
+    {
+        animator.SetTrigger("SpecialAbility");
+        yield return new WaitForSeconds(2f);
+        to.CurrentHp -= specialDamage;
     }
 }

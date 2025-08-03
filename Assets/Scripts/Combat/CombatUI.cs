@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CombatUI : MonoBehaviour
 {
+    [SerializeField] private Button specialAbilityButton;
     [SerializeField] private Button attackButton;
     [SerializeField] private Button blockButton;
     [SerializeField] private Button dodgeButton;
@@ -15,6 +16,7 @@ public class CombatUI : MonoBehaviour
     
     private void Awake()
     {
+        specialAbilityButton.onClick.AddListener(() => Select(Player.CombatOption.SpecialAbility));
         attackButton.onClick.AddListener(() => Select(Player.CombatOption.Attack));
         blockButton.onClick.AddListener(() => Select(Player.CombatOption.Block));
         dodgeButton.onClick.AddListener(() => Select(Player.CombatOption.Dodge));
