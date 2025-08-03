@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ChatManager : MonoBehaviour
@@ -21,7 +22,10 @@ public class ChatManager : MonoBehaviour
     public GameObject player;
     public Image npcPortraitImage;
     public Image npcLandscapeImage;
+    public PlayerChatBox chatBox;
+    public PlayerInteraction playerInteraction;
 
+    //  [SerializeField] private EnemyType[] types;
 
     void Start()
     {
@@ -36,6 +40,7 @@ public class ChatManager : MonoBehaviour
         currentChatData = chatData;
         chatPanel.SetActive(true);
 
+        chatBox.StopTextLoop();
         if (player != null)
         {
             player.GetComponent<PlayerMovement>().enabled = false; 
@@ -122,6 +127,13 @@ public class ChatManager : MonoBehaviour
                 button.onClick.RemoveAllListeners();
                 button.onClick.AddListener(() =>
                 {
+                    if (currentChatData.answers[capturedIndex].startsCombat)
+                    {
+                        StartCombat();
+                        EndChat();
+                        return;
+                    }
+
                     if (currentChatData.answers[capturedIndex].endsConversation)
                     {
                         EndChat();
@@ -168,6 +180,8 @@ public class ChatManager : MonoBehaviour
         {
             player.GetComponent<PlayerMovement>().enabled = true; 
         }
+        chatBox.StartTextLoop();
+
         Debug.Log("Sohbet bitti!");
     }
     public void SetPortrait(Sprite portrait )
@@ -184,5 +198,13 @@ public class ChatManager : MonoBehaviour
         npcLandscapeImage.sprite = npcLandScape;
         
     }
+    public void StartCombat()
+    {
+        EndChat();
+        Debug.Log("Þu an hedefte: " + playerInteraction.currentTarget.name);
+
+
+    }
+
 
 }

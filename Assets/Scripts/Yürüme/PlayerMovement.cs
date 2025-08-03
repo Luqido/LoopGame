@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private float footstepTimer;
 
     [SerializeField] private List<Transform> nonFlippableObjects;
-    private bool isFacingRight = true;
+    private bool isFacingRight;
 
     public CameraZoom cameraZoom;
 
@@ -23,7 +23,10 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); // Animator component'i al�n�yor
+        animator = GetComponent<Animator>();
+
+        // Başlangıç yönünü localScale'den belirle
+        isFacingRight = transform.localScale.x >= 0f;
     }
 
     void Update()
@@ -39,14 +42,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.linearVelocity.y);
-        playerRb.linearVelocity = playerVelocity;
-        FlipCharacter();
+        Vector2 playerVelocity = new Vector2(moveImput.x * RunSpeed, playerRb.velocity.y);
+        playerRb.velocity = playerVelocity;
 
-        // Y�r�me kontrol�
+        // Yürüme kontrolü
         bool walkingNow = Mathf.Abs(playerVelocity.x) > 0.1f;
         if (walkingNow)
         {
+            FlipCharacter();
+
             cameraZoom.ZoomTo(8.15f);
             footstepTimer -= Time.deltaTime;
 
@@ -64,11 +68,11 @@ public class PlayerMovement : MonoBehaviour
             cameraZoom.ZoomTo(7f);
         }
 
-        // isWalking ve animasyon kontrol�
+        // Animasyon parametresi güncelleme
         if (isWalking != walkingNow)
         {
             isWalking = walkingNow;
-            animator.SetBool("isWalking", isWalking); // Animator parametresi g�ncelleniyor
+            animator.SetBool("isWalking", isWalking);
         }
     }
 
@@ -89,13 +93,17 @@ public class PlayerMovement : MonoBehaviour
         isFacingRight = faceRight;
         float newScaleX = faceRight ? 1f : -1f;
 
+        // Ana karakteri çevir
         transform.localScale = new Vector3(newScaleX, 1f, 1f);
 
+        // Dönmemesi gereken objeleri tersleyerek sabit tut
         foreach (Transform t in nonFlippableObjects)
         {
             Vector3 scale = t.localScale;
             scale.x = faceRight ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
             t.localScale = scale;
         }
+
+        Debug.Log("Flip çalıştı → " + (faceRight ? "Sağ" : "Sol"));
     }
 }
