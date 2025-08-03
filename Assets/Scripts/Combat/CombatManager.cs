@@ -146,17 +146,21 @@ public class CombatManager : MonoBehaviour
 
     public void GameLost()
     {
-        //todo lost ui
         Debug.Log("You lost");
         PlayerLevels.Instance.Reset();
+        canvas.DOFade(1f, 0.3f);
+        HamAnim.SetTrigger("HConductor");
+        Invoke(nameof(OpenMenuScene), 4f);
+    }
+
+    private void OpenMenuScene()
+    {
         SceneManager.LoadScene(0);
     }
-    
+
     private void GameWon()
     {
         Debug.Log("CONGRATS");
-        //todo yeme animasyonu
-        
         if (_enemyToFightAgainst.HasFlag(EnemyType.NormalAdam))
         {
             PeopleDoTween.LastBeatenEnemy = EnemyType.NormalAdam;
@@ -167,7 +171,7 @@ public class CombatManager : MonoBehaviour
         }
 
 
-        canvas.DOFade(1f,0.5f);
+        canvas.DOFade(1f, 0.5f);
         switch (PeopleDoTween.LastBeatenEnemy)
         {
             case EnemyType.NormalAdam:
@@ -177,7 +181,7 @@ public class CombatManager : MonoBehaviour
                 HamAnim.SetTrigger("HKasliAdam");
                 break;
             case EnemyType.HatBoi:
-                HamAnim.SetTrigger("HSapkaliAdam");
+                HamAnim.SetTrigger("HSapkali");
                 break;
             case EnemyType.FanBoi:
                 HamAnim.SetTrigger("HFanBoi");
@@ -185,14 +189,13 @@ public class CombatManager : MonoBehaviour
             case EnemyType.Grandma:
                 HamAnim.SetTrigger("HYasliKadin");
                 break;
-            
+
             default:
-                Debug.LogWarning("Tetiklenecek animasyon bulunamadý.");
+                Debug.LogWarning("Tetiklenecek animasyon bulunamadï¿½.");
                 break;
         }
-        StartCoroutine(WaitForAnimAndContinue());
-        
 
+        StartCoroutine(WaitForAnimAndContinue());
 
     }
 
@@ -202,7 +205,7 @@ public class CombatManager : MonoBehaviour
     }
     private IEnumerator WaitForAnimAndContinue()
     {
-        yield return new WaitForSeconds(2f); // animasyon süresi kadar bekle
-        SceneManager.LoadScene(1); // veya baþka sahne
+        yield return new WaitForSeconds(4f); // animasyon sï¿½resi kadar bekle
+        SceneManager.LoadScene(1); // veya baï¿½ka sahne
     }
 }
