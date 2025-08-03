@@ -121,7 +121,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -153,6 +153,8 @@ MonoBehaviour:
   npcPortrait: {fileID: -8231331576406689926, guid: bfce045e9e8c6bd469c5b29c8476502a, type: 3}
   npcName: "Deh\u015FetPorno"
   npcImage: {fileID: -8106379862026432361, guid: c0556da19b4764821a763fa70bac46d3, type: 3}
+  npcType: 0
+  xIcon: {fileID: 0}
 --- !u!58 &9079740321090530991
 CircleCollider2D:
   m_ObjectHideFlags: 0

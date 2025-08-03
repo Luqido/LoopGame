@@ -157,7 +157,11 @@ public class CombatManager : MonoBehaviour
 
     private void OpenMenuScene()
     {
-        SceneManager.LoadScene(0);
+        canvas.GetComponent<UnityEngine.UI.Image>().DOColor(Color.black, 0.6f).OnComplete(() =>
+        {
+            SceneManager.LoadScene(0);
+
+        });
     }
 
     private void GameWon()
@@ -210,6 +214,7 @@ public class CombatManager : MonoBehaviour
     private IEnumerator WaitForAnimAndContinue()
     {
         yield return new WaitForSeconds(4f); // animasyon s�resi kadar bekle
+        yield return canvas.GetComponent<UnityEngine.UI.Image>().DOColor(Color.black, 0.6f).WaitForCompletion();
         SceneManager.LoadScene(1); // veya ba�ka sahne
     }
 }

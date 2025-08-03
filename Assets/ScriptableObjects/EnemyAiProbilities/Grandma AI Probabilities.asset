@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfff8d56cd4b4f6d9c0af9106d947f1f, type: 3}
   m_Name: Grandma AI Probabilities
   m_EditorClassIdentifier: 
-  attackUseChance: 0.45
-  dodgeUseChance: 0.3
-  blockUseChance: 0.1
-  specialUseChance: 0.15
+  attackUseChance: 0.5
+  dodgeUseChance: 0.25
+  blockUseChance: 0.05
+  specialUseChance: 0.2
   damageMultiplier: 1.15
   hpMultiplier: 1

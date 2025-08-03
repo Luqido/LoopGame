@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfff8d56cd4b4f6d9c0af9106d947f1f, type: 3}
   m_Name: Fan Boi AI Probabilities
   m_EditorClassIdentifier: 
-  attackUseChance: 0.5
-  dodgeUseChance: 0.25
-  blockUseChance: 0.25
+  attackUseChance: 0.6
+  dodgeUseChance: 0.1
+  blockUseChance: 0.3
   specialUseChance: 0
-  damageMultiplier: 0.95
+  damageMultiplier: 0.9
   hpMultiplier: 1.65
