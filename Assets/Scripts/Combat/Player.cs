@@ -15,8 +15,10 @@ public class Player : Unit
     [SerializeField] private CombatUI combatUI;
     [SerializeField] private Animator slashAnimator;
     [SerializeField] private Animator smokeAnimator;
+    [SerializeField] private int specialPerTurn;
     [SerializeField] private int specialDamage;
-    
+
+    private int _turnCount;
     public CombatOption? CurrentCombatOption { get; set; } = null;
 
     protected override void Awake()
@@ -36,8 +38,9 @@ public class Player : Unit
     public override IEnumerator ExecuteTurn()
     {
         yield return base.ExecuteTurn();
-        
-        combatUI.InitializeTurnUI();
+
+        _turnCount++;
+        combatUI.InitializeTurnUI(_turnCount % specialPerTurn == 0);
         yield return new WaitUntil(() => CurrentCombatOption != null);
         switch (CurrentCombatOption)
         {

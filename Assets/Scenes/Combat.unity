@@ -1899,6 +1899,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 36
       objectReference: {fileID: 0}
+    - target: {fileID: 7102172424547434395, guid: 5ebf7e8d255ce4ae0af1dd3a02853318, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 2150773298
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2958,6 +2962,7 @@ MonoBehaviour:
   combatUI: {fileID: 855513737}
   slashAnimator: {fileID: 1392185928}
   smokeAnimator: {fileID: 2010744538595659373}
+  specialPerTurn: 3
   specialDamage: 100
 --- !u!61 &2123469966
 BoxCollider2D:

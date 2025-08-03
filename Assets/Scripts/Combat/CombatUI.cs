@@ -32,8 +32,9 @@ public class CombatUI : MonoBehaviour
         CreateHealthBar(CombatManager.Instance.player, true);
     }
 
-    public void InitializeTurnUI(/*stats??*/)
+    public void InitializeTurnUI(bool specialEnabled)
     {
+        specialAbilityButton.interactable = specialEnabled;
         canvasGroup.DOFade(1f, 0.5f);
         //todo init current turn ui according to current stats
     }
