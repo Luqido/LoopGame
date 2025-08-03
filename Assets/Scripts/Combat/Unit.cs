@@ -25,7 +25,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField] private float dodgeSpriteTargetOpaqueness = 1f;
     [SerializeField] private Vector3 dodgeMovement;
     
-    protected UnitSkill _activeSkills;
+    public UnitSkill ActiveSkills { get; set; }
     
     public event UnityAction<int, int, int> HealthChanged;
 
@@ -43,7 +43,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             
             if (value < _currentHp)
             {
-                if (_activeSkills.HasFlag(UnitSkill.Block))
+                if (ActiveSkills.HasFlag(UnitSkill.Block))
                 {
                     if (stats.blockChance > Random.value)
                     {
@@ -54,7 +54,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                         Debug.Log($"Blocked! Old: {oldValue}, new: {value}");
                     }
                 }
-                else if (_activeSkills.HasFlag(UnitSkill.Dodge))
+                else if (ActiveSkills.HasFlag(UnitSkill.Dodge))
                 {
                     if (stats.dodgeChance > Random.value)
                     {
@@ -67,7 +67,8 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
                     }
                 }
 
-                animator.SetTrigger("TakeDamage");
+                if (value < _currentHp)
+                    animator.SetTrigger("TakeDamage");
             }
             if (value < 0)
             {
@@ -79,6 +80,7 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
                 if (CombatManager.Instance.player == this as Player)
                 {
+                    //TODO lost screen
                     Debug.Log("LOST");
                 }
                 
@@ -108,12 +110,12 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     
     private void AddSkill(UnitSkill skill)
     {
-        _activeSkills |= skill;
+        ActiveSkills |= skill;
     }
     
     private void RemoveSkill(UnitSkill skill)
     {
-        _activeSkills ^= skill;
+        ActiveSkills ^= skill;
     }
 
     public IEnumerator AttackCoroutine(Unit to)
@@ -160,11 +162,11 @@ public abstract class Unit : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public virtual IEnumerator ExecuteTurn()
     {
-        if (_activeSkills.HasFlag(UnitSkill.Block))
+        if (ActiveSkills.HasFlag(UnitSkill.Block))
         {
             yield return WearOffBlock();
         }
-        else if (_activeSkills.HasFlag(UnitSkill.Dodge))
+        else if (ActiveSkills.HasFlag(UnitSkill.Dodge))
         {
             yield return WearOffDodge();
         }

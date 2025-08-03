@@ -150,7 +150,7 @@ MonoBehaviour:
   aiProbabilities: {fileID: 11400000, guid: abb96b0bbf87146e9aaf5fb7f0774056, type: 2}
   clonePrefab: {fileID: 5151977360415773811, guid: deb1bc712872f458e8ea03d3856ee30c, type: 3}
   cloneLines:
-  - ' Deception? Deception is my surname.'
+  - Deception? Deception is my surname.
   - Here you go my dear clone!
 --- !u!212 &3698640441156475320 stripped
 SpriteRenderer:
