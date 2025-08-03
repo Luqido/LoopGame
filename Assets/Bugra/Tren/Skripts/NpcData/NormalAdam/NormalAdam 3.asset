@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4359ae94d5e80404f99c049ebce7108a, type: 3}
-  m_Name: NormalAdam
+  m_Name: NormalAdam 3
   m_EditorClassIdentifier: 
-  npcMessage: "H\u0130."
+  npcMessage: '"I don''t know, but maybe we''re just here. Before understanding our
+    purpose, we should just enjoy the journey."
+
+
+'
   answers:
-  - answerText: Why are you on this train?
-    nextChat: {fileID: 11400000}
-    endsConversation: 0
-    startsCombat: 0
   - answerText: Come to the conductor room (starts a battle)
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 0
     startsCombat: 1
   - answerText: I will come again
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 1
     startsCombat: 0

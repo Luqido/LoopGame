@@ -10,19 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4359ae94d5e80404f99c049ebce7108a, type: 3}
-  m_Name: HatBoi
+  m_Name: HatBoi 1
   m_EditorClassIdentifier: 
-  npcMessage: I shouldn't be here I shouldn't be here Tell me, talk now.
+  npcMessage: '"I don''t know, but I hate being here. Everything is passing, time
+    too, but I''m still stuck on this train. Come on, give me an explanation!"
+
+
+'
   answers:
-  - answerText: Why are you on this train?
-    nextChat: {fileID: 11400000}
+  - answerText: '"Do you know where this train is going?"'
+    nextChat: {fileID: 11400000, guid: a7ba5dfb603300d43bc00cb3993c92a2, type: 2}
     endsConversation: 0
     startsCombat: 0
   - answerText: Come to the conductor room (starts a battle)
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 0
     startsCombat: 1
   - answerText: I will come again
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 1
     startsCombat: 0

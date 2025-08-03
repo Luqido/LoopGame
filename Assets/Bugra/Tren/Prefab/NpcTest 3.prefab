@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4558571389662207765}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.93, y: -2.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4558571389662207765}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -126,7 +126,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08646518, y: -0.10808158}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.6541392, y: 2.2161632}
   m_EdgeRadius: 0
 --- !u!114 &79060593843500308
 MonoBehaviour:
@@ -151,10 +151,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcChatData: {fileID: 11400000, guid: cf5a469cff894d243904ac86c5a25602, type: 2}
-  npcPortrait: {fileID: -8231331576406689926, guid: bfce045e9e8c6bd469c5b29c8476502a, type: 3}
+  npcPortrait: {fileID: -8378319104775182846, guid: 248de14771b120447bdf62d70010e752, type: 3}
   npcName: Hat Boi
   npcImage: {fileID: -4768355478201028411, guid: d9233bc4c29707144946ed54b7ee4c01, type: 3}
   npcType: 8
+  xIcon: {fileID: 5412290093344664194}
 --- !u!58 &9079740321090530991
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -162,7 +163,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4558571389662207765}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -270,6 +271,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}
+--- !u!1 &5412290093344664194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1264275609219885284, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}
+  m_PrefabInstance: {fileID: 6527909238831923814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8097146800748541242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3083016038613251932, guid: 2eb89c4dd2927cf49853fffa57b9c9c8, type: 3}

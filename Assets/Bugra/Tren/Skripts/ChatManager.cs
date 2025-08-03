@@ -26,6 +26,11 @@ public class ChatManager : MonoBehaviour
     public PlayerChatBox chatBox;
     public PlayerInteraction playerInteraction;
     public PlayerMovement playerMovement;
+    public static bool IsChatOpen = false;
+    public GameObject canvasObjectToShow;
+    public string sceneToLoad = "NextScene";
+    public float waitBeforeTransition = 2f;
+
 
 
     public int combatSceneIndex = 3;
@@ -43,6 +48,17 @@ public class ChatManager : MonoBehaviour
 
     public void StartChat(NPCChatData chatData)
     {
+        IsChatOpen = true;
+
+        if (playerInteraction.currentTarget != null)
+        {
+            var npc = playerInteraction.currentTarget.GetComponent<NPC>();
+            if (npc != null && npc.xIcon != null)
+            {
+                npc.xIcon.SetActive(false);
+            }
+
+        }
         currentChatData = chatData;
         chatPanel.SetActive(true);
 
@@ -185,7 +201,16 @@ public class ChatManager : MonoBehaviour
 
     public void EndChat()
     {
-        chatPanel.SetActive(false);
+        IsChatOpen = false;
+        if (playerInteraction.currentTarget != null)
+        {
+            var npc = playerInteraction.currentTarget.GetComponent<NPC>();
+            if (npc != null && npc.xIcon != null)
+            {
+                npc.xIcon.SetActive(true);
+            }
+
+            chatPanel.SetActive(false);
 
         if (playerMovement != null)
         {
@@ -194,6 +219,7 @@ public class ChatManager : MonoBehaviour
 
         chatBox.StartTextLoop();
         Debug.Log("Sohbet bitti!");
+        }
     }
     public void SetPortrait(Sprite portrait )
     {
@@ -233,10 +259,16 @@ public class ChatManager : MonoBehaviour
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+            if (canvasObjectToShow != null)
+                canvasObjectToShow.SetActive(true);
 
-            SceneManager.LoadScene(combatSceneIndex);
+            Invoke(nameof(LoadScene), waitBeforeTransition);
         }
 
+    }
+    void LoadScene()
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 
 

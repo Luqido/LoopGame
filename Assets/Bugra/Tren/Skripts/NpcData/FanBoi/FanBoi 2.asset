@@ -10,19 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4359ae94d5e80404f99c049ebce7108a, type: 3}
-  m_Name: FanBoi
+  m_Name: FanBoi 2
   m_EditorClassIdentifier: 
-  npcMessage: I love you and Tren, oh sorry, what are we going to talk about?
+  npcMessage: '"This train, this journey, it''s a dream for all of us! Every passenger
+    has a story, but yours is the most magnificent. Let''s take this path together!"
+
+
+'
   answers:
-  - answerText: Why are you on this train?
-    nextChat: {fileID: 11400000}
+  - answerText: '"Are we going to stay on this train forever?"'
+    nextChat: {fileID: 11400000, guid: 80d9ded8bba8e704abc81d59da1befa4, type: 2}
     endsConversation: 0
     startsCombat: 0
   - answerText: Come to the conductor room (starts a battle)
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 0
     startsCombat: 1
   - answerText: I will come again
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 1
     startsCombat: 0

@@ -5,6 +5,8 @@ public class InteractionManager : MonoBehaviour
     public ChatManager chatManager; 
     public NPCChatData defaultChatData; 
     public CameraZoom cameraZoom;
+    public PlayerChatBox playerChatBox;
+
     public void InteractWithObject(Transform target)
     {
         SoundManager.instance.PlaySound(SoundManager.SoundNames.MenuClick1);
@@ -17,6 +19,19 @@ public class InteractionManager : MonoBehaviour
         else if (target.CompareTag("Door"))
         {
             StartVagonTransition(target); 
+        }
+        else if (target.CompareTag("nonNPC"))
+        {
+            nonNPCChat chatSystem = target.GetComponent<nonNPCChat>();
+            if (chatSystem != null)
+            {
+                chatSystem.TriggerChat();
+            }
+            else
+            {
+                Debug.LogWarning("nonNPC objesinde NPCChatSystem yok!");
+            }
+
         }
         else
         {

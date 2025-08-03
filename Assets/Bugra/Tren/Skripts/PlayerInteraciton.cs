@@ -17,7 +17,9 @@ public class PlayerInteraction : MonoBehaviour
     }
     void OnEtkilesim(InputValue value)
     {
-        if (isInTrigger  && currentTarget != null)
+        if (ChatManager.IsChatOpen) return;
+
+        if (isInTrigger && currentTarget != null)
         {
             interactionManager.InteractWithObject(currentTarget);
         }
@@ -32,6 +34,13 @@ public class PlayerInteraction : MonoBehaviour
                 currentTarget = other.transform;
                 isInTrigger = true;
                 Debug.Log($"{tag} ile etkileþim alanýna girildi.");
+
+                // Eðer tag nonNPC ise, direkt etkileþimi baþlat
+                if (tag == "nonNPC")
+                {
+                    interactionManager.InteractWithObject(currentTarget);
+                }
+
                 break;
             }
         }
