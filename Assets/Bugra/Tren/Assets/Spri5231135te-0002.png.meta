@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9a0d9e5349b764e468714b0467c72eb4
+guid: b49dd169177c5e64b8370725e1517558
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8499506799389373438
-    second: potrebackground_0
+      213: -6891738159528989324
+    second: Spri5231135te-0002_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: potrebackground_0
+      name: Spri5231135te-0002_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20c0168299fab0a80800000000000000
-      internalID: -8499506799389373438
+      spriteID: 47d254c68a0ab50a0800000000000000
+      internalID: -6891738159528989324
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      potrebackground_0: -8499506799389373438
+      Spri5231135te-0002_0: -6891738159528989324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

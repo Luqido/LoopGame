@@ -33,7 +33,9 @@ public class CombatManager : MonoBehaviour
     [SerializeField] private float distanceBetweenEnemies;
     [Header("Debug")]
     [SerializeField] private Unit[] debugEnemies;
-    
+    public Animator anim;
+
+
     public bool IsPlayerTurn { get; private set; } = true;
     public static CombatManager Instance { get; private set; }
     private static EnemyType _enemyToFightAgainst;
@@ -162,8 +164,38 @@ public class CombatManager : MonoBehaviour
         {
             PeopleDoTween.LastBeatenEnemy = _enemyToFightAgainst;
         }
-        
-        SceneManager.LoadScene(1);
+
+        Debug.Log(PeopleDoTween.LastBeatenEnemy);
+        switch (PeopleDoTween.LastBeatenEnemy)
+        {
+            //case EnemyType.NormalAdam:
+            //    anim.SetTrigger("Victory_NormalAdam");
+            //    break;
+            //case EnemyType.MuscleMan:
+            //    anim.SetTrigger("Victory_Muscle");
+            //    break;
+            //case EnemyType.HatBoi:
+            //    anim.SetTrigger("Victory_HatBoi");
+            //    break;
+            //case EnemyType.FanBoi:
+            //    anim.SetTrigger("Victory_FanBoi");
+            //    break;
+            //case EnemyType.Grandma:
+            //    anim.SetTrigger("Victory_Grandma");
+            //    break;
+            //case EnemyType.LariyeCroft:
+            //    anim.SetTrigger("Victory_Lariye");
+            //    break;
+            //default:
+            //    Debug.LogWarning("Tetiklenecek animasyon bulunamadý.");
+            //    break;
+        }
+        StartCoroutine(WaitForAnimAndContinue());
+    }
+    private IEnumerator WaitForAnimAndContinue()
+    {
+        yield return new WaitForSeconds(2f); // animasyon süresi kadar bekle
+        SceneManager.LoadScene(1); // veya baþka sahne
     }
 
     private void OnDestroy()

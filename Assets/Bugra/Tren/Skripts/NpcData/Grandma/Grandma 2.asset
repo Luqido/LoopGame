@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4359ae94d5e80404f99c049ebce7108a, type: 3}
+  m_Name: Grandma 2
+  m_EditorClassIdentifier: 
+  npcMessage: '"Everything has its time, child. This train is a journey, maybe even
+    the last one. But what matters isn''t what it is, but how we live it. This is
+    a phase, part of a greater journey."'
+  answers:
+  - answerText: '"Does this train have a purpose?"'
+    nextChat: {fileID: 11400000, guid: a2e6d245d1cf2c74ca5d3f9eba451bf3, type: 2}
+    endsConversation: 0
+    startsCombat: 0
+  - answerText: Come to the conductor room (starts a battle)
+    nextChat: {fileID: 0}
+    endsConversation: 0
+    startsCombat: 1
+  - answerText: I will come again
+    nextChat: {fileID: 0}
+    endsConversation: 1
+    startsCombat: 0

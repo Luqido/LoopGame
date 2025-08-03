@@ -10,19 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4359ae94d5e80404f99c049ebce7108a, type: 3}
-  m_Name: MuscleMan
+  m_Name: NormalAdam 2
   m_EditorClassIdentifier: 
-  npcMessage: Is there a gym here????
+  npcMessage: "\"A crime? Maybe. Maybe I was just waiting for the right time. As
+    I learn more about what's happening, I'll figure out what\u2019s right.\"\n\n"
   answers:
-  - answerText: Why are you on this train?
+  - answerText: '"Do you think there''s a purpose to us being here?"'
     nextChat: {fileID: 11400000}
     endsConversation: 0
     startsCombat: 0
   - answerText: Come to the conductor room (starts a battle)
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 0
     startsCombat: 1
   - answerText: I will come again
-    nextChat: {fileID: 11400000}
+    nextChat: {fileID: 0}
     endsConversation: 1
     startsCombat: 0
