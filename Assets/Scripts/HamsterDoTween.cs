@@ -17,8 +17,10 @@ public class HamsterDoTween : MonoBehaviour
     private void Start()
     {
         trackMoveHandler.MoveAlongTrack(transform, OnWaypointReached);
+        Animasyon1(true);
+
     }
-    
+
     private void OnWaypointReached(int index)
     {
         Vector3 tersScale = new Vector3(-1, 1, 1);
@@ -31,7 +33,8 @@ public class HamsterDoTween : MonoBehaviour
 
         if (index == 1)
         {
-            anim.SetBool("Anim1", true);
+            Animasyon1(false);
+            Animasyon2(true);
         }
 
         if (index == 2)
@@ -41,8 +44,17 @@ public class HamsterDoTween : MonoBehaviour
 
         if (index == 3)
         {
-            anim.SetBool("Anim1", false);
+            Animasyon2(false);
+            Animasyon1(true);
             transform.localScale = tersScale2;
         }
+    }
+    public void Animasyon1(bool index)
+    {
+        anim.SetBool("Anim1", index);
+    }
+    public void Animasyon2(bool index)
+    {
+        anim.SetBool("Anim2", index);
     }
 }

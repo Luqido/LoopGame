@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 1d4a3b1100cacdc42a4aaa4e1fead063
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -426377161122861663
+    second: "hamster ag\u0131zl\u0131 KISA_0"
+  - first:
+      213: 1053745916163670168
+    second: "hamster ag\u0131zl\u0131 KISA_1"
+  - first:
+      213: 5359944984077687884
+    second: "hamster ag\u0131zl\u0131 KISA_2"
+  - first:
+      213: 3811368949726771703
+    second: "hamster ag\u0131zl\u0131 KISA_3"
+  - first:
+      213: -2490824646887976893
+    second: "hamster ag\u0131zl\u0131 KISA_4"
+  - first:
+      213: -7687070022067871283
+    second: "hamster ag\u0131zl\u0131 KISA_5"
+  - first:
+      213: -8841717788372971857
+    second: "hamster ag\u0131zl\u0131 KISA_6"
+  - first:
+      213: 2721357960169607083
+    second: "hamster ag\u0131zl\u0131 KISA_7"
+  - first:
+      213: 117951476265512621
+    second: "hamster ag\u0131zl\u0131 KISA_8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_0"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 85
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adaee22b34351af0800000000000000
+      internalID: -426377161122861663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_1"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 17
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8904478e358af9e00800000000000000
+      internalID: 1053745916163670168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_2"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 21
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c56979099526a40800000000000000
+      internalID: 5359944984077687884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_3"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 24
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9fa64cdd3b4e430800000000000000
+      internalID: 3811368949726771703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_4"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 26
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340547c3e20de6dd0800000000000000
+      internalID: -2490824646887976893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_5"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 26
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc12713fa8a025590800000000000000
+      internalID: -7687070022067871283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_6"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 26
+        width: 83
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faec6c35488eb4580800000000000000
+      internalID: -8841717788372971857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_7"
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 19
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf479a75a434c520800000000000000
+      internalID: 2721357960169607083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "hamster ag\u0131zl\u0131 KISA_8"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 18
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daee9832e3c03a100800000000000000
+      internalID: 117951476265512621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "hamster ag\u0131zl\u0131 KISA_0": -426377161122861663
+      "hamster ag\u0131zl\u0131 KISA_1": 1053745916163670168
+      "hamster ag\u0131zl\u0131 KISA_2": 5359944984077687884
+      "hamster ag\u0131zl\u0131 KISA_3": 3811368949726771703
+      "hamster ag\u0131zl\u0131 KISA_4": -2490824646887976893
+      "hamster ag\u0131zl\u0131 KISA_5": -7687070022067871283
+      "hamster ag\u0131zl\u0131 KISA_6": -8841717788372971857
+      "hamster ag\u0131zl\u0131 KISA_7": 2721357960169607083
+      "hamster ag\u0131zl\u0131 KISA_8": 117951476265512621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
